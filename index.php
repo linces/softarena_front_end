@@ -9,7 +9,6 @@
         <link rel="author" href="humans.txt">
     </head>
     <body>
-        
-        <script src="js/main.js"></script>
+       <script src="js/main.js"></script>
     </body>
 </html>
