@@ -1,1 +1,13 @@
-Linces Marques - linces@gmail.com
+/* TEAM */
+
+	CEO: Linces Marques
+	Twitter: @linces_marques
+        G+:https://plus.google.com/+LincesMarques/
+	
+
+* SITE */
+	Site Name: SoftArena Soluções Tecnológicas
+	Site URL: http://www.softarena.com.br/
+	Language: Portuguese
+	Twitter: @@linces_marques
+	G+: https://plus.google.com/+LincesMarques
