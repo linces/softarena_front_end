@@ -1401,7 +1401,7 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="footer-widget">
                             <p><img src="images/logo-footer.png" alt=""></p>
-                            <p>A loja Virtual SoftArena está apenas começando, e em poucos meses vocês poderão ver aqui uma transformação do e-commerce de softwares e games no Brasil. Através de parcerias com fabricantes nacionais e internacionais. Agora com o Softarena você terá a oportunidade de comprar com segurança muitos softwares desenvolvidos no Brasil ou traduzidos para o português. Rápido, fácil e com preços acessíveis. SoftArena, a sua loja de softwares!</p>
+                            <p>Loja Virtual SoftArena, e-commerce de softwares e games no Brasil. Através de parcerias com fabricantes nacionais, internacionais e revendedores individuais válidados. Agora com o Softarena você terá a oportunidade de comprar com segurança muitos softwares, games, itens para games, cursos, templates, plugins e vetores dos melhores fornecedores do mercado . Rápido, fácil e com preços acessíveis!</p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
