@@ -9,5 +9,5 @@
 	Site Name: SoftArena Soluções Tecnológicas
 	Site URL: http://www.softarena.com.br/
 	Language: Portuguese
-	Twitter: @@linces_marques
+	Twitter: @arena_soft
 	G+: https://plus.google.com/+LincesMarques
