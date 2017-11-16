@@ -12,6 +12,7 @@
         <meta name="author" content="humans.txt">
         <meta http-equiv="content-language" content="pt-br, en-US, fr" />
         <meta name="copyright" content="© 2017 SoftArena" />
+        <META name="robots" content="FOLLOW">
         <title>.: SoftArena :. Soluções Tecnológicas</title>
         <!-- Mobile Metas -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
