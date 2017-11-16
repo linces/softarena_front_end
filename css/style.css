@@ -822,7 +822,7 @@ img.wp-post-image {
   font-weight: 600;
   text-align: center;
   position: absolute;
-  top: -8px;
+  top: -16px;
   right: -12px;
   min-width: 20px;
   line-height: 20px;
@@ -9844,8 +9844,8 @@ home-business-info .container {
 }
 
 .site-top .mini-cart .mini-cart__button .mini-cart-icon::after {
-  right: -88px;
-  top: -8px;
+  right: -96px;
+  top: -13px;
 }
 
 .header-sticky header {
