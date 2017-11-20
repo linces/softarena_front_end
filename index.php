@@ -61,7 +61,7 @@
                 <div class="mobile-menu">
                     <ul id="mobile-menu" class="menu">
                         <li class="menu-item menu-item-has-children">
-                            <a href="./index.php">Home</a><i class="sub-menu-toggle fa fa-angle-down"></i>
+                            <a href="./index.php">Inicio</a><i class="sub-menu-toggle fa fa-angle-down"></i>
                             <ul class="sub-menu">
                                 <li class="menu-item"><a href="./index-corporate.html">Home Corporate 1</a></li>
                                 <li class="menu-item"><a href="./index-corporate-2.html">Home Corporate 2</a></li>
@@ -70,12 +70,6 @@
                                 <li class="menu-item"><a href="./index_basic.html">Home Basic</a></li>
                                 <li class="menu-item"><a href="./index_landing.html">Home Landing</a></li>
                                 <li class="menu-item"><a href="./index_landing_2.html">Home Landing Page 2</a></li>
-                                <li class="menu-item"><a href="./index_onepage.html">Home Onepage</a></li>
-                                <li class="menu-item"><a href="./index_creative.html">Home Creative</a></li>
-                                <li class="menu-item"><a href="./index_creative_2.html">Home Creative 2</a></li>
-                                <li class="menu-item"><a href="./index_agency.html">Home Agency</a></li>
-                                <li class="menu-item"><a href="./index_agency_2.html">Home Agency 2</a></li>
-                                <li class="menu-item"><a href="./index-portfolio.html">Home Portfolio</a></li>
                                 <li class="menu-item"><a href="./index-portfolio-2.html">Home Portfolio 2</a></li>
                                 <li class="menu-item"><a href="./index-shop.html">Home Shop</a></li>
                                 <li class="menu-item"><a href="./index_blog_masonry.html">Home Blog Masonry</a></li>
