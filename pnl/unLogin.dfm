@@ -33,8 +33,8 @@ object frmLogin: TfrmLogin
     TabOrder = 1
   end
   object btnLogar: TUniButton
-    Left = 461
-    Top = 81
+    Left = 458
+    Top = 78
     Width = 81
     Height = 58
     Hint = ''
@@ -251,8 +251,8 @@ object frmLogin: TfrmLogin
     TabOrder = 8
   end
   object UniButton1: TUniButton
-    Left = 461
-    Top = 143
+    Left = 459
+    Top = 145
     Width = 81
     Height = 23
     Hint = ''

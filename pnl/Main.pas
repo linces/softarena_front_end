@@ -9,7 +9,7 @@ uses
   uniButton, uniBitBtn, uniImageList, System.Actions, Vcl.ActnList,
   Vcl.PlatformDefaultStyleActnCtrls, Vcl.ActnMan, dxGDIPlusClasses, uniImage, DCPsha512, DCPmd5,
   DCPcrypt2, DCPblockciphers, DCPrijndael, DCPrc4, DCPsha1, uniGUIFrame, unFrameMenu,
-  System.ImageList, Vcl.ImgList, uniEdit, uniGroupBox;
+  System.ImageList, Vcl.ImgList, uniEdit, uniGroupBox, uniPageControl;
 
 type
   TMainForm = class(TUniForm)
@@ -19,6 +19,14 @@ type
     UniButton2: TUniButton;
     UniButton3: TUniButton;
     frmFrameMenu1: TfrmFrameMenu;
+    UniLabel1: TUniLabel;
+    UniLabel2: TUniLabel;
+    UniLabel3: TUniLabel;
+    UniPageControl1: TUniPageControl;
+    UniImage1: TUniImage;
+    UniLabel4: TUniLabel;
+    UniLabel5: TUniLabel;
+    UniBitBtn1: TUniBitBtn;
     procedure UniBitBtn1Click(Sender: TObject);
     procedure actSairExecute(Sender: TObject);
     procedure UniImage1Click(Sender: TObject);

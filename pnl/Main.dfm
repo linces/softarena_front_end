@@ -615,7 +615,7 @@ object MainForm: TMainForm
     Left = 0
     Top = 0
     Width = 1484
-    Height = 65
+    Height = 76
     Hint = ''
     ShowHint = True
     Align = alTop
@@ -624,14 +624,11 @@ object MainForm: TMainForm
     BorderStyle = ubsNone
     Caption = ''
     Color = 4276545
-    ExplicitLeft = 736
-    ExplicitTop = 168
-    ExplicitWidth = 256
     object UniPanel3: TUniPanel
       Left = 1299
       Top = 0
       Width = 185
-      Height = 65
+      Height = 76
       Hint = ''
       ShowHint = True
       Align = alRight
@@ -650,7 +647,7 @@ object MainForm: TMainForm
         Height = 44
         Hint = ''
         ShowHint = True
-        Caption = 'UniButton1'
+        Caption = '<i class="fa fa-envelope-o fa-2x"></i> '
         TabOrder = 1
       end
       object UniButton2: TUniButton
@@ -660,7 +657,7 @@ object MainForm: TMainForm
         Height = 44
         Hint = ''
         ShowHint = True
-        Caption = 'UniButton1'
+        Caption = '<i class="fa fa-bell-o fa-2x"></i> '
         TabOrder = 2
       end
       object UniButton3: TUniButton
@@ -670,16 +667,95 @@ object MainForm: TMainForm
         Height = 44
         Hint = ''
         ShowHint = True
-        Caption = 'UniButton1'
+        Caption = '<i class="fa fa-usd fa-2x"></i> '
         TabOrder = 3
       end
+      object UniLabel1: TUniLabel
+        Left = 51
+        Top = 3
+        Width = 6
+        Height = 13
+        Hint = ''
+        ShowHint = True
+        Caption = '0'
+        ParentFont = False
+        Font.Color = clWhite
+        TabOrder = 4
+      end
+      object UniLabel2: TUniLabel
+        Left = 99
+        Top = 3
+        Width = 6
+        Height = 13
+        Hint = ''
+        ShowHint = True
+        Caption = '0'
+        ParentFont = False
+        Font.Color = clWhite
+        TabOrder = 5
+      end
+      object UniLabel3: TUniLabel
+        Left = 150
+        Top = 3
+        Width = 6
+        Height = 13
+        Hint = ''
+        ShowHint = True
+        Caption = '0'
+        ParentFont = False
+        Font.Color = clWhite
+        TabOrder = 6
+      end
+    end
+    object UniImage1: TUniImage
+      Left = 5
+      Top = 1
+      Width = 64
+      Height = 64
+      Hint = ''
+      ShowHint = True
+    end
+    object UniLabel4: TUniLabel
+      Left = 75
+      Top = 3
+      Width = 107
+      Height = 19
+      Hint = ''
+      ShowHint = True
+      Caption = 'Fulano da Silva'
+      ParentFont = False
+      Font.Color = clWhite
+      Font.Height = -16
+      TabOrder = 3
+    end
+    object UniLabel5: TUniLabel
+      Left = 76
+      Top = 23
+      Width = 72
+      Height = 13
+      Hint = ''
+      ShowHint = True
+      Caption = 'Fulano da Silva'
+      ParentFont = False
+      Font.Color = clWhite
+      TabOrder = 4
+    end
+    object UniBitBtn1: TUniBitBtn
+      Left = 73
+      Top = 42
+      Width = 75
+      Height = 25
+      Hint = ''
+      ShowHint = True
+      Caption = '<i class="fa fa-sign-out fa-lg"></i>  Sair'
+      TabOrder = 5
     end
   end
   inline frmFrameMenu1: TfrmFrameMenu
     Left = 0
-    Top = 65
+    Top = 76
     Width = 200
-    Height = 779
+    Height = 768
     Layout = 'fit'
     AlignmentControl = uniAlignmentClient
     Align = alLeft
@@ -691,10 +767,13 @@ object MainForm: TMainForm
     ExplicitHeight = 779
     inherited UniPanel1: TUniPanel
       Width = 200
-      Height = 779
+      Height = 768
       ExplicitLeft = -120
       ExplicitTop = -56
       inherited UniPanel2: TUniPanel
+        Title = 
+          '<i class="fa fa-address-book-o" aria-hidden="true"></i> Cadastro' +
+          's'
         inherited UniButton1: TUniButton
           ExplicitWidth = 198
         end
@@ -736,17 +815,19 @@ object MainForm: TMainForm
           ExplicitWidth = 198
         end
       end
-      inherited UniPanel5: TUniPanel
-        inherited UniButton10: TUniButton
-          ExplicitWidth = 198
-        end
-        inherited UniButton11: TUniButton
-          ExplicitWidth = 198
-        end
-        inherited UniButton12: TUniButton
-          ExplicitWidth = 198
-        end
-      end
     end
+  end
+  object UniPageControl1: TUniPageControl
+    Left = 200
+    Top = 76
+    Width = 1284
+    Height = 768
+    Hint = ''
+    ShowHint = True
+    Align = alClient
+    Anchors = [akLeft, akTop, akRight, akBottom]
+    TabOrder = 2
+    ExplicitTop = 68
+    ExplicitHeight = 779
   end
 end

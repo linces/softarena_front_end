@@ -31,7 +31,7 @@ object frmFrameMenu: TfrmFrameMenu
       Hint = ''
       ShowHint = True
       TabOrder = 1
-      Title = '<i class="fa fa-address-card-o fa-2x"></i> Cadastros'
+      Title = '<i class="fa fa-check-square" aria-hidden="true"></i> Cadastros'
       Caption = ''
       Color = 4276545
       object UniButton1: TUniButton
@@ -288,19 +288,55 @@ object frmFrameMenu: TfrmFrameMenu
       end
     end
     object UniPanel5: TUniPanel
-      Left = 698
-      Top = 16
+      Left = 679
+      Top = 17
       Width = 200
-      Height = 169
+      Height = 168
       Hint = ''
       ShowHint = True
       TabOrder = 4
-      Title = '<i class="fa fa-handshake-o fa-2x"></i> Afiliados'
+      Title = '<i class="fa fa-address-book fa-lg"></i> Afiliados'
       Caption = ''
       Color = 4276545
       object UniButton10: TUniButton
         Left = 1
+        Top = 1
+        Width = 198
+        Height = 25
+        Hint = ''
+        ShowHint = True
+        Caption = '<i class="fa fa-address-book" aria-hidden="true"></i> Perfil'
+        Anchors = [akLeft, akTop, akRight]
+        Align = alTop
+        ParentFont = False
+        Font.Color = clWhite
+        TabOrder = 1
+        ClientEvents.ExtEvents.Strings = (
+          
+            'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'     sen' +
+            'der.addCls("x-botao-menu x-botao-menu-over");'#13#10'}')
+      end
+      object UniButton11: TUniButton
+        Left = 1
         Top = 26
+        Width = 198
+        Height = 25
+        Hint = ''
+        ShowHint = True
+        Caption = 'xbotao'
+        Anchors = [akLeft, akTop, akRight]
+        Align = alTop
+        ParentFont = False
+        Font.Color = clWhite
+        TabOrder = 2
+        ClientEvents.ExtEvents.Strings = (
+          
+            'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'        ' +
+            'sender.addCls("x-botao-menu x-botao-menu-over")'#13#10'}')
+      end
+      object UniButton12: TUniButton
+        Left = 1
+        Top = 51
         Width = 198
         Height = 25
         Hint = ''
@@ -310,50 +346,11 @@ object frmFrameMenu: TfrmFrameMenu
         Align = alTop
         ParentFont = False
         Font.Color = clWhite
-        TabOrder = 1
-        ClientEvents.ExtEvents.Strings = (
-          
-            'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'       s' +
-            'ender.addCls("x-botao-menu x-botao-menu-over");'#13#10'}')
-        ExplicitWidth = 251
-      end
-      object UniButton11: TUniButton
-        Left = 1
-        Top = 51
-        Width = 198
-        Height = 25
-        Hint = ''
-        ShowHint = True
-        Caption = 'Pessoas'
-        Anchors = [akLeft, akTop, akRight]
-        Align = alTop
-        ParentFont = False
-        Font.Color = clWhite
-        TabOrder = 2
-        ClientEvents.ExtEvents.Strings = (
-          
-            'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'       s' +
-            'ender.addCls("x-botao-menu x-botao-menu-over");'#13#10'}')
-        ExplicitWidth = 251
-      end
-      object UniButton12: TUniButton
-        Left = 1
-        Top = 1
-        Width = 198
-        Height = 25
-        Hint = ''
-        ShowHint = True
-        Caption = '<i class="fa fa-camera-retro fa-lg"></i> Foto'
-        Anchors = [akLeft, akTop, akRight]
-        Align = alTop
-        ParentFont = False
-        Font.Color = clWhite
         TabOrder = 3
         ClientEvents.ExtEvents.Strings = (
           
             'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'       s' +
             'ender.addCls("x-botao-menu x-botao-menu-over");'#13#10'}')
-        ExplicitWidth = 251
       end
     end
   end
