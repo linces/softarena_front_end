@@ -1627,52 +1627,39 @@ object MainForm: TMainForm
       Width = 200
       Height = 768
       Margins.Top = 1
-      ExplicitTop = 0
       ExplicitWidth = 200
       ExplicitHeight = 768
       inherited UniPanel2: TUniPanel
         Title = 
           '<i class="fa fa-address-book-o" aria-hidden="true"></i> Cadastro' +
           's'
-        inherited UniButton1: TUniButton
-          ExplicitWidth = 198
-        end
-        inherited UniButton2: TUniButton
-          ExplicitWidth = 198
-        end
-        inherited UniButton3: TUniButton
-          ExplicitWidth = 198
-        end
-        inherited UniButton13: TUniButton
-          ExplicitWidth = 198
-        end
-        inherited UniButton14: TUniButton
-          ExplicitWidth = 198
-        end
-        inherited UniButton15: TUniButton
-          ExplicitWidth = 198
+      end
+      inherited UniPanel5: TUniPanel
+        inherited UniButton18: TUniButton
+          ExplicitLeft = 1
+          ExplicitTop = 26
         end
       end
-      inherited UniPanel3: TUniPanel
-        inherited UniButton4: TUniButton
-          ExplicitWidth = 198
-        end
-        inherited UniButton5: TUniButton
-          ExplicitWidth = 198
-        end
-        inherited UniButton6: TUniButton
-          ExplicitWidth = 198
-        end
-      end
-      inherited UniPanel4: TUniPanel
-        inherited UniButton7: TUniButton
-          ExplicitWidth = 198
-        end
-        inherited UniButton8: TUniButton
-          ExplicitWidth = 198
-        end
+      inherited UniPanel6: TUniPanel
         inherited UniButton9: TUniButton
-          ExplicitWidth = 198
+          ExplicitLeft = 1
+          ExplicitTop = 101
+        end
+        inherited UniButton11: TUniButton
+          ExplicitLeft = 1
+          ExplicitTop = 76
+        end
+        inherited UniButton12: TUniButton
+          ExplicitLeft = 1
+          ExplicitTop = 51
+        end
+        inherited UniButton16: TUniButton
+          ExplicitLeft = 1
+          ExplicitTop = 26
+        end
+        inherited UniButton17: TUniButton
+          ExplicitLeft = 1
+          ExplicitTop = 1
         end
       end
     end

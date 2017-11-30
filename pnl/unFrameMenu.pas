@@ -20,15 +20,18 @@ type
     UniButton5: TUniButton;
     UniButton6: TUniButton;
     UniButton7: TUniButton;
-    UniButton8: TUniButton;
-    UniButton9: TUniButton;
     UniButton13: TUniButton;
     UniButton14: TUniButton;
     UniButton15: TUniButton;
     UniPanel5: TUniPanel;
     UniButton10: TUniButton;
+    UniPanel6: TUniPanel;
+    UniButton9: TUniButton;
     UniButton11: TUniButton;
     UniButton12: TUniButton;
+    UniButton16: TUniButton;
+    UniButton17: TUniButton;
+    UniButton18: TUniButton;
   private
     { Private declarations }
   public

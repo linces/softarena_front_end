@@ -28,6 +28,8 @@ type
     UniBitBtn1: TUniBitBtn;
     UniPanel1: TUniPanel;
     UniImage1: TUniImage;
+    UniPanel4: TUniPanel;
+    UniLabel6: TUniLabel;
     procedure UniBitBtn1Click(Sender: TObject);
     procedure actSairExecute(Sender: TObject);
     procedure UniImage1Click(Sender: TObject);
