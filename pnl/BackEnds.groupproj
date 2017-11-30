@@ -1,0 +1,36 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{263FF01E-51ED-401A-9842-BC210AC1CD06}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="BackEndSoftArena.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="BackEndSoftArena">
+        <MSBuild Projects="BackEndSoftArena.dproj"/>
+    </Target>
+    <Target Name="BackEndSoftArena:Clean">
+        <MSBuild Projects="BackEndSoftArena.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BackEndSoftArena:Make">
+        <MSBuild Projects="BackEndSoftArena.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="BackEndSoftArena"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="BackEndSoftArena:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="BackEndSoftArena:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

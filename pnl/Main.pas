@@ -5,15 +5,27 @@ interface
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics,
   Controls, Forms, uniGUITypes, uniGUIAbstractClasses,
-  uniGUIClasses, uniGUIRegClasses, uniGUIForm, uniGUIBaseClasses, uniLabel;
+  uniGUIClasses, uniGUIRegClasses, uniGUIForm, uniGUIBaseClasses, uniLabel, uniPanel, uniToolBar,
+  uniButton, uniBitBtn, uniImageList, System.Actions, Vcl.ActnList,
+  Vcl.PlatformDefaultStyleActnCtrls, Vcl.ActnMan, dxGDIPlusClasses, uniImage, DCPsha512, DCPmd5,
+  DCPcrypt2, DCPblockciphers, DCPrijndael, DCPrc4, DCPsha1, uniGUIFrame, unFrameMenu,
+  System.ImageList, Vcl.ImgList, uniEdit, uniGroupBox;
 
 type
   TMainForm = class(TUniForm)
-    UniLabel1: TUniLabel;
+    UniPanel2: TUniPanel;
+    UniPanel3: TUniPanel;
+    UniButton1: TUniButton;
+    UniButton2: TUniButton;
+    UniButton3: TUniButton;
+    frmFrameMenu1: TfrmFrameMenu;
+    procedure UniBitBtn1Click(Sender: TObject);
+    procedure actSairExecute(Sender: TObject);
+    procedure UniImage1Click(Sender: TObject);
   private
-    { Private declarations }
+
   public
-    { Public declarations }
+
   end;
 
 function MainForm: TMainForm;
@@ -29,6 +41,25 @@ function MainForm: TMainForm;
 begin
   Result := TMainForm(UniMainModule.GetFormInstance(TMainForm));
 end;
+
+procedure TMainForm.actSairExecute(Sender: TObject);
+begin
+ Close;
+end;
+
+
+
+procedure TMainForm.UniBitBtn1Click(Sender: TObject);
+begin
+  Close;
+end;
+
+procedure TMainForm.UniImage1Click(Sender: TObject);
+begin
+ Close;
+end;
+
+
 
 initialization
   RegisterAppFormClass(TMainForm);

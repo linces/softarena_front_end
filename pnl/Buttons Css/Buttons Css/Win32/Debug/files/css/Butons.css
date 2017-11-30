@@ -1,0 +1,49 @@
+.Botao_Base {
+  border-radius: 15px;
+  transition-duration: 0.4s;
+  padding-right: 0.5em;
+  
+}
+
+.Botao_Verde {
+  background:#4CAF50 !important;
+}
+
+.Botao_Verde:hover {
+  background: #3e8e41 !important;
+}
+
+.Botao_Azul {
+background:#3cb0fd  !important;
+}
+
+.Botao_Azul:hover {
+  background:#3498db !important;
+}
+
+.Botao_Vermelho {
+background: #f44336 !important;
+}
+
+.Botao_Vermelho:hover {
+  background:#da190b !important;
+}
+
+.Botao_Laranja {
+background: #ff9800 !important;
+}
+
+.Botao_Laranja:hover {
+  background:#BD7100 !important;
+}
+
+.Botao_Preto{
+background: #323437 !important;
+}
+
+.Botao_Preto:hover {
+  background:#111214 !important;
+}
+
+
+

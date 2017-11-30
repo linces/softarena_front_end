@@ -1,0 +1,252 @@
+object MainForm: TMainForm
+  Left = 0
+  Top = 0
+  ClientHeight = 456
+  ClientWidth = 709
+  Caption = 'MainForm'
+  OldCreateOrder = False
+  MonitoredKeys.Keys = <>
+  PixelsPerInch = 96
+  TextHeight = 13
+  object btnBotao_Verde: TUniBitBtn
+    Left = 282
+    Top = 8
+    Width = 131
+    Height = 57
+    Hint = ''
+    ParentRTL = False
+    Caption = 'Botao Verde'
+    ParentFont = False
+    Font.Color = clWhite
+    TabOrder = 0
+    ClientEvents.ExtEvents.Strings = (
+      
+        'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'  sender' +
+        '.addCls("Botao_Base Botao_Verde")'#13#10'}')
+  end
+  object btnBotao_Azul: TUniBitBtn
+    Left = 8
+    Top = 8
+    Width = 131
+    Height = 57
+    Hint = ''
+    Caption = 'Botao Azul'
+    ParentFont = False
+    Font.Color = clWhite
+    TabOrder = 1
+    ClientEvents.ExtEvents.Strings = (
+      
+        'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'  sender' +
+        '.addCls("Botao_Base Botao_Azul")'#13#10'}')
+  end
+  object btnBotao_Vermelho: TUniBitBtn
+    Left = 145
+    Top = 8
+    Width = 131
+    Height = 57
+    Hint = ''
+    Caption = 'Botao Vermelho'
+    ParentFont = False
+    Font.Color = clWhite
+    TabOrder = 2
+    ClientEvents.ExtEvents.Strings = (
+      
+        'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'  sender' +
+        '.addCls("Botao_Base Botao_Vermelho")'#13#10'}')
+  end
+  object btnBotao_Laranja: TUniBitBtn
+    Left = 556
+    Top = 8
+    Width = 131
+    Height = 57
+    Hint = ''
+    Caption = 'Botao Laranja'
+    ParentFont = False
+    Font.Color = clWhite
+    TabOrder = 3
+    ClientEvents.ExtEvents.Strings = (
+      
+        'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'  sender' +
+        '.addCls("Botao_Base Botao_Laranja")'#13#10'}')
+  end
+  object btnBotao_Preto: TUniBitBtn
+    Left = 419
+    Top = 8
+    Width = 131
+    Height = 57
+    Hint = ''
+    Caption = 'Botao Preto'
+    ParentFont = False
+    Font.Color = clWhite
+    TabOrder = 4
+    ClientEvents.ExtEvents.Strings = (
+      
+        'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'  sender' +
+        '.addCls("Botao_Base Botao_Preto")'#13#10'}')
+  end
+  object btnEntrar: TUniBitBtn
+    Left = 8
+    Top = 71
+    Width = 131
+    Height = 57
+    Hint = ''
+    Caption = '<i class="fa fa-user-o fa-2x "></i>  Entrar'
+    ParentFont = False
+    Font.Color = clWhite
+    TabOrder = 5
+    ClientEvents.ExtEvents.Strings = (
+      
+        'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'  sender' +
+        '.addCls("Botao_Base Botao_Azul")'#13#10'}')
+  end
+  object btnEspera: TUniBitBtn
+    Left = 145
+    Top = 71
+    Width = 131
+    Height = 57
+    Hint = ''
+    Caption = '<i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>   Espera'
+    ParentFont = False
+    Font.Color = clWhite
+    TabOrder = 6
+    ClientEvents.ExtEvents.Strings = (
+      
+        'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'  sender' +
+        '.addCls("Botao_Base Botao_Azul")'#13#10'}')
+  end
+  object UniGroupBox1: TUniGroupBox
+    Left = 8
+    Top = 151
+    Width = 438
+    Height = 282
+    Hint = ''
+    Caption = 'Personalizar bot'#245'es'
+    TabOrder = 7
+    object edtNomeImagem: TUniEdit
+      Left = 247
+      Top = 48
+      Width = 156
+      Hint = ''
+      Text = 'fa fa-superpowers'
+      TabOrder = 1
+    end
+    object UniLabel1: TUniLabel
+      Left = 32
+      Top = 48
+      Width = 200
+      Height = 13
+      Hint = ''
+      Caption = 'Imagem  fontawesome EX:  "fa fa-coffee"'
+      TabOrder = 2
+    end
+    object edtCorImagem: TUniEdit
+      Left = 247
+      Top = 77
+      Width = 156
+      Hint = ''
+      Text = 'red'
+      TabOrder = 3
+    end
+    object UniLabel2: TUniLabel
+      Left = 121
+      Top = 77
+      Width = 111
+      Height = 13
+      Hint = ''
+      Caption = 'Cor da Imagem EX: red'
+      TabOrder = 4
+    end
+    object edtTamanhoImagem: TUniEdit
+      Left = 247
+      Top = 107
+      Width = 157
+      Hint = ''
+      Text = '30'
+      TabOrder = 5
+    end
+    object UniLabel4: TUniLabel
+      Left = 98
+      Top = 107
+      Width = 134
+      Height = 13
+      Hint = ''
+      Caption = 'Tamanho da Imagem EX: 20'
+      TabOrder = 6
+    end
+    object edtMargemImagem: TUniEdit
+      Left = 247
+      Top = 135
+      Width = 157
+      Hint = ''
+      Text = '10'
+      TabOrder = 7
+    end
+    object UniLabel5: TUniLabel
+      Left = 47
+      Top = 140
+      Width = 185
+      Height = 13
+      Hint = ''
+      Caption = 'Margem da Figura com o Caption EX: 5'
+      TabOrder = 8
+    end
+    object btnPersonalizado: TUniBitBtn
+      Left = 150
+      Top = 183
+      Width = 225
+      Height = 82
+      Hint = ''
+      Caption = 'Clique para testar'
+      ParentFont = False
+      Font.Color = clWhite
+      Font.Height = -16
+      TabOrder = 9
+      ClientEvents.ExtEvents.Strings = (
+        
+          'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'  sender' +
+          '.addCls("Botao_Base Botao_Laranja")'#13#10'}')
+      OnClick = btnPersonalizadoClick
+    end
+    object UniLabel3: TUniLabel
+      Left = 150
+      Top = 24
+      Width = 83
+      Height = 13
+      Hint = ''
+      Caption = 'Caption do Bot'#227'o'
+      TabOrder = 10
+    end
+    object edtCaption: TUniEdit
+      Left = 247
+      Top = 20
+      Width = 156
+      Hint = ''
+      Text = 'Clique do Jiraya'
+      TabOrder = 11
+    end
+  end
+  object btnteste: TUniButton
+    Left = 480
+    Top = 151
+    Width = 153
+    Height = 70
+    Hint = ''
+    Caption = 'teste'
+    TabOrder = 8
+    ClientEvents.ExtEvents.Strings = (
+      
+        'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'  sender' +
+        '.addCls("Botao_Base Botao_Laranja")'#13#10'}')
+    OnClick = btntesteClick
+  end
+  object btnClick: TUniButton
+    Left = 480
+    Top = 227
+    Width = 153
+    Height = 44
+    Hint = ''
+    Caption = 'btnClick'
+    TabOrder = 9
+    OnClick = btnClickClick
+  end
+end

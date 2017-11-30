@@ -1,0 +1,626 @@
+BackEndSoftArena.exe: 00002644: 14:45:26 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710A2
+BackEndSoftArena.exe: 000037BC: 14:48:43 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710A2
+BackEndSoftArena.exe: 000004B4: 15:28:00 [TUniServerModule]:Shutting Down Server.
+BackEndSoftArena.exe: 000004B4: 15:28:00 [TUniServerModule]:HTTP Server Stopped.
+BackEndSoftArena.exe: 000004B4: 15:28:00 [TUniGUISessionManager]:Terminating Session manager.
+BackEndSoftArena.exe: 000004B4: 15:28:00 [TUniGUISessionManager]:Stopping Cache Eraser...
+BackEndSoftArena.exe: 000004B4: 15:28:00 [TUniGUISessionManager]:Cache Eraser Stopped.
+BackEndSoftArena.exe: 000004B4: 15:28:00 [TUniGUISessionManager]:Destroying Worker Threads.
+BackEndSoftArena.exe: 000004B4: 15:28:00 [TUniGUISessionManager]:Session manager terminated.
+BackEndSoftArena.exe: 000004B4: 15:28:00 [TUniServerModule]:Server Shutdown Completed.
+BackEndSoftArena.exe: 000004B4: 15:28:00 []:<-------------------------------------------------------------->
+BackEndSoftArena.exe: 000004B4: 15:28:00 [Terminated]:Exit Code: 0
+BackEndSoftArena.exe: 00003788: 18:03:11 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 00003788: 18:03:11 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 00003788: 18:03:11 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 00003788: 18:03:11 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+BackEndSoftArena.exe: 00003788: 18:03:11 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 00003788: 18:03:11 [TUniServerModule]:HTTP Server Started. Port: 8077
+BackEndSoftArena.exe: 00003788: 18:03:43 [TUniServerModule]:Shutting Down Server.
+BackEndSoftArena.exe: 00003788: 18:03:43 [TUniServerModule]:HTTP Server Stopped.
+BackEndSoftArena.exe: 00003788: 18:03:43 [TUniGUISessionManager]:Terminating Session manager.
+BackEndSoftArena.exe: 00003788: 18:03:43 [TUniGUISessionManager]:Stopping Cache Eraser...
+BackEndSoftArena.exe: 00003788: 18:03:43 [TUniGUISessionManager]:Cache Eraser Stopped.
+BackEndSoftArena.exe: 00003788: 18:03:43 [TUniGUISessionManager]:Destroying Worker Threads.
+BackEndSoftArena.exe: 00003788: 18:03:43 [TUniGUISessionManager]:Session manager terminated.
+BackEndSoftArena.exe: 00003788: 18:03:43 [TUniServerModule]:Server Shutdown Completed.
+BackEndSoftArena.exe: 00003788: 18:03:43 []:<-------------------------------------------------------------->
+BackEndSoftArena.exe: 00003788: 18:03:43 [Terminated]:Exit Code: 0
+BackEndSoftArena.exe: 00000E14: 18:03:56 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 00000E14: 18:03:56 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 00000E14: 18:03:56 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 00000E14: 18:03:56 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+BackEndSoftArena.exe: 00000E14: 18:03:56 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 00000E14: 18:03:56 [TUniServerModule]:HTTP Server Started. Port: 8077
+BackEndSoftArena.exe: 00002858: 18:04:00 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 00002260: 18:04:01 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 00002810: 18:05:13 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] Can't connect to MySQL server on '165.227.66.145' (10060) : Addr: $008352E6
+BackEndSoftArena.exe: 00002810: 18:05:34 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] Can't connect to MySQL server on '165.227.66.145' (10060) : Addr: $008352E6
+BackEndSoftArena.exe: 00002810: 18:06:16 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] Can't connect to MySQL server on '165.227.66.145' (10060) : Addr: $008352E6
+BackEndSoftArena.exe: 00002810: 18:07:54 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] Can't connect to MySQL server on '165.227.66.145' (10060) : Addr: $008352E6
+BackEndSoftArena.exe: 000022D4: 18:19:14 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 000022D4: 18:19:14 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 00001968: 18:19:16 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 00002810: 18:19:25 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] Unknown column 'uemail' in 'where clause' : Addr: $007AF116
+BackEndSoftArena.exe: 00002810: 18:25:25 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] Unknown column 'uemail' in 'where clause' : Addr: $007AF116
+BackEndSoftArena.exe: 00000E14: 18:26:19 [TUniServerModule]:Shutting Down Server.
+BackEndSoftArena.exe: 000001C4: 18:26:20 [Indy]:EIdNotConnected : Not Connected : Addr: $006DF6F2
+BackEndSoftArena.exe: 000015AC: 18:26:20 [Indy]:EIdNotConnected : Not Connected : Addr: $006DF6F2
+BackEndSoftArena.exe: 00000E14: 18:26:20 [TUniServerModule]:HTTP Server Stopped.
+BackEndSoftArena.exe: 00000E14: 18:26:20 [TUniGUISessionManager]:Terminating Session manager.
+BackEndSoftArena.exe: 00000E14: 18:26:20 [TUniGUISessionManager]:Stopping Cache Eraser...
+BackEndSoftArena.exe: 00000E14: 18:26:20 [TUniGUISessionManager]:Cache Eraser Stopped.
+BackEndSoftArena.exe: 00000E14: 18:26:20 [TUniGUISessionManager]:Destroying Worker Threads.
+BackEndSoftArena.exe: 00000E14: 18:26:20 [TUniGUISessionManager]:Session manager terminated.
+BackEndSoftArena.exe: 00000E14: 18:26:20 [TUniServerModule]:Server Shutdown Completed.
+BackEndSoftArena.exe: 00000E14: 18:26:20 []:<-------------------------------------------------------------->
+BackEndSoftArena.exe: 00000E14: 18:26:20 [Terminated]:Exit Code: 0
+BackEndSoftArena.exe: 00003880: 18:26:48 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 00003880: 18:26:48 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 00003880: 18:26:48 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 00003880: 18:26:48 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+BackEndSoftArena.exe: 00003880: 18:26:48 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 00003880: 18:26:48 [TUniServerModule]:HTTP Server Started. Port: 8077
+BackEndSoftArena.exe: 00003348: 18:26:49 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 00003348: 18:26:51 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 00003348: 18:26:51 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 00003348: 18:26:51 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 00003BB0: 18:26:57 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 00001068: 18:28:03 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] Lost connection to MySQL server at 'waiting for initial communication packet', system error: 0 : Addr: $008352E6
+BackEndSoftArena.exe: 00002BD0: 18:30:22 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 00003880: 18:43:27 [TUniServerModule]:Shutting Down Server.
+BackEndSoftArena.exe: 00003880: 18:43:28 [TUniServerModule]:HTTP Server Stopped.
+BackEndSoftArena.exe: 00003880: 18:43:28 [TUniGUISessionManager]:Terminating Session manager.
+BackEndSoftArena.exe: 00003880: 18:43:28 [TUniGUISessionManager]:Stopping Cache Eraser...
+BackEndSoftArena.exe: 00003880: 18:43:28 [TUniGUISessionManager]:Cache Eraser Stopped.
+BackEndSoftArena.exe: 00003880: 18:43:28 [TUniGUISessionManager]:Destroying Worker Threads.
+BackEndSoftArena.exe: 00003880: 18:43:28 [TUniGUISessionManager]:Session manager terminated.
+BackEndSoftArena.exe: 00003880: 18:43:28 [TUniServerModule]:Server Shutdown Completed.
+BackEndSoftArena.exe: 00003880: 18:43:28 []:<-------------------------------------------------------------->
+BackEndSoftArena.exe: 00003880: 18:43:28 [Terminated]:Exit Code: 0
+BackEndSoftArena.exe: 00003630: 18:43:40 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 00003630: 18:43:40 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 00003630: 18:43:40 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 00003630: 18:43:40 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+BackEndSoftArena.exe: 00003630: 18:43:40 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 00003630: 18:43:40 [TUniServerModule]:HTTP Server Started. Port: 8077
+BackEndSoftArena.exe: 00003030: 18:43:40 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 0000263C: 18:43:42 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 0000352C: 18:45:02 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] Can't connect to MySQL server on '165.227.66.145' (10060) : Addr: $008352E6
+BackEndSoftArena.exe: 0000352C: 18:45:16 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] SSL connection error: socket layer receive error : Addr: $007AF116
+BackEndSoftArena.exe: 0000352C: 18:45:59 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] SSL connection error: protocol version mismatch : Addr: $007AF116
+BackEndSoftArena.exe: 0000352C: 18:46:06 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"+Trim(edtEmail.Text)' at line 1 : Addr: $007AF116
+BackEndSoftArena.exe: 0000352C: 18:46:13 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"asasasas' at line 1 : Addr: $007AF116
+BackEndSoftArena.exe: 0000352C: 18:47:29 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"+Trim(edtEmail.Text)' at line 1 : Addr: $007AF116
+BackEndSoftArena.exe: 0000352C: 18:48:48 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"+Trim(edtEmail.Text)' at line 1 : Addr: $007AF116
+BackEndSoftArena.exe: 0000352C: 18:48:49 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"+Trim(edtEmail.Text)' at line 1 : Addr: $007AF116
+BackEndSoftArena.exe: 0000352C: 18:49:11 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"linces@gmail.com' at line 1 : Addr: $007AF116
+BackEndSoftArena.exe: 0000352C: 18:50:26 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"linces@gmail.com' at line 1 : Addr: $007AF116
+BackEndSoftArena.exe: 0000352C: 18:50:26 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"linces@gmail.com' at line 1 : Addr: $007AF116
+BackEndSoftArena.exe: 0000352C: 18:50:26 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"linces@gmail.com' at line 1 : Addr: $007AF116
+BackEndSoftArena.exe: 00003630: 18:53:13 [TUniServerModule]:Shutting Down Server.
+BackEndSoftArena.exe: 00003630: 18:53:14 [TUniServerModule]:HTTP Server Stopped.
+BackEndSoftArena.exe: 00003630: 18:53:14 [TUniGUISessionManager]:Terminating Session manager.
+BackEndSoftArena.exe: 00003630: 18:53:14 [TUniGUISessionManager]:Stopping Cache Eraser...
+BackEndSoftArena.exe: 00003630: 18:53:14 [TUniGUISessionManager]:Cache Eraser Stopped.
+BackEndSoftArena.exe: 00003630: 18:53:14 [TUniGUISessionManager]:Destroying Worker Threads.
+BackEndSoftArena.exe: 00003630: 18:53:14 [TUniGUISessionManager]:Session manager terminated.
+BackEndSoftArena.exe: 00003630: 18:53:14 [TUniServerModule]:Server Shutdown Completed.
+BackEndSoftArena.exe: 00003630: 18:53:14 []:<-------------------------------------------------------------->
+BackEndSoftArena.exe: 00003630: 18:53:14 [Terminated]:Exit Code: 0
+BackEndSoftArena.exe: 00001BAC: 18:53:27 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 00001BAC: 18:53:27 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 00001BAC: 18:53:27 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 00001BAC: 18:53:27 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+BackEndSoftArena.exe: 00001BAC: 18:53:27 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 00001BAC: 18:53:27 [TUniServerModule]:HTTP Server Started. Port: 8077
+BackEndSoftArena.exe: 000025CC: 18:53:29 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 0000213C: 18:53:47 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"+Trim(edtEmail.Text)' at line 1 : Addr: $007AF116
+BackEndSoftArena.exe: 0000213C: 18:54:02 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"+Trim(edtEmail.Text)' at line 1 : Addr: $007AF116
+BackEndSoftArena.exe: 0000213C: 18:54:14 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"linces@gmail.com' at line 1 : Addr: $007AF116
+BackEndSoftArena.exe: 00001BAC: 18:54:44 [TUniServerModule]:Shutting Down Server.
+BackEndSoftArena.exe: 00001BAC: 18:54:45 [TUniServerModule]:HTTP Server Stopped.
+BackEndSoftArena.exe: 00001BAC: 18:54:45 [TUniGUISessionManager]:Terminating Session manager.
+BackEndSoftArena.exe: 00001BAC: 18:54:45 [TUniGUISessionManager]:Stopping Cache Eraser...
+BackEndSoftArena.exe: 00001BAC: 18:54:45 [TUniGUISessionManager]:Cache Eraser Stopped.
+BackEndSoftArena.exe: 00001BAC: 18:54:45 [TUniGUISessionManager]:Destroying Worker Threads.
+BackEndSoftArena.exe: 00001BAC: 18:54:45 [TUniGUISessionManager]:Session manager terminated.
+BackEndSoftArena.exe: 00001BAC: 18:54:45 [TUniServerModule]:Server Shutdown Completed.
+BackEndSoftArena.exe: 00001BAC: 18:54:45 []:<-------------------------------------------------------------->
+BackEndSoftArena.exe: 00001BAC: 18:54:45 [Terminated]:Exit Code: 0
+BackEndSoftArena.exe: 00003348: 18:54:58 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 00003348: 18:54:58 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 00003348: 18:54:58 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 00003348: 18:54:58 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+BackEndSoftArena.exe: 00003348: 18:54:58 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 00003348: 18:54:58 [TUniServerModule]:HTTP Server Started. Port: 8077
+BackEndSoftArena.exe: 000036B4: 18:54:59 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 000028B8: 18:55:39 [127.0.0.1]:EIdSocketError : Socket Error # 10060
+Connection timed out. : Addr: $00935584
+BackEndSoftArena.exe: 000028B8: 18:56:18 [127.0.0.1]:EIdSocketError : Socket Error # 10060
+Connection timed out. : Addr: $00935584
+BackEndSoftArena.exe: 000028B8: 18:56:51 [127.0.0.1]:EIdSocketError : Socket Error # 10060
+Connection timed out. : Addr: $00935584
+BackEndSoftArena.exe: 000028B8: 18:57:12 [127.0.0.1]:EIdSocketError : Socket Error # 10060
+Connection timed out. : Addr: $00935584
+BackEndSoftArena.exe: 000028B8: 18:58:16 [127.0.0.1]:EIdSocketError : Socket Error # 10060
+Connection timed out. : Addr: $00935584
+BackEndSoftArena.exe: 000028B8: 18:59:02 [127.0.0.1]:EIdSocketError : Socket Error # 10060
+Connection timed out. : Addr: $00935584
+BackEndSoftArena.exe: 00003348: 18:59:49 [TUniServerModule]:Shutting Down Server.
+BackEndSoftArena.exe: 00003348: 18:59:50 [TUniServerModule]:HTTP Server Stopped.
+BackEndSoftArena.exe: 00003348: 18:59:50 [TUniGUISessionManager]:Terminating Session manager.
+BackEndSoftArena.exe: 00003348: 18:59:50 [TUniGUISessionManager]:Stopping Cache Eraser...
+BackEndSoftArena.exe: 00003348: 18:59:50 [TUniGUISessionManager]:Cache Eraser Stopped.
+BackEndSoftArena.exe: 00003348: 18:59:50 [TUniGUISessionManager]:Destroying Worker Threads.
+BackEndSoftArena.exe: 00003348: 18:59:50 [TUniGUISessionManager]:Session manager terminated.
+BackEndSoftArena.exe: 00003348: 18:59:50 [TUniServerModule]:Server Shutdown Completed.
+BackEndSoftArena.exe: 00003348: 18:59:50 []:<-------------------------------------------------------------->
+BackEndSoftArena.exe: 00003348: 18:59:50 [Terminated]:Exit Code: 0
+BackEndSoftArena.exe: 00002EFC: 19:00:02 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 00002EFC: 19:00:02 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 00002EFC: 19:00:02 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 00002EFC: 19:00:02 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+BackEndSoftArena.exe: 00002EFC: 19:00:02 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 00002EFC: 19:00:02 [TUniServerModule]:HTTP Server Started. Port: 8077
+BackEndSoftArena.exe: 00003620: 19:00:03 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 0000192C: 19:00:30 [127.0.0.1]:EIdSocketError : Socket Error # 10060
+Connection timed out. : Addr: $00935584
+BackEndSoftArena.exe: 0000351C: 19:00:48 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 00002EFC: 19:01:18 [TUniServerModule]:Shutting Down Server.
+BackEndSoftArena.exe: 00003620: 19:01:18 [Indy]:EIdNotConnected : Not Connected : Addr: $006DF6F2
+BackEndSoftArena.exe: 00001880: 19:01:18 [Indy]:EIdNotConnected : Not Connected : Addr: $006DF6F2
+BackEndSoftArena.exe: 0000351C: 19:01:18 [Indy]:EIdNotConnected : Not Connected : Addr: $006DF6F2
+BackEndSoftArena.exe: 00002EFC: 19:01:19 [TUniServerModule]:HTTP Server Stopped.
+BackEndSoftArena.exe: 00002EFC: 19:01:19 [TUniGUISessionManager]:Terminating Session manager.
+BackEndSoftArena.exe: 00002EFC: 19:01:19 [TUniGUISessionManager]:Stopping Cache Eraser...
+BackEndSoftArena.exe: 00002EFC: 19:01:19 [TUniGUISessionManager]:Cache Eraser Stopped.
+BackEndSoftArena.exe: 00002EFC: 19:01:19 [TUniGUISessionManager]:Destroying Worker Threads.
+BackEndSoftArena.exe: 00002EFC: 19:01:19 [TUniGUISessionManager]:Session manager terminated.
+BackEndSoftArena.exe: 00002EFC: 19:01:19 [TUniServerModule]:Server Shutdown Completed.
+BackEndSoftArena.exe: 00002EFC: 19:01:19 []:<-------------------------------------------------------------->
+BackEndSoftArena.exe: 00002EFC: 19:01:19 [Terminated]:Exit Code: 0
+BackEndSoftArena.exe: 00001EB0: 19:01:30 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 00001EB0: 19:01:30 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 00001EB0: 19:01:30 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 00001EB0: 19:01:30 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+BackEndSoftArena.exe: 00001EB0: 19:01:30 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 00001EB0: 19:01:30 [TUniServerModule]:HTTP Server Started. Port: 8077
+BackEndSoftArena.exe: 00003B64: 19:01:37 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 00003B10: 19:01:39 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 00003670: 19:02:23 [127.0.0.1]:EIdSocketError : Socket Error # 10060
+Connection timed out. : Addr: $00935584
+BackEndSoftArena.exe: 00001EB0: 19:03:11 [TUniServerModule]:Shutting Down Server.
+BackEndSoftArena.exe: 00003B64: 19:03:11 [Indy]:EIdNotConnected : Not Connected : Addr: $006DF6F2
+BackEndSoftArena.exe: 00003B10: 19:03:11 [Indy]:EIdNotConnected : Not Connected : Addr: $006DF6F2
+BackEndSoftArena.exe: 00001EB0: 19:03:12 [TUniServerModule]:HTTP Server Stopped.
+BackEndSoftArena.exe: 00001EB0: 19:03:12 [TUniGUISessionManager]:Terminating Session manager.
+BackEndSoftArena.exe: 00001EB0: 19:03:12 [TUniGUISessionManager]:Stopping Cache Eraser...
+BackEndSoftArena.exe: 00001EB0: 19:03:12 [TUniGUISessionManager]:Cache Eraser Stopped.
+BackEndSoftArena.exe: 00001EB0: 19:03:12 [TUniGUISessionManager]:Destroying Worker Threads.
+BackEndSoftArena.exe: 00001EB0: 19:03:12 [TUniGUISessionManager]:Session manager terminated.
+BackEndSoftArena.exe: 00001EB0: 19:03:12 [TUniServerModule]:Server Shutdown Completed.
+BackEndSoftArena.exe: 00001EB0: 19:03:12 []:<-------------------------------------------------------------->
+BackEndSoftArena.exe: 00001EB0: 19:03:12 [Terminated]:Exit Code: 0
+BackEndSoftArena.exe: 000039CC: 19:03:23 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 000039CC: 19:03:23 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 000039CC: 19:03:23 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 000039CC: 19:03:23 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+BackEndSoftArena.exe: 000039CC: 19:03:23 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 000039CC: 19:03:23 [TUniServerModule]:HTTP Server Started. Port: 8077
+BackEndSoftArena.exe: 00003724: 19:03:23 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 00003448: 19:03:26 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 00001954: 19:04:13 [127.0.0.1]:EIdSocketError : Socket Error # 10060
+Connection timed out. : Addr: $00935584
+BackEndSoftArena.exe: 000039CC: 19:18:34 [TUniServerModule]:Shutting Down Server.
+BackEndSoftArena.exe: 000039CC: 19:18:35 [TUniServerModule]:HTTP Server Stopped.
+BackEndSoftArena.exe: 000039CC: 19:18:35 [TUniGUISessionManager]:Terminating Session manager.
+BackEndSoftArena.exe: 000039CC: 19:18:35 [TUniGUISessionManager]:Stopping Cache Eraser...
+BackEndSoftArena.exe: 000039CC: 19:18:35 [TUniGUISessionManager]:Cache Eraser Stopped.
+BackEndSoftArena.exe: 000039CC: 19:18:35 [TUniGUISessionManager]:Destroying Worker Threads.
+BackEndSoftArena.exe: 000039CC: 19:18:35 [TUniGUISessionManager]:Session manager terminated.
+BackEndSoftArena.exe: 000039CC: 19:18:35 [TUniServerModule]:Server Shutdown Completed.
+BackEndSoftArena.exe: 000039CC: 19:18:35 []:<-------------------------------------------------------------->
+BackEndSoftArena.exe: 000039CC: 19:18:35 [Terminated]:Exit Code: 0
+BackEndSoftArena.exe: 00000878: 19:18:50 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 00000878: 19:18:50 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 00000878: 19:18:50 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 00000878: 19:18:50 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+BackEndSoftArena.exe: 00000878: 19:18:50 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 00000878: 19:18:50 [TUniServerModule]:HTTP Server Started. Port: 8077
+BackEndSoftArena.exe: 000021BC: 19:18:54 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 00001DB8: 19:18:55 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 0000289C: 19:19:44 [127.0.0.1]:EIdSocketError : Socket Error # 10060
+Connection timed out. : Addr: $00935584
+BackEndSoftArena.exe: 00000878: 19:20:17 [TUniServerModule]:Shutting Down Server.
+BackEndSoftArena.exe: 000021BC: 19:20:17 [Indy]:EIdNotConnected : Not Connected : Addr: $006DF6F2
+BackEndSoftArena.exe: 00000878: 19:20:18 [TUniServerModule]:HTTP Server Stopped.
+BackEndSoftArena.exe: 00000878: 19:20:18 [TUniGUISessionManager]:Terminating Session manager.
+BackEndSoftArena.exe: 00000878: 19:20:18 [TUniGUISessionManager]:Stopping Cache Eraser...
+BackEndSoftArena.exe: 00000878: 19:20:18 [TUniGUISessionManager]:Cache Eraser Stopped.
+BackEndSoftArena.exe: 00000878: 19:20:18 [TUniGUISessionManager]:Destroying Worker Threads.
+BackEndSoftArena.exe: 00000878: 19:20:18 [TUniGUISessionManager]:Session manager terminated.
+BackEndSoftArena.exe: 00000878: 19:20:18 [TUniServerModule]:Server Shutdown Completed.
+BackEndSoftArena.exe: 00000878: 19:20:18 []:<-------------------------------------------------------------->
+BackEndSoftArena.exe: 00000878: 19:20:18 [Terminated]:Exit Code: 0
+BackEndSoftArena.exe: 000039FC: 19:20:29 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 000039FC: 19:20:29 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 000039FC: 19:20:29 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 000039FC: 19:20:29 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+BackEndSoftArena.exe: 000039FC: 19:20:29 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 000039FC: 19:20:29 [TUniServerModule]:HTTP Server Started. Port: 8077
+BackEndSoftArena.exe: 00003558: 19:20:30 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 000035A4: 19:20:30 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 000014D4: 19:21:01 [127.0.0.1]:EIdSocketError : Socket Error # 10060
+Connection timed out. : Addr: $00935584
+BackEndSoftArena.exe: 000039FC: 19:23:15 [TUniServerModule]:Shutting Down Server.
+BackEndSoftArena.exe: 000039FC: 19:23:16 [TUniServerModule]:HTTP Server Stopped.
+BackEndSoftArena.exe: 000039FC: 19:23:16 [TUniGUISessionManager]:Terminating Session manager.
+BackEndSoftArena.exe: 000039FC: 19:23:16 [TUniGUISessionManager]:Stopping Cache Eraser...
+BackEndSoftArena.exe: 000039FC: 19:23:16 [TUniGUISessionManager]:Cache Eraser Stopped.
+BackEndSoftArena.exe: 000039FC: 19:23:16 [TUniGUISessionManager]:Destroying Worker Threads.
+BackEndSoftArena.exe: 000039FC: 19:23:17 [TUniGUISessionManager]:Session manager terminated.
+BackEndSoftArena.exe: 000039FC: 19:23:17 [TUniServerModule]:Server Shutdown Completed.
+BackEndSoftArena.exe: 000039FC: 19:23:17 []:<-------------------------------------------------------------->
+BackEndSoftArena.exe: 000039FC: 19:23:17 [Terminated]:Exit Code: 0
+BackEndSoftArena.exe: 00000AE4: 19:23:28 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 00000AE4: 19:23:28 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 00000AE4: 19:23:28 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 00000AE4: 19:23:28 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+BackEndSoftArena.exe: 00000AE4: 19:23:28 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 00000AE4: 19:23:28 [TUniServerModule]:HTTP Server Started. Port: 8077
+BackEndSoftArena.exe: 00000834: 19:34:31 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 00000AE4: 19:34:34 [TUniServerModule]:Shutting Down Server.
+BackEndSoftArena.exe: 00000AE4: 19:34:34 [TUniServerModule]:HTTP Server Stopped.
+BackEndSoftArena.exe: 00000AE4: 19:34:34 [TUniGUISessionManager]:Terminating Session manager.
+BackEndSoftArena.exe: 00000AE4: 19:34:34 [TUniGUISessionManager]:Stopping Cache Eraser...
+BackEndSoftArena.exe: 00000AE4: 19:34:34 [TUniGUISessionManager]:Cache Eraser Stopped.
+BackEndSoftArena.exe: 00000AE4: 19:34:34 [TUniGUISessionManager]:Destroying Worker Threads.
+BackEndSoftArena.exe: 00000AE4: 19:34:34 [TUniGUISessionManager]:Session manager terminated.
+BackEndSoftArena.exe: 00000AE4: 19:34:34 [TUniServerModule]:Server Shutdown Completed.
+BackEndSoftArena.exe: 00000AE4: 19:34:34 []:<-------------------------------------------------------------->
+BackEndSoftArena.exe: 00000AE4: 19:34:34 [Terminated]:Exit Code: 0
+BackEndSoftArena.exe: 00003454: 19:34:51 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 00003454: 19:34:51 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 00003454: 19:34:51 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 00003454: 19:34:51 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+BackEndSoftArena.exe: 00003454: 19:34:51 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 00003454: 19:34:51 [TUniServerModule]:HTTP Server Started. Port: 8077
+BackEndSoftArena.exe: 00002DF8: 19:35:05 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 00001938: 19:35:35 [127.0.0.1]:EIdSocketError : Socket Error # 10060
+Connection timed out. : Addr: $00935584
+BackEndSoftArena.exe: 00003454: 19:44:00 [TUniServerModule]:Shutting Down Server.
+BackEndSoftArena.exe: 00003454: 19:44:01 [TUniServerModule]:HTTP Server Stopped.
+BackEndSoftArena.exe: 00003454: 19:44:01 [TUniGUISessionManager]:Terminating Session manager.
+BackEndSoftArena.exe: 00003454: 19:44:01 [TUniGUISessionManager]:Stopping Cache Eraser...
+BackEndSoftArena.exe: 00003454: 19:44:01 [TUniGUISessionManager]:Cache Eraser Stopped.
+BackEndSoftArena.exe: 00003454: 19:44:01 [TUniGUISessionManager]:Destroying Worker Threads.
+BackEndSoftArena.exe: 00003454: 19:44:01 [TUniGUISessionManager]:Session manager terminated.
+BackEndSoftArena.exe: 00003454: 19:44:01 [TUniServerModule]:Server Shutdown Completed.
+BackEndSoftArena.exe: 00003454: 19:44:01 []:<-------------------------------------------------------------->
+BackEndSoftArena.exe: 00003454: 19:44:01 [Terminated]:Exit Code: 0
+BackEndSoftArena.exe: 000025B8: 19:44:15 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 000025B8: 19:44:15 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 000025B8: 19:44:15 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 000025B8: 19:44:15 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+BackEndSoftArena.exe: 000025B8: 19:44:15 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 000025B8: 19:44:15 [TUniServerModule]:HTTP Server Started. Port: 8077
+BackEndSoftArena.exe: 00002DCC: 19:44:16 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 0000357C: 19:44:47 [127.0.0.1]:EIdSocketError : Socket Error # 10060
+Connection timed out. : Addr: $00935BFC
+BackEndSoftArena.exe: 000025B8: 19:50:25 [TUniServerModule]:Shutting Down Server.
+BackEndSoftArena.exe: 000025B8: 19:50:25 [TUniServerModule]:HTTP Server Stopped.
+BackEndSoftArena.exe: 000025B8: 19:50:25 [TUniGUISessionManager]:Terminating Session manager.
+BackEndSoftArena.exe: 000025B8: 19:50:25 [TUniGUISessionManager]:Stopping Cache Eraser...
+BackEndSoftArena.exe: 000025B8: 19:50:25 [TUniGUISessionManager]:Cache Eraser Stopped.
+BackEndSoftArena.exe: 000025B8: 19:50:25 [TUniGUISessionManager]:Destroying Worker Threads.
+BackEndSoftArena.exe: 000025B8: 19:50:25 [TUniGUISessionManager]:Session manager terminated.
+BackEndSoftArena.exe: 000025B8: 19:50:25 [TUniServerModule]:Server Shutdown Completed.
+BackEndSoftArena.exe: 000025B8: 19:50:26 []:<-------------------------------------------------------------->
+BackEndSoftArena.exe: 000025B8: 19:50:26 [Terminated]:Exit Code: 0
+BackEndSoftArena.exe: 00003BA0: 19:51:15 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 00003BA0: 19:51:15 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 00003BA0: 19:51:15 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 00003BA0: 19:51:15 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+BackEndSoftArena.exe: 00003BA0: 19:51:15 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 00003BA0: 19:51:15 [TUniServerModule]:HTTP Server Started. Port: 8077
+BackEndSoftArena.exe: 00003848: 19:51:16 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 00001D74: 19:51:48 [127.0.0.1]:EIdSocketError : Socket Error # 10060
+Connection timed out. : Addr: $00935BFC
+BackEndSoftArena.exe: 00003BCC: 20:29:00 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 00003BA0: 20:46:22 [TUniServerModule]:Shutting Down Server.
+BackEndSoftArena.exe: 00003BA0: 20:46:22 [TUniServerModule]:HTTP Server Stopped.
+BackEndSoftArena.exe: 00003BA0: 20:46:22 [TUniGUISessionManager]:Terminating Session manager.
+BackEndSoftArena.exe: 00003BA0: 20:46:22 [TUniGUISessionManager]:Stopping Cache Eraser...
+BackEndSoftArena.exe: 00003BA0: 20:46:22 [TUniGUISessionManager]:Cache Eraser Stopped.
+BackEndSoftArena.exe: 00003BA0: 20:46:22 [TUniGUISessionManager]:Destroying Worker Threads.
+BackEndSoftArena.exe: 00003BA0: 20:46:23 [TUniGUISessionManager]:Session manager terminated.
+BackEndSoftArena.exe: 00003BA0: 20:46:23 [TUniServerModule]:Server Shutdown Completed.
+BackEndSoftArena.exe: 00003BA0: 20:46:23 []:<-------------------------------------------------------------->
+BackEndSoftArena.exe: 00003BA0: 20:46:23 [Terminated]:Exit Code: 0
+BackEndSoftArena.exe: 0000189C: 20:46:40 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 0000189C: 20:46:40 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 0000189C: 20:46:40 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 0000189C: 20:46:40 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+BackEndSoftArena.exe: 0000189C: 20:46:40 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 0000189C: 20:46:40 [TUniServerModule]:HTTP Server Started. Port: 8077
+BackEndSoftArena.exe: 00001C58: 20:46:43 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 000014A8: 20:48:04 [127.0.0.1]:EIdSocketError : Socket Error # 10060
+Connection timed out. : Addr: $00935964
+BackEndSoftArena.exe: 0000189C: 20:50:57 [TUniServerModule]:Shutting Down Server.
+BackEndSoftArena.exe: 0000189C: 20:50:58 [TUniServerModule]:HTTP Server Stopped.
+BackEndSoftArena.exe: 0000189C: 20:50:58 [TUniGUISessionManager]:Terminating Session manager.
+BackEndSoftArena.exe: 0000189C: 20:50:58 [TUniGUISessionManager]:Stopping Cache Eraser...
+BackEndSoftArena.exe: 0000189C: 20:50:58 [TUniGUISessionManager]:Cache Eraser Stopped.
+BackEndSoftArena.exe: 0000189C: 20:50:58 [TUniGUISessionManager]:Destroying Worker Threads.
+BackEndSoftArena.exe: 0000189C: 20:50:58 [TUniGUISessionManager]:Session manager terminated.
+BackEndSoftArena.exe: 0000189C: 20:50:58 [TUniServerModule]:Server Shutdown Completed.
+BackEndSoftArena.exe: 0000189C: 20:50:58 []:<-------------------------------------------------------------->
+BackEndSoftArena.exe: 0000189C: 20:50:58 [Terminated]:Exit Code: 0
+BackEndSoftArena.exe: 00002224: 20:51:10 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 00002224: 20:51:10 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 00002224: 20:51:10 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 00002224: 20:51:10 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+BackEndSoftArena.exe: 00002224: 20:51:10 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 00002224: 20:51:10 [TUniServerModule]:HTTP Server Started. Port: 8077
+BackEndSoftArena.exe: 00003948: 20:51:22 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 00003948: 20:51:22 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 00003350: 20:51:25 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 000034AC: 20:51:53 [127.0.0.1]:EIdSocketError : Socket Error # 10060
+Connection timed out. : Addr: $00935964
+BackEndSoftArena.exe: 00002224: 21:02:28 [TUniServerModule]:Shutting Down Server.
+BackEndSoftArena.exe: 00002224: 21:02:28 [TUniServerModule]:HTTP Server Stopped.
+BackEndSoftArena.exe: 00002224: 21:02:28 [TUniGUISessionManager]:Terminating Session manager.
+BackEndSoftArena.exe: 00002224: 21:02:28 [TUniGUISessionManager]:Stopping Cache Eraser...
+BackEndSoftArena.exe: 00002224: 21:02:28 [TUniGUISessionManager]:Cache Eraser Stopped.
+BackEndSoftArena.exe: 00002224: 21:02:28 [TUniGUISessionManager]:Destroying Worker Threads.
+BackEndSoftArena.exe: 00002224: 21:02:28 [TUniGUISessionManager]:Session manager terminated.
+BackEndSoftArena.exe: 00002224: 21:02:28 [TUniServerModule]:Server Shutdown Completed.
+BackEndSoftArena.exe: 00002224: 21:02:28 []:<-------------------------------------------------------------->
+BackEndSoftArena.exe: 00002224: 21:02:29 [Terminated]:Exit Code: 0
+BackEndSoftArena.exe: 0000258C: 21:31:49 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 0000258C: 21:31:49 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 0000258C: 21:31:49 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 0000258C: 21:31:49 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+BackEndSoftArena.exe: 0000258C: 21:31:49 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 0000258C: 21:31:49 [TUniServerModule]:HTTP Server Started. Port: 8077
+BackEndSoftArena.exe: 00000F18: 21:31:49 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 00001EDC: 21:32:34 [127.0.0.1]:EIdSocketError : Socket Error # 10060
+Connection timed out. : Addr: $00935964
+BackEndSoftArena.exe: 0000258C: 21:45:41 [TUniServerModule]:Shutting Down Server.
+BackEndSoftArena.exe: 0000258C: 21:45:41 [TUniServerModule]:HTTP Server Stopped.
+BackEndSoftArena.exe: 0000258C: 21:45:41 [TUniGUISessionManager]:Terminating Session manager.
+BackEndSoftArena.exe: 0000258C: 21:45:41 [TUniGUISessionManager]:Stopping Cache Eraser...
+BackEndSoftArena.exe: 0000258C: 21:45:41 [TUniGUISessionManager]:Cache Eraser Stopped.
+BackEndSoftArena.exe: 0000258C: 21:45:41 [TUniGUISessionManager]:Destroying Worker Threads.
+BackEndSoftArena.exe: 0000258C: 21:45:41 [TUniGUISessionManager]:Session manager terminated.
+BackEndSoftArena.exe: 0000258C: 21:45:41 [TUniServerModule]:Server Shutdown Completed.
+BackEndSoftArena.exe: 0000258C: 21:45:41 []:<-------------------------------------------------------------->
+BackEndSoftArena.exe: 0000258C: 21:45:41 [Terminated]:Exit Code: 0
+BackEndSoftArena.exe: 000026E8: 21:52:59 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 000026E8: 21:52:59 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 000026E8: 21:52:59 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 000026E8: 21:52:59 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+BackEndSoftArena.exe: 000026E8: 21:52:59 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 000026E8: 21:52:59 [TUniServerModule]:HTTP Server Started. Port: 8077
+BackEndSoftArena.exe: 00003048: 21:53:00 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 000036E4: 21:53:00 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 000036E4: 21:53:00 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 00002AAC: 21:53:02 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 00003184: 22:08:32 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 00003184: 22:08:32 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 000020E4: 22:08:33 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 000026E8: 22:27:31 [TUniServerModule]:Shutting Down Server.
+BackEndSoftArena.exe: 000026E8: 22:27:31 [TUniServerModule]:HTTP Server Stopped.
+BackEndSoftArena.exe: 000026E8: 22:27:31 [TUniGUISessionManager]:Terminating Session manager.
+BackEndSoftArena.exe: 000026E8: 22:27:31 [TUniGUISessionManager]:Stopping Cache Eraser...
+BackEndSoftArena.exe: 000026E8: 22:27:31 [TUniGUISessionManager]:Cache Eraser Stopped.
+BackEndSoftArena.exe: 000026E8: 22:27:31 [TUniGUISessionManager]:Destroying Worker Threads.
+BackEndSoftArena.exe: 000026E8: 22:27:31 [TUniGUISessionManager]:Session manager terminated.
+BackEndSoftArena.exe: 000026E8: 22:27:31 [TUniServerModule]:Server Shutdown Completed.
+BackEndSoftArena.exe: 000026E8: 22:27:31 []:<-------------------------------------------------------------->
+BackEndSoftArena.exe: 000026E8: 22:27:31 [Terminated]:Exit Code: 0
+BackEndSoftArena.exe: 000020FC: 22:30:31 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 000020FC: 22:30:31 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 000020FC: 22:30:31 [TUniServerModule]:Debug Mode = ON
+BackEndSoftArena.exe: 000020FC: 22:30:31 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 000020FC: 22:30:31 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+BackEndSoftArena.exe: 000020FC: 22:30:31 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 000020FC: 22:30:31 [TUniServerModule]:HTTP Server Started. Port: 8077
+BackEndSoftArena.exe: 00000D98: 22:30:38 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 000031F4: 22:40:16 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 000031F4: 22:40:16 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 000031F4: 22:40:16 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 000031F4: 22:40:16 [TUniServerModule]:Cache Folder Erased. <21> Files deleted.
+BackEndSoftArena.exe: 000031F4: 22:40:16 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 000031F4: 22:40:16 [TUniServerModule]:HTTP Server Started. Port: 8077
+BackEndSoftArena.exe: 00001D68: 22:40:17 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 00001D68: 22:40:17 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 00001D68: 22:40:17 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 00001D68: 22:40:17 [TUniServerModule]:Cache Folder Erased. <1> Files deleted.
+BackEndSoftArena.exe: 00001D68: 22:40:18 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 00001D68: 22:40:18 [InitWebServer]:EIdCouldNotBindSocket : Could not bind socket. Address and port are already in use. : Addr: $006D6149
+BackEndSoftArena.exe: 00003490: 22:40:24 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 00003490: 22:40:24 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 00003490: 22:40:24 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 00003490: 22:40:24 [TUniServerModule]:Cache Folder Erased. <1> Files deleted.
+BackEndSoftArena.exe: 00003490: 22:40:24 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 00003490: 22:40:24 [InitWebServer]:EIdCouldNotBindSocket : Could not bind socket. Address and port are already in use. : Addr: $006D6149
+BackEndSoftArena.exe: 000031F4: 22:40:28 [TUniServerModule]:Shutting Down Server.
+BackEndSoftArena.exe: 000031F4: 22:40:28 [TUniServerModule]:HTTP Server Stopped.
+BackEndSoftArena.exe: 000031F4: 22:40:28 [TUniGUISessionManager]:Terminating Session manager.
+BackEndSoftArena.exe: 000031F4: 22:40:28 [TUniGUISessionManager]:Stopping Cache Eraser...
+BackEndSoftArena.exe: 000031F4: 22:40:28 [TUniGUISessionManager]:Cache Eraser Stopped.
+BackEndSoftArena.exe: 000031F4: 22:40:28 [TUniGUISessionManager]:Destroying Worker Threads.
+BackEndSoftArena.exe: 000031F4: 22:40:28 [TUniGUISessionManager]:Session manager terminated.
+BackEndSoftArena.exe: 000031F4: 22:40:28 [TUniServerModule]:Server Shutdown Completed.
+BackEndSoftArena.exe: 000031F4: 22:40:28 []:<-------------------------------------------------------------->
+BackEndSoftArena.exe: 000031F4: 22:40:28 [Terminated]:Exit Code: 0
+BackEndSoftArena.exe: 00003490: 22:40:30 [TUniServerModule]:Shutting Down Server.
+BackEndSoftArena.exe: 00003490: 22:40:31 [TUniServerModule]:HTTP Server Stopped.
+BackEndSoftArena.exe: 00003490: 22:40:31 [TUniGUISessionManager]:Terminating Session manager.
+BackEndSoftArena.exe: 00003490: 22:40:31 [TUniGUISessionManager]:Stopping Cache Eraser...
+BackEndSoftArena.exe: 00003490: 22:40:31 [TUniGUISessionManager]:Cache Eraser Stopped.
+BackEndSoftArena.exe: 00003490: 22:40:31 [TUniGUISessionManager]:Destroying Worker Threads.
+BackEndSoftArena.exe: 00003490: 22:40:31 [TUniGUISessionManager]:Session manager terminated.
+BackEndSoftArena.exe: 00003490: 22:40:31 [TUniServerModule]:Server Shutdown Completed.
+BackEndSoftArena.exe: 00003490: 22:40:31 []:<-------------------------------------------------------------->
+BackEndSoftArena.exe: 00003490: 22:40:31 [Terminated]:Exit Code: 0
+BackEndSoftArena.exe: 00001D68: 22:40:33 [TUniServerModule]:Shutting Down Server.
+BackEndSoftArena.exe: 00001D68: 22:40:34 [TUniServerModule]:HTTP Server Stopped.
+BackEndSoftArena.exe: 00001D68: 22:40:34 [TUniGUISessionManager]:Terminating Session manager.
+BackEndSoftArena.exe: 00001D68: 22:40:34 [TUniGUISessionManager]:Stopping Cache Eraser...
+BackEndSoftArena.exe: 00001D68: 22:40:34 [TUniGUISessionManager]:Cache Eraser Stopped.
+BackEndSoftArena.exe: 00001D68: 22:40:34 [TUniGUISessionManager]:Destroying Worker Threads.
+BackEndSoftArena.exe: 00001D68: 22:40:34 [TUniGUISessionManager]:Session manager terminated.
+BackEndSoftArena.exe: 00001D68: 22:40:34 [TUniServerModule]:Server Shutdown Completed.
+BackEndSoftArena.exe: 00001D68: 22:40:34 []:<-------------------------------------------------------------->
+BackEndSoftArena.exe: 00001D68: 22:40:34 [Terminated]:Exit Code: 0
+BackEndSoftArena.exe: 00003488: 22:40:37 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 00003488: 22:40:37 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 00003488: 22:40:37 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 00003488: 22:40:37 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+BackEndSoftArena.exe: 00003488: 22:40:37 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 00003488: 22:40:37 [TUniServerModule]:HTTP Server Started. Port: 8077
+BackEndSoftArena.exe: 00001578: 22:40:46 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 00003420: 22:40:53 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 00003488: 22:45:28 [TUniServerModule]:Shutting Down Server.
+BackEndSoftArena.exe: 00003488: 22:45:29 [TUniServerModule]:HTTP Server Stopped.
+BackEndSoftArena.exe: 00003488: 22:45:29 [TUniGUISessionManager]:Terminating Session manager.
+BackEndSoftArena.exe: 00003488: 22:45:29 [TUniGUISessionManager]:Stopping Cache Eraser...
+BackEndSoftArena.exe: 00003488: 22:45:29 [TUniGUISessionManager]:Cache Eraser Stopped.
+BackEndSoftArena.exe: 00003488: 22:45:29 [TUniGUISessionManager]:Destroying Worker Threads.
+BackEndSoftArena.exe: 00003488: 22:45:29 [TUniGUISessionManager]:Session manager terminated.
+BackEndSoftArena.exe: 00003488: 22:45:29 [TUniServerModule]:Server Shutdown Completed.
+BackEndSoftArena.exe: 00003488: 22:45:29 []:<-------------------------------------------------------------->
+BackEndSoftArena.exe: 00003488: 22:45:29 [Terminated]:Exit Code: 0
+BackEndSoftArena.exe: 000025BC: 22:45:40 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 000025BC: 22:45:40 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 000025BC: 22:45:40 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 000025BC: 22:45:40 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+BackEndSoftArena.exe: 000025BC: 22:45:40 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 000025BC: 22:45:41 [TUniServerModule]:HTTP Server Started. Port: 8077
+BackEndSoftArena.exe: 00003338: 22:45:46 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 00002B88: 22:45:50 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 00002DC8: 22:45:57 [127.0.0.1]:EAccessViolation : Access violation at address 0087A34E in module 'BackEndSoftArena.exe'. Read of address 00000044 : Addr: $0087A34E
+BackEndSoftArena.exe: 00002AB4: 22:56:15 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 00002AB4: 22:56:15 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 000025BC: 22:56:19 [TUniServerModule]:Shutting Down Server.
+BackEndSoftArena.exe: 00001BE4: 22:56:20 [Indy]:EIdNotConnected : Not Connected : Addr: $006DF6F2
+BackEndSoftArena.exe: 00002AB4: 22:56:20 [Indy]:EIdNotConnected : Not Connected : Addr: $006DF6F2
+BackEndSoftArena.exe: 000025BC: 22:56:20 [TUniServerModule]:HTTP Server Stopped.
+BackEndSoftArena.exe: 000025BC: 22:56:20 [TUniGUISessionManager]:Terminating Session manager.
+BackEndSoftArena.exe: 000025BC: 22:56:20 [TUniGUISessionManager]:Stopping Cache Eraser...
+BackEndSoftArena.exe: 000025BC: 22:56:20 [TUniGUISessionManager]:Cache Eraser Stopped.
+BackEndSoftArena.exe: 000025BC: 22:56:20 [TUniGUISessionManager]:Destroying Worker Threads.
+BackEndSoftArena.exe: 000025BC: 22:56:20 [TUniGUISessionManager]:Session manager terminated.
+BackEndSoftArena.exe: 000025BC: 22:56:20 [TUniServerModule]:Server Shutdown Completed.
+BackEndSoftArena.exe: 000025BC: 22:56:20 []:<-------------------------------------------------------------->
+BackEndSoftArena.exe: 000025BC: 22:56:20 [Terminated]:Exit Code: 0
+BackEndSoftArena.exe: 000022EC: 22:56:48 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 000022EC: 22:56:48 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 000022EC: 22:56:48 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 000022EC: 22:56:48 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+BackEndSoftArena.exe: 000022EC: 22:56:48 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 000022EC: 22:56:48 [TUniServerModule]:HTTP Server Started. Port: 8077
+BackEndSoftArena.exe: 0000248C: 22:56:49 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 00002C9C: 22:56:54 [127.0.0.1]:EAccessViolation : Access violation at address 0087A34E in module 'BackEndSoftArena.exe'. Read of address 00000044 : Addr: $0087A34E
+BackEndSoftArena.exe: 00002C9C: 22:57:00 [127.0.0.1]:EAccessViolation : Access violation at address 0087A34E in module 'BackEndSoftArena.exe'. Read of address 00000044 : Addr: $0087A34E
+BackEndSoftArena.exe: 000022EC: 23:00:41 [TUniServerModule]:Shutting Down Server.
+BackEndSoftArena.exe: 000022EC: 23:00:42 [TUniServerModule]:HTTP Server Stopped.
+BackEndSoftArena.exe: 000022EC: 23:00:42 [TUniGUISessionManager]:Terminating Session manager.
+BackEndSoftArena.exe: 000022EC: 23:00:42 [TUniGUISessionManager]:Stopping Cache Eraser...
+BackEndSoftArena.exe: 000022EC: 23:00:42 [TUniGUISessionManager]:Cache Eraser Stopped.
+BackEndSoftArena.exe: 000022EC: 23:00:42 [TUniGUISessionManager]:Destroying Worker Threads.
+BackEndSoftArena.exe: 000022EC: 23:00:42 [TUniGUISessionManager]:Session manager terminated.
+BackEndSoftArena.exe: 000022EC: 23:00:42 [TUniServerModule]:Server Shutdown Completed.
+BackEndSoftArena.exe: 000022EC: 23:00:42 []:<-------------------------------------------------------------->
+BackEndSoftArena.exe: 000022EC: 23:00:42 [Terminated]:Exit Code: 0
+BackEndSoftArena.exe: 00002EE0: 23:00:55 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 00002EE0: 23:00:55 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 00002EE0: 23:00:55 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 00002EE0: 23:00:55 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+BackEndSoftArena.exe: 00002EE0: 23:00:55 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 00002EE0: 23:00:55 [TUniServerModule]:HTTP Server Started. Port: 8077
+BackEndSoftArena.exe: 000037BC: 23:02:03 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 000037BC: 23:02:03 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 000029D0: 23:02:04 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 00002094: 23:02:11 [127.0.0.1]:EFDException : [FireDAC][Comp][Clnt]-511. Dataset [fdEmail] must be in cached update mode : Addr: $007AF116
+BackEndSoftArena.exe: 00002EE0: 23:03:09 [TUniServerModule]:Shutting Down Server.
+BackEndSoftArena.exe: 000037BC: 23:03:10 [Indy]:EIdNotConnected : Not Connected : Addr: $006DF6F2
+BackEndSoftArena.exe: 000029D0: 23:03:10 [Indy]:EIdNotConnected : Not Connected : Addr: $006DF6F2
+BackEndSoftArena.exe: 00001F40: 23:03:10 [Indy]:EIdNotConnected : Not Connected : Addr: $006DF6F2
+BackEndSoftArena.exe: 00002EE0: 23:03:10 [TUniServerModule]:HTTP Server Stopped.
+BackEndSoftArena.exe: 00002EE0: 23:03:10 [TUniGUISessionManager]:Terminating Session manager.
+BackEndSoftArena.exe: 00002EE0: 23:03:10 [TUniGUISessionManager]:Stopping Cache Eraser...
+BackEndSoftArena.exe: 00002EE0: 23:03:10 [TUniGUISessionManager]:Cache Eraser Stopped.
+BackEndSoftArena.exe: 00002EE0: 23:03:10 [TUniGUISessionManager]:Destroying Worker Threads.
+BackEndSoftArena.exe: 00002EE0: 23:03:10 [TUniGUISessionManager]:Session manager terminated.
+BackEndSoftArena.exe: 00002EE0: 23:03:10 [TUniServerModule]:Server Shutdown Completed.
+BackEndSoftArena.exe: 00002EE0: 23:03:10 []:<-------------------------------------------------------------->
+BackEndSoftArena.exe: 00002EE0: 23:03:10 [Terminated]:Exit Code: 0
+BackEndSoftArena.exe: 00000728: 23:03:32 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 00000728: 23:03:32 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 00000728: 23:03:32 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 00000728: 23:03:32 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+BackEndSoftArena.exe: 00000728: 23:03:33 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 00000728: 23:03:33 [TUniServerModule]:HTTP Server Started. Port: 8077
+BackEndSoftArena.exe: 00001AFC: 23:03:33 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 00001AFC: 23:03:33 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 00001AFC: 23:03:33 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 00001AFC: 23:03:33 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 00000728: 23:15:47 [TUniServerModule]:Shutting Down Server.
+BackEndSoftArena.exe: 00000728: 23:15:48 [TUniServerModule]:HTTP Server Stopped.
+BackEndSoftArena.exe: 00000728: 23:15:48 [TUniGUISessionManager]:Terminating Session manager.
+BackEndSoftArena.exe: 00000728: 23:15:48 [TUniGUISessionManager]:Stopping Cache Eraser...
+BackEndSoftArena.exe: 00000728: 23:15:48 [TUniGUISessionManager]:Cache Eraser Stopped.
+BackEndSoftArena.exe: 00000728: 23:15:48 [TUniGUISessionManager]:Destroying Worker Threads.
+BackEndSoftArena.exe: 00000728: 23:15:48 [TUniGUISessionManager]:Session manager terminated.
+BackEndSoftArena.exe: 00000728: 23:15:48 [TUniServerModule]:Server Shutdown Completed.
+BackEndSoftArena.exe: 00000728: 23:15:48 []:<-------------------------------------------------------------->
+BackEndSoftArena.exe: 00000728: 23:15:48 [Terminated]:Exit Code: 0
+BackEndSoftArena.exe: 00003ACC: 23:20:10 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 00003ACC: 23:20:10 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 00003ACC: 23:20:10 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 00003ACC: 23:20:10 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+BackEndSoftArena.exe: 00003ACC: 23:20:10 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 00003ACC: 23:20:10 [TUniServerModule]:HTTP Server Started. Port: 8077
+BackEndSoftArena.exe: 00003558: 23:20:11 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 00003ACC: 23:20:56 [TUniServerModule]:Shutting Down Server.
+BackEndSoftArena.exe: 00003558: 23:20:57 [Indy]:EIdNotConnected : Not Connected : Addr: $006DF6F2
+BackEndSoftArena.exe: 000029E4: 23:20:57 [Indy]:EIdNotConnected : Not Connected : Addr: $006DF6F2
+BackEndSoftArena.exe: 00002978: 23:20:57 [Indy]:EIdNotConnected : Not Connected : Addr: $006DF6F2
+BackEndSoftArena.exe: 0000023C: 23:20:57 [Indy]:EIdNotConnected : Not Connected : Addr: $006DF6F2
+BackEndSoftArena.exe: 00003ACC: 23:20:57 [TUniServerModule]:HTTP Server Stopped.
+BackEndSoftArena.exe: 00003ACC: 23:20:57 [TUniGUISessionManager]:Terminating Session manager.
+BackEndSoftArena.exe: 00003ACC: 23:20:57 [TUniGUISessionManager]:Stopping Cache Eraser...
+BackEndSoftArena.exe: 00003ACC: 23:20:57 [TUniGUISessionManager]:Cache Eraser Stopped.
+BackEndSoftArena.exe: 00003ACC: 23:20:57 [TUniGUISessionManager]:Destroying Worker Threads.
+BackEndSoftArena.exe: 00003ACC: 23:20:57 [TUniGUISessionManager]:Session manager terminated.
+BackEndSoftArena.exe: 00003ACC: 23:20:57 [TUniServerModule]:Server Shutdown Completed.
+BackEndSoftArena.exe: 00003ACC: 23:20:57 []:<-------------------------------------------------------------->
+BackEndSoftArena.exe: 00003ACC: 23:20:57 [Terminated]:Exit Code: 0
+BackEndSoftArena.exe: 0000358C: 23:25:38 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 0000358C: 23:25:38 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 0000358C: 23:25:38 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 0000358C: 23:25:38 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+BackEndSoftArena.exe: 0000358C: 23:25:39 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 0000358C: 23:25:39 [TUniServerModule]:HTTP Server Started. Port: 8077
+BackEndSoftArena.exe: 00002424: 23:25:39 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2
+BackEndSoftArena.exe: 0000358C: 23:28:08 [TUniServerModule]:Shutting Down Server.
+BackEndSoftArena.exe: 0000358C: 23:28:09 [TUniServerModule]:HTTP Server Stopped.
+BackEndSoftArena.exe: 0000358C: 23:28:09 [TUniGUISessionManager]:Terminating Session manager.
+BackEndSoftArena.exe: 0000358C: 23:28:09 [TUniGUISessionManager]:Stopping Cache Eraser...
+BackEndSoftArena.exe: 0000358C: 23:28:09 [TUniGUISessionManager]:Cache Eraser Stopped.
+BackEndSoftArena.exe: 0000358C: 23:28:09 [TUniGUISessionManager]:Destroying Worker Threads.
+BackEndSoftArena.exe: 0000358C: 23:28:09 [TUniGUISessionManager]:Session manager terminated.
+BackEndSoftArena.exe: 0000358C: 23:28:09 [TUniServerModule]:Server Shutdown Completed.
+BackEndSoftArena.exe: 0000358C: 23:28:09 []:<-------------------------------------------------------------->
+BackEndSoftArena.exe: 0000358C: 23:28:09 [Terminated]:Exit Code: 0
+BackEndSoftArena.exe: 00003910: 23:28:23 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 00003910: 23:28:23 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 00003910: 23:28:23 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 00003910: 23:28:23 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+BackEndSoftArena.exe: 00003910: 23:28:23 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 00003910: 23:28:23 [TUniServerModule]:HTTP Server Started. Port: 8077
+BackEndSoftArena.exe: 00003658: 23:28:24 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $007710D2

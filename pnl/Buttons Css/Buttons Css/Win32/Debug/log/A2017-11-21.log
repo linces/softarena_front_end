@@ -1,0 +1,156 @@
+Project1.exe: 00003670: 09:16:52 []:>--------------------------------------------------------------<
+Project1.exe: 00003670: 09:16:52 [TUniServerModule]:Server First Init.
+Project1.exe: 00003670: 09:16:52 [TUniServerModule]:Erasing Cache Folder...
+Project1.exe: 00003670: 09:16:52 [TUniServerModule]:Cache Folder Erased. <1> Files deleted.
+Project1.exe: 00003670: 09:16:52 [TUniServerModule]:Starting HTTP Server...
+Project1.exe: 00003670: 09:16:52 [TUniServerModule]:HTTP Server Started. Port: 8077
+Project1.exe: 00001C40: 09:46:14 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $006FDD52
+Project1.exe: 00003670: 09:46:17 [TUniServerModule]:Shutting Down Server.
+Project1.exe: 00003670: 09:46:17 [TUniServerModule]:HTTP Server Stopped.
+Project1.exe: 00003670: 09:46:17 [TUniGUISessionManager]:Terminating Session manager.
+Project1.exe: 00003670: 09:46:17 [TUniGUISessionManager]:Stopping Cache Eraser...
+Project1.exe: 00003670: 09:46:17 [TUniGUISessionManager]:Cache Eraser Stopped.
+Project1.exe: 00003670: 09:46:17 [TUniGUISessionManager]:Destroying Worker Threads.
+Project1.exe: 00003670: 09:46:17 [TUniGUISessionManager]:Session manager terminated.
+Project1.exe: 00003670: 09:46:17 [TUniServerModule]:Server Shutdown Completed.
+Project1.exe: 00003670: 09:46:17 []:<-------------------------------------------------------------->
+Project1.exe: 00003670: 09:46:17 [Terminated]:Exit Code: 0
+Project1.exe: 00000E5C: 22:53:08 []:>--------------------------------------------------------------<
+Project1.exe: 00000E5C: 22:53:08 [TUniServerModule]:Server First Init.
+Project1.exe: 00000E5C: 22:53:08 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 00000E5C: 22:53:08 [TUniServerModule]:Erasing Cache Folder...
+Project1.exe: 00000E5C: 22:53:08 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+Project1.exe: 00000E5C: 22:53:08 [TUniServerModule]:Starting HTTP Server...
+Project1.exe: 00000E5C: 22:53:08 [TUniServerModule]:HTTP Server Started. Port: 8077
+Project1.exe: 00003934: 22:54:39 []:>--------------------------------------------------------------<
+Project1.exe: 00003934: 22:54:39 [TUniServerModule]:Server First Init.
+Project1.exe: 00003934: 22:54:39 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 00003934: 22:54:39 [TUniServerModule]:Erasing Cache Folder...
+Project1.exe: 00003934: 22:54:39 [TUniServerModule]:Cache Folder Erased. <1> Files deleted.
+Project1.exe: 00003934: 22:54:39 [TUniServerModule]:Starting HTTP Server...
+Project1.exe: 00003934: 22:54:39 [TUniServerModule]:HTTP Server Started. Port: 8077
+Project1.exe: 00002590: 23:00:39 []:>--------------------------------------------------------------<
+Project1.exe: 00002590: 23:00:39 [TUniServerModule]:Server First Init.
+Project1.exe: 00002590: 23:00:39 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 00002590: 23:00:39 [TUniServerModule]:Erasing Cache Folder...
+Project1.exe: 00002590: 23:00:39 [TUniServerModule]:Cache Folder Erased. <2> Files deleted.
+Project1.exe: 00002590: 23:00:39 [TUniServerModule]:Starting HTTP Server...
+Project1.exe: 00002590: 23:00:39 [TUniServerModule]:HTTP Server Started. Port: 8077
+Project1.exe: 0000016C: 23:12:17 []:>--------------------------------------------------------------<
+Project1.exe: 0000016C: 23:12:17 [TUniServerModule]:Server First Init.
+Project1.exe: 0000016C: 23:12:17 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 0000016C: 23:12:17 [TUniServerModule]:Erasing Cache Folder...
+Project1.exe: 0000016C: 23:12:17 [TUniServerModule]:Cache Folder Erased. <2> Files deleted.
+Project1.exe: 0000016C: 23:12:17 [TUniServerModule]:Starting HTTP Server...
+Project1.exe: 0000016C: 23:12:17 [TUniServerModule]:HTTP Server Started. Port: 8077
+Project1.exe: 00002FC8: 23:14:54 []:>--------------------------------------------------------------<
+Project1.exe: 00002FC8: 23:14:54 [TUniServerModule]:Server First Init.
+Project1.exe: 00002FC8: 23:14:54 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 00002FC8: 23:14:54 [TUniServerModule]:Erasing Cache Folder...
+Project1.exe: 00002FC8: 23:14:54 [TUniServerModule]:Cache Folder Erased. <2> Files deleted.
+Project1.exe: 00002FC8: 23:14:54 [TUniServerModule]:Starting HTTP Server...
+Project1.exe: 00002FC8: 23:14:54 [TUniServerModule]:HTTP Server Started. Port: 8077
+Project1.exe: 0000284C: 23:15:26 []:>--------------------------------------------------------------<
+Project1.exe: 0000284C: 23:15:26 [TUniServerModule]:Server First Init.
+Project1.exe: 0000284C: 23:15:26 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 0000284C: 23:15:27 [TUniServerModule]:Erasing Cache Folder...
+Project1.exe: 0000284C: 23:15:27 [TUniServerModule]:Cache Folder Erased. <2> Files deleted.
+Project1.exe: 0000284C: 23:15:27 [TUniServerModule]:Starting HTTP Server...
+Project1.exe: 0000284C: 23:15:27 [TUniServerModule]:HTTP Server Started. Port: 8077
+Project1.exe: 00003954: 23:15:30 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $006FDD52
+Project1.exe: 00002ED0: 23:16:14 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $006FDD52
+Project1.exe: 00003AA4: 23:16:14 [HandleFileRequest[127.0.0.1]]:File not found: D:\Delphi\DISCOS\UniGui\demos\Buttons Css\Win32\Debug\favicon.ico
+Project1.exe: 0000324C: 23:17:09 []:>--------------------------------------------------------------<
+Project1.exe: 0000324C: 23:17:09 [TUniServerModule]:Server First Init.
+Project1.exe: 0000324C: 23:17:09 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 0000324C: 23:17:09 [TUniServerModule]:Erasing Cache Folder...
+Project1.exe: 0000324C: 23:17:09 [TUniServerModule]:Cache Folder Erased. <4> Files deleted.
+Project1.exe: 0000324C: 23:17:09 [TUniServerModule]:Starting HTTP Server...
+Project1.exe: 0000324C: 23:17:10 [TUniServerModule]:HTTP Server Started. Port: 8077
+Project1.exe: 00002A7C: 23:18:31 []:>--------------------------------------------------------------<
+Project1.exe: 00002A7C: 23:18:31 [TUniServerModule]:Server First Init.
+Project1.exe: 00002A7C: 23:18:31 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 00002A7C: 23:18:31 [TUniServerModule]:Erasing Cache Folder...
+Project1.exe: 00002A7C: 23:18:31 [TUniServerModule]:Cache Folder Erased. <2> Files deleted.
+Project1.exe: 00002A7C: 23:18:31 [TUniServerModule]:Starting HTTP Server...
+Project1.exe: 00002A7C: 23:18:31 [TUniServerModule]:HTTP Server Started. Port: 8077
+Project1.exe: 000016A0: 23:22:30 [HandleFileRequest[127.0.0.1]]:File not found: D:\Delphi\DISCOS\UniGui\demos\Buttons Css\Win32\Debug\favicon.ico
+Project1.exe: 000026D0: 23:22:44 []:>--------------------------------------------------------------<
+Project1.exe: 000026D0: 23:22:44 [TUniServerModule]:Server First Init.
+Project1.exe: 000026D0: 23:22:44 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 000026D0: 23:22:44 [TUniServerModule]:Erasing Cache Folder...
+Project1.exe: 000026D0: 23:22:44 [TUniServerModule]:Cache Folder Erased. <1> Files deleted.
+Project1.exe: 000026D0: 23:22:44 [TUniServerModule]:Starting HTTP Server...
+Project1.exe: 000026D0: 23:22:44 [TUniServerModule]:HTTP Server Started. Port: 8077
+Project1.exe: 00002BCC: 23:39:12 []:>--------------------------------------------------------------<
+Project1.exe: 00002BCC: 23:39:12 [TUniServerModule]:Server First Init.
+Project1.exe: 00002BCC: 23:39:12 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 00002BCC: 23:39:12 [TUniServerModule]:Erasing Cache Folder...
+Project1.exe: 00002BCC: 23:39:12 [TUniServerModule]:Cache Folder Erased. <1> Files deleted.
+Project1.exe: 00002BCC: 23:39:12 [TUniServerModule]:Starting HTTP Server...
+Project1.exe: 00002BCC: 23:39:12 [TUniServerModule]:HTTP Server Started. Port: 8077
+Project1.exe: 000037BC: 23:39:14 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $006FDD52
+Project1.exe: 00002F9C: 23:39:16 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $006FDD52
+Project1.exe: 0000254C: 23:39:17 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $006FDD52
+Project1.exe: 00000D24: 23:39:17 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $006FDD52
+Project1.exe: 000028B0: 23:39:18 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $006FDD52
+Project1.exe: 00002344: 23:42:44 []:>--------------------------------------------------------------<
+Project1.exe: 00002344: 23:42:44 [TUniServerModule]:Server First Init.
+Project1.exe: 00002344: 23:42:44 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 00002344: 23:42:44 [TUniServerModule]:Erasing Cache Folder...
+Project1.exe: 00002344: 23:42:44 [TUniServerModule]:Cache Folder Erased. <4> Files deleted.
+Project1.exe: 00002344: 23:42:44 [TUniServerModule]:Starting HTTP Server...
+Project1.exe: 00002344: 23:42:44 [TUniServerModule]:HTTP Server Started. Port: 8077
+Project1.exe: 0000210C: 23:45:02 []:>--------------------------------------------------------------<
+Project1.exe: 0000210C: 23:45:02 [TUniServerModule]:Server First Init.
+Project1.exe: 0000210C: 23:45:02 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 0000210C: 23:45:02 [TUniServerModule]:Erasing Cache Folder...
+Project1.exe: 0000210C: 23:45:02 [TUniServerModule]:Cache Folder Erased. <2> Files deleted.
+Project1.exe: 0000210C: 23:45:02 [TUniServerModule]:Starting HTTP Server...
+Project1.exe: 0000210C: 23:45:02 [TUniServerModule]:HTTP Server Started. Port: 8077
+Project1.exe: 00002A64: 23:45:25 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $006FDD52
+Project1.exe: 00001958: 23:46:32 []:>--------------------------------------------------------------<
+Project1.exe: 00001958: 23:46:32 [TUniServerModule]:Server First Init.
+Project1.exe: 00001958: 23:46:32 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 00001958: 23:46:32 [TUniServerModule]:Erasing Cache Folder...
+Project1.exe: 00001958: 23:46:32 [TUniServerModule]:Cache Folder Erased. <2> Files deleted.
+Project1.exe: 00001958: 23:46:32 [TUniServerModule]:Starting HTTP Server...
+Project1.exe: 00001958: 23:46:32 [TUniServerModule]:HTTP Server Started. Port: 8077
+Project1.exe: 00001420: 23:46:52 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $006FDD52
+Project1.exe: 000023DC: 23:47:34 []:>--------------------------------------------------------------<
+Project1.exe: 000023DC: 23:47:34 [TUniServerModule]:Server First Init.
+Project1.exe: 000023DC: 23:47:34 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 000023DC: 23:47:34 [TUniServerModule]:Erasing Cache Folder...
+Project1.exe: 000023DC: 23:47:34 [TUniServerModule]:Cache Folder Erased. <1> Files deleted.
+Project1.exe: 000023DC: 23:47:34 [TUniServerModule]:Starting HTTP Server...
+Project1.exe: 000023DC: 23:47:34 [TUniServerModule]:HTTP Server Started. Port: 8077
+Project1.exe: 00002BC8: 23:48:07 []:>--------------------------------------------------------------<
+Project1.exe: 00002BC8: 23:48:07 [TUniServerModule]:Server First Init.
+Project1.exe: 00002BC8: 23:48:07 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 00002BC8: 23:48:07 [TUniServerModule]:Erasing Cache Folder...
+Project1.exe: 00002BC8: 23:48:07 [TUniServerModule]:Cache Folder Erased. <3> Files deleted.
+Project1.exe: 00002BC8: 23:48:07 [TUniServerModule]:Starting HTTP Server...
+Project1.exe: 00002BC8: 23:48:07 [TUniServerModule]:HTTP Server Started. Port: 8077
+Project1.exe: 0000204C: 23:48:51 []:>--------------------------------------------------------------<
+Project1.exe: 0000204C: 23:48:51 [TUniServerModule]:Server First Init.
+Project1.exe: 0000204C: 23:48:51 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 0000204C: 23:48:51 [TUniServerModule]:Erasing Cache Folder...
+Project1.exe: 0000204C: 23:48:51 [TUniServerModule]:Cache Folder Erased. <2> Files deleted.
+Project1.exe: 0000204C: 23:48:51 [TUniServerModule]:Starting HTTP Server...
+Project1.exe: 0000204C: 23:48:51 [TUniServerModule]:HTTP Server Started. Port: 8077
+Project1.exe: 000038F4: 23:50:12 []:>--------------------------------------------------------------<
+Project1.exe: 000038F4: 23:50:12 [TUniServerModule]:Server First Init.
+Project1.exe: 000038F4: 23:50:12 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 000038F4: 23:50:12 [TUniServerModule]:Erasing Cache Folder...
+Project1.exe: 000038F4: 23:50:12 [TUniServerModule]:Cache Folder Erased. <2> Files deleted.
+Project1.exe: 000038F4: 23:50:12 [TUniServerModule]:Starting HTTP Server...
+Project1.exe: 000038F4: 23:50:12 [TUniServerModule]:HTTP Server Started. Port: 8077
+Project1.exe: 000010F4: 23:50:14 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $006FDD52
+Project1.exe: 00003630: 23:50:34 [HandleFileRequest[127.0.0.1]]:File not found: D:\Delphi\DISCOS\UniGui\demos\Buttons Css\Win32\Debug\favicon.ico
+Project1.exe: 00001D80: 23:58:34 []:>--------------------------------------------------------------<
+Project1.exe: 00001D80: 23:58:34 [TUniServerModule]:Server First Init.
+Project1.exe: 00001D80: 23:58:34 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 00001D80: 23:58:34 [TUniServerModule]:Erasing Cache Folder...
+Project1.exe: 00001D80: 23:58:34 [TUniServerModule]:Cache Folder Erased. <1> Files deleted.
+Project1.exe: 00001D80: 23:58:34 [TUniServerModule]:Starting HTTP Server...
+Project1.exe: 00001D80: 23:58:34 [TUniServerModule]:HTTP Server Started. Port: 8077

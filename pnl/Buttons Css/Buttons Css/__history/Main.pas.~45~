@@ -1,0 +1,96 @@
+unit Main;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics,
+  Controls, Forms, uniGUITypes, uniGUIAbstractClasses,
+  uniGUIClasses, uniGUIRegClasses, uniGUIForm, uniGUIBaseClasses, uniButton,
+  uniBitBtn, uniURLFrame, uniEdit, uniGroupBox, uniLabel;
+
+type
+  TMainForm = class(TUniForm)
+    UniBitBtn3: TUniBitBtn;
+    UniBitBtn1: TUniBitBtn;
+    UniBitBtn2: TUniBitBtn;
+    UniBitBtn4: TUniBitBtn;
+    UniBitBtn5: TUniBitBtn;
+    UniBitBtn6: TUniBitBtn;
+    UniBitBtn7: TUniBitBtn;
+    UniBitBtn9: TUniBitBtn;
+    UniGroupBox1: TUniGroupBox;
+    edtNomeImagem: TUniEdit;
+    UniLabel1: TUniLabel;
+    edtCorImagem: TUniEdit;
+    UniLabel2: TUniLabel;
+    edtTamanhoImagem: TUniEdit;
+    UniLabel4: TUniLabel;
+    edtMargemImagem: TUniEdit;
+    UniLabel5: TUniLabel;
+    btnPersonalizado: TUniBitBtn;
+    UniLabel3: TUniLabel;
+    edtCaption: TUniEdit;
+    procedure btnPersonalizadoClick(Sender: TObject);
+  private
+    { Private declarations }
+    procedure Aplicar_CSS( Objeto :TObject; Caption, Nome_Imagem :string; Cor_imagem :string; Tamanho_Imagen, Margem_imagem :integer );
+  public
+    { Public declarations }
+  end;
+
+function MainForm: TMainForm;
+
+implementation
+
+{$R *.dfm}
+
+uses
+  uniGUIVars, MainModule, uniGUIApplication;
+
+function MainForm: TMainForm;
+begin
+  Result := TMainForm(UniMainModule.GetFormInstance(TMainForm));
+end;
+
+procedure TMainForm.Aplicar_CSS( Objeto :TObject; Caption, Nome_Imagem :string; Cor_imagem :string; Tamanho_Imagen, Margem_imagem :integer );
+var html : string;
+
+begin
+html := '<i class="' + Nome_Imagem + '"' +
+        ' style= "' +
+                    ' font-size:'+ Tamanho_Imagen.ToString + 'px;' +
+                    ' color:'    + Cor_imagem + '; ' +
+                    ' margin: '  + Margem_imagem.ToString + '; ' +
+               '"></i>';
+
+   if Objeto.ClassName = 'TUniBitBtn' then
+      TUniBitBtn( Objeto).Caption := html + Caption;
+end;
+
+procedure TMainForm.btnPersonalizadoClick(Sender: TObject);
+var
+   Caption        : string;
+   Nome_Imagem    :string;
+   Cor_imagem     :string;
+   Tamanho_Imagen :integer;
+   Margem_imagem  :integer;
+begin
+   Caption        := edtCaption.Text;
+   Nome_Imagem    := edtNomeImagem.Text;;
+   Cor_imagem     := edtCorImagem.Text;
+   Tamanho_Imagen := StrToInt(edtTamanhoImagem.Text);
+   Margem_imagem  := StrToInt(edtMargemImagem.Text);
+
+
+   Aplicar_CSS( btnPersonalizado
+              , Caption
+              , Nome_Imagem
+              , Cor_imagem
+              , Tamanho_Imagen
+              , Margem_imagem );
+end;
+
+initialization
+  RegisterAppFormClass(TMainForm);
+
+end.

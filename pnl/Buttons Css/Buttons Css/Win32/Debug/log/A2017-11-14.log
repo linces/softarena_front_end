@@ -1,0 +1,26 @@
+Project1.exe: 00003688: 22:49:41 []:>--------------------------------------------------------------<
+Project1.exe: 00003688: 22:49:41 [TUniServerModule]:Server First Init.
+Project1.exe: 00003688: 22:49:41 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 00003688: 22:49:41 [TUniServerModule]:Starting HTTP Server...
+Project1.exe: 00003688: 22:49:41 [TUniServerModule]:HTTP Server Started. Port: 8077
+Project1.exe: 00002590: 23:06:53 []:>--------------------------------------------------------------<
+Project1.exe: 00002590: 23:06:53 [TUniServerModule]:Server First Init.
+Project1.exe: 00002590: 23:06:53 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 00002590: 23:06:53 [TUniServerModule]:Erasing Cache Folder...
+Project1.exe: 00002590: 23:06:53 [TUniServerModule]:Cache Folder Erased. <3> Files deleted.
+Project1.exe: 00002590: 23:06:53 [TUniServerModule]:Starting HTTP Server...
+Project1.exe: 00002590: 23:06:53 [TUniServerModule]:HTTP Server Started. Port: 8077
+Project1.exe: 0000092C: 23:08:16 []:>--------------------------------------------------------------<
+Project1.exe: 0000092C: 23:08:16 [TUniServerModule]:Server First Init.
+Project1.exe: 0000092C: 23:08:16 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 0000092C: 23:08:16 [TUniServerModule]:Erasing Cache Folder...
+Project1.exe: 0000092C: 23:08:16 [TUniServerModule]:Cache Folder Erased. <1> Files deleted.
+Project1.exe: 0000092C: 23:08:16 [TUniServerModule]:Starting HTTP Server...
+Project1.exe: 0000092C: 23:08:16 [TUniServerModule]:HTTP Server Started. Port: 8077
+Project1.exe: 00002DAC: 23:09:11 []:>--------------------------------------------------------------<
+Project1.exe: 00002DAC: 23:09:11 [TUniServerModule]:Server First Init.
+Project1.exe: 00002DAC: 23:09:11 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 00002DAC: 23:09:11 [TUniServerModule]:Erasing Cache Folder...
+Project1.exe: 00002DAC: 23:09:11 [TUniServerModule]:Cache Folder Erased. <2> Files deleted.
+Project1.exe: 00002DAC: 23:09:11 [TUniServerModule]:Starting HTTP Server...
+Project1.exe: 00002DAC: 23:09:11 [TUniServerModule]:HTTP Server Started. Port: 8077

@@ -1,0 +1,93 @@
+Project1.exe: 00001718: 21:47:26 []:>--------------------------------------------------------------<
+Project1.exe: 00001718: 21:47:26 [TUniServerModule]:Server First Init.
+Project1.exe: 00001718: 21:47:26 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 00001718: 21:47:26 [TUniServerModule]:Erasing Cache Folder...
+Project1.exe: 00001718: 21:47:26 [TUniServerModule]:Cache Folder Erased. <2> Files deleted.
+Project1.exe: 00001718: 21:47:26 [TUniServerModule]:Starting HTTP Server...
+Project1.exe: 00001718: 21:47:26 [TUniServerModule]:HTTP Server Started. Port: 8077
+Project1.exe: 00001AC8: 21:48:09 []:>--------------------------------------------------------------<
+Project1.exe: 00001AC8: 21:48:09 [TUniServerModule]:Server First Init.
+Project1.exe: 00001AC8: 21:48:09 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 00001AC8: 21:48:09 [TUniServerModule]:Erasing Cache Folder...
+Project1.exe: 00001AC8: 21:48:09 [TUniServerModule]:Cache Folder Erased. <1> Files deleted.
+Project1.exe: 00001AC8: 21:48:09 [TUniServerModule]:Starting HTTP Server...
+Project1.exe: 00001AC8: 21:48:09 [TUniServerModule]:HTTP Server Started. Port: 8077
+Project1.exe: 00002C4C: 21:51:13 []:>--------------------------------------------------------------<
+Project1.exe: 00002C4C: 21:51:13 [TUniServerModule]:Server First Init.
+Project1.exe: 00002C4C: 21:51:13 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 00002C4C: 21:51:13 [TUniServerModule]:Erasing Cache Folder...
+Project1.exe: 00002C4C: 21:51:13 [TUniServerModule]:Cache Folder Erased. <2> Files deleted.
+Project1.exe: 00002C4C: 21:51:13 [TUniServerModule]:Starting HTTP Server...
+Project1.exe: 00002C4C: 21:51:13 [TUniServerModule]:HTTP Server Started. Port: 8077
+Project1.exe: 00001E4C: 21:51:21 [127.0.0.1]:EConvertError : Cannot assign a nil to a TFont : Addr: $004B2806
+Project1.exe: 000009C0: 21:51:22 [HandleFileRequest[127.0.0.1]]:File not found: D:\Delphi\DISCOS\UniGui\demos\Buttons Css\Win32\Debug\favicon.ico
+Project1.exe: 00002470: 21:55:24 []:>--------------------------------------------------------------<
+Project1.exe: 00002470: 21:55:24 [TUniServerModule]:Server First Init.
+Project1.exe: 00002470: 21:55:24 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 00002470: 21:55:24 [TUniServerModule]:Erasing Cache Folder...
+Project1.exe: 00002470: 21:55:24 [TUniServerModule]:Cache Folder Erased. <2> Files deleted.
+Project1.exe: 00002470: 21:55:24 [TUniServerModule]:Starting HTTP Server...
+Project1.exe: 00002470: 21:55:24 [TUniServerModule]:HTTP Server Started. Port: 8077
+Project1.exe: 00002EC8: 22:30:04 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $006FDD52
+Project1.exe: 000032AC: 22:31:03 []:>--------------------------------------------------------------<
+Project1.exe: 000032AC: 22:31:03 [TUniServerModule]:Server First Init.
+Project1.exe: 000032AC: 22:31:03 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 000032AC: 22:31:03 [TUniServerModule]:Erasing Cache Folder...
+Project1.exe: 000032AC: 22:31:03 [TUniServerModule]:Cache Folder Erased. <1> Files deleted.
+Project1.exe: 000032AC: 22:31:03 [TUniServerModule]:Starting HTTP Server...
+Project1.exe: 000032AC: 22:31:03 [TUniServerModule]:HTTP Server Started. Port: 8077
+Project1.exe: 000032CC: 22:31:09 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $006FDD52
+Project1.exe: 000026EC: 22:39:13 [HandleFileRequest[127.0.0.1]]:File not found: D:\Delphi\DISCOS\UniGui\demos\Buttons Css\Win32\Debug\favicon.ico
+Project1.exe: 00002E4C: 22:39:22 [127.0.0.1]:Error creating SEQ file:D:\Delphi\DISCOS\UniGui\demos\Buttons Css\Win32\Debug\cache\project1_exe\LT15NIcx2v100A84295\_SEQ\5, Error:3
+Project1.exe: 0000259C: 22:40:09 []:>--------------------------------------------------------------<
+Project1.exe: 0000259C: 22:40:09 [TUniServerModule]:Server First Init.
+Project1.exe: 0000259C: 22:40:09 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 0000259C: 22:40:09 [TUniServerModule]:Starting HTTP Server...
+Project1.exe: 0000259C: 22:40:09 [TUniServerModule]:HTTP Server Started. Port: 8077
+Project1.exe: 00002E14: 22:41:18 []:>--------------------------------------------------------------<
+Project1.exe: 00002E14: 22:41:18 [TUniServerModule]:Server First Init.
+Project1.exe: 00002E14: 22:41:18 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 00002E14: 22:41:18 [TUniServerModule]:Erasing Cache Folder...
+Project1.exe: 00002E14: 22:41:18 [TUniServerModule]:Cache Folder Erased. <2> Files deleted.
+Project1.exe: 00002E14: 22:41:18 [TUniServerModule]:Starting HTTP Server...
+Project1.exe: 00002E14: 22:41:18 [TUniServerModule]:HTTP Server Started. Port: 8077
+Project1.exe: 00001EB8: 22:44:03 [HandleFileRequest[127.0.0.1]]:File not found: D:\Delphi\DISCOS\UniGui\demos\Buttons Css\Win32\Debug\favicon.ico
+Project1.exe: 000036AC: 22:49:55 []:>--------------------------------------------------------------<
+Project1.exe: 000036AC: 22:49:55 [TUniServerModule]:Server First Init.
+Project1.exe: 000036AC: 22:49:55 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 000036AC: 22:49:55 [TUniServerModule]:Erasing Cache Folder...
+Project1.exe: 000036AC: 22:49:55 [TUniServerModule]:Cache Folder Erased. <1> Files deleted.
+Project1.exe: 000036AC: 22:49:55 [TUniServerModule]:Starting HTTP Server...
+Project1.exe: 000036AC: 22:49:55 [TUniServerModule]:HTTP Server Started. Port: 8077
+Project1.exe: 00001DE0: 22:53:27 []:>--------------------------------------------------------------<
+Project1.exe: 00001DE0: 22:53:27 [TUniServerModule]:Server First Init.
+Project1.exe: 00001DE0: 22:53:27 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 00001DE0: 22:53:27 [TUniServerModule]:Erasing Cache Folder...
+Project1.exe: 00001DE0: 22:53:27 [TUniServerModule]:Cache Folder Erased. <3> Files deleted.
+Project1.exe: 00001DE0: 22:53:27 [TUniServerModule]:Starting HTTP Server...
+Project1.exe: 00001DE0: 22:53:27 [TUniServerModule]:HTTP Server Started. Port: 8077
+Project1.exe: 00002F5C: 22:55:59 []:>--------------------------------------------------------------<
+Project1.exe: 00002F5C: 22:55:59 [TUniServerModule]:Server First Init.
+Project1.exe: 00002F5C: 22:55:59 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 00002F5C: 22:55:59 [TUniServerModule]:Erasing Cache Folder...
+Project1.exe: 00002F5C: 22:55:59 [TUniServerModule]:Cache Folder Erased. <3> Files deleted.
+Project1.exe: 00002F5C: 22:55:59 [TUniServerModule]:Starting HTTP Server...
+Project1.exe: 00002F5C: 22:55:59 [TUniServerModule]:HTTP Server Started. Port: 8077
+Project1.exe: 000034C4: 23:06:24 []:>--------------------------------------------------------------<
+Project1.exe: 000034C4: 23:06:24 [TUniServerModule]:Server First Init.
+Project1.exe: 000034C4: 23:06:24 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 000034C4: 23:06:24 [TUniServerModule]:Erasing Cache Folder...
+Project1.exe: 000034C4: 23:06:24 [TUniServerModule]:Cache Folder Erased. <2> Files deleted.
+Project1.exe: 000034C4: 23:06:24 [TUniServerModule]:Starting HTTP Server...
+Project1.exe: 000034C4: 23:06:24 [TUniServerModule]:HTTP Server Started. Port: 8077
+Project1.exe: 00002C30: 23:06:28 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $006FDD52
+Project1.exe: 00002458: 23:06:29 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $006FDD52
+Project1.exe: 00001884: 23:06:33 [HandleFileRequest[127.0.0.1]]:File not found: D:\Delphi\DISCOS\UniGui\demos\Buttons Css\Win32\Debug\favicon.ico
+Project1.exe: 00001E4C: 23:11:58 []:>--------------------------------------------------------------<
+Project1.exe: 00001E4C: 23:11:58 [TUniServerModule]:Server First Init.
+Project1.exe: 00001E4C: 23:11:58 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 00001E4C: 23:11:58 [TUniServerModule]:Erasing Cache Folder...
+Project1.exe: 00001E4C: 23:11:58 [TUniServerModule]:Cache Folder Erased. <2> Files deleted.
+Project1.exe: 00001E4C: 23:11:58 [TUniServerModule]:Starting HTTP Server...
+Project1.exe: 00001E4C: 23:11:58 [TUniServerModule]:HTTP Server Started. Port: 8077
+Project1.exe: 000031B0: 23:12:01 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $006FDD52
