@@ -27,7 +27,7 @@ object frmFrameMenu: TfrmFrameMenu
       Left = 1
       Top = 18
       Width = 200
-      Height = 287
+      Height = 207
       Hint = ''
       ShowHint = True
       TabOrder = 1

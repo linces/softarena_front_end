@@ -23,10 +23,11 @@ type
     UniLabel2: TUniLabel;
     UniLabel3: TUniLabel;
     UniPageControl1: TUniPageControl;
-    UniImage1: TUniImage;
     UniLabel4: TUniLabel;
     UniLabel5: TUniLabel;
     UniBitBtn1: TUniBitBtn;
+    UniPanel1: TUniPanel;
+    UniImage1: TUniImage;
     procedure UniBitBtn1Click(Sender: TObject);
     procedure actSairExecute(Sender: TObject);
     procedure UniImage1Click(Sender: TObject);

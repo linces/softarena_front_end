@@ -22,7 +22,12 @@
 }
 
 .botao-menu-infos {
- background-color: rgb(65, 65, 65) !important;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
 }
 
 .botao-menu-infos:hover {
