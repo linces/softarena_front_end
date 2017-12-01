@@ -1602,9 +1602,20 @@ object MainForm: TMainForm
           359487073C50B6DC0000000049454E44AE426082}
         Align = alClient
         Anchors = [akLeft, akTop, akRight, akBottom]
-        ExplicitLeft = -50
-        ExplicitTop = 2
       end
+    end
+    object UniLabel6: TUniLabel
+      Left = 691
+      Top = 23
+      Width = 103
+      Height = 29
+      Hint = ''
+      ShowHint = True
+      Caption = 'UniLabel6'
+      ParentFont = False
+      Font.Color = clWhite
+      Font.Height = -24
+      TabOrder = 6
     end
   end
   inline frmFrameMenu1: TfrmFrameMenu
@@ -1633,8 +1644,18 @@ object MainForm: TMainForm
         Title = 
           '<i class="fa fa-address-book-o" aria-hidden="true"></i> Cadastro' +
           's'
+        inherited UniButton3: TUniButton
+          OnClick = frmFrameMenu1UniButton3Click
+        end
+        inherited UniButton13: TUniButton
+          OnClick = frmFrameMenu1UniButton13Click
+        end
       end
       inherited UniPanel5: TUniPanel
+        inherited UniButton10: TUniButton
+          ExplicitLeft = 1
+          ExplicitTop = 1
+        end
         inherited UniButton18: TUniButton
           ExplicitLeft = 1
           ExplicitTop = 26
@@ -1664,15 +1685,27 @@ object MainForm: TMainForm
       end
     end
   end
-  object UniPageControl1: TUniPageControl
+  object ControlConteudo: TUniPageControl
     Left = 200
     Top = 76
     Width = 1284
     Height = 768
     Hint = ''
     ShowHint = True
+    ActivePage = Painel
     Align = alClient
     Anchors = [akLeft, akTop, akRight, akBottom]
     TabOrder = 2
+    ExplicitLeft = 206
+    ExplicitTop = 82
+    object Painel: TUniTabSheet
+      Hint = ''
+      ShowHint = True
+      Caption = 'Principal'
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 1284
+      ExplicitHeight = 768
+    end
   end
 end

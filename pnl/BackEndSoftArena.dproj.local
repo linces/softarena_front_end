@@ -1,31 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>2017/11/21 11:03:06.000.609,=F:\OneDrive\softarena\pnl\MainModule.pas</Transaction>
     <Transaction>2017/11/21 11:03:06.000.506,=F:\OneDrive\softarena\pnl\ServerModule.pas</Transaction>
+    <Transaction>2017/11/21 11:03:06.000.609,=F:\OneDrive\softarena\pnl\MainModule.pas</Transaction>
     <Transaction>2017/11/21 11:03:09.000.090,=F:\OneDrive\softarena\pnl\Main.pas</Transaction>
     <Transaction>2017/11/21 11:29:11.000.026,=F:\OneDrive\softarena\pnl\Unit1.pas</Transaction>
-    <Transaction>2017/11/21 11:32:11.000.550,F:\OneDrive\softarena\pnl\Unit1.dfm=F:\OneDrive\softarena\pnl\unLogin.dfm</Transaction>
-    <Transaction>2017/11/21 11:32:11.000.550,F:\OneDrive\softarena\pnl\Unit1.pas=F:\OneDrive\softarena\pnl\unLogin.pas</Transaction>
+    <Transaction>2017/11/21 11:32:11.000.550,F:\OneDrive\softarena\pnl\unLogin.pas=F:\OneDrive\softarena\pnl\Unit1.pas</Transaction>
+    <Transaction>2017/11/21 11:32:11.000.550,F:\OneDrive\softarena\pnl\unLogin.dfm=F:\OneDrive\softarena\pnl\Unit1.dfm</Transaction>
     <Transaction>2017/11/21 14:00:13.000.837,=F:\OneDrive\softarena\pnl\Unit1.pas</Transaction>
-    <Transaction>2017/11/21 14:04:19.000.817,F:\OneDrive\softarena\pnl\unCadastroPadrao.pas=F:\OneDrive\softarena\pnl\Unit1.pas</Transaction>
-    <Transaction>2017/11/21 14:04:19.000.817,F:\OneDrive\softarena\pnl\unCadastroPadrao.dfm=F:\OneDrive\softarena\pnl\Unit1.dfm</Transaction>
+    <Transaction>2017/11/21 14:04:19.000.817,F:\OneDrive\softarena\pnl\Unit1.dfm=F:\OneDrive\softarena\pnl\unCadastroPadrao.dfm</Transaction>
+    <Transaction>2017/11/21 14:04:19.000.817,F:\OneDrive\softarena\pnl\Unit1.pas=F:\OneDrive\softarena\pnl\unCadastroPadrao.pas</Transaction>
     <Transaction>2017/11/21 17:33:46.000.418,F:\OneDrive\softarena\pnl\unLogin.pas=</Transaction>
     <Transaction>2017/11/22 16:16:09.000.721,=F:\OneDrive\softarena\pnl\Unit1.pas</Transaction>
-    <Transaction>2017/11/22 16:17:49.000.718,F:\OneDrive\softarena\pnl\Unit1.dfm=F:\OneDrive\softarena\pnl\unLogin.dfm</Transaction>
-    <Transaction>2017/11/22 16:17:49.000.718,F:\OneDrive\softarena\pnl\Unit1.pas=F:\OneDrive\softarena\pnl\unLogin.pas</Transaction>
+    <Transaction>2017/11/22 16:17:49.000.718,F:\OneDrive\softarena\pnl\unLogin.dfm=F:\OneDrive\softarena\pnl\Unit1.dfm</Transaction>
+    <Transaction>2017/11/22 16:17:49.000.718,F:\OneDrive\softarena\pnl\unLogin.pas=F:\OneDrive\softarena\pnl\Unit1.pas</Transaction>
     <Transaction>2017/11/24 12:38:52.000.507,=F:\OneDrive\softarena\pnl\Unit1.pas</Transaction>
-    <Transaction>2017/11/24 12:41:59.000.969,F:\OneDrive\softarena\pnl\unEsqueciSenha.pas=F:\OneDrive\softarena\pnl\Unit1.pas</Transaction>
-    <Transaction>2017/11/24 12:41:59.000.969,F:\OneDrive\softarena\pnl\unEsqueciSenha.dfm=F:\OneDrive\softarena\pnl\Unit1.dfm</Transaction>
+    <Transaction>2017/11/24 12:41:59.000.969,F:\OneDrive\softarena\pnl\Unit1.pas=F:\OneDrive\softarena\pnl\unEsqueciSenha.pas</Transaction>
+    <Transaction>2017/11/24 12:41:59.000.969,F:\OneDrive\softarena\pnl\Unit1.dfm=F:\OneDrive\softarena\pnl\unEsqueciSenha.dfm</Transaction>
     <Transaction>2017/11/24 13:07:41.000.030,=F:\OneDrive\softarena\pnl\Unit1.pas</Transaction>
-    <Transaction>2017/11/24 13:09:31.000.100,F:\OneDrive\softarena\pnl\unCadastroInicial.pas=F:\OneDrive\softarena\pnl\Unit1.pas</Transaction>
-    <Transaction>2017/11/24 13:09:31.000.100,F:\OneDrive\softarena\pnl\unCadastroInicial.dfm=F:\OneDrive\softarena\pnl\Unit1.dfm</Transaction>
+    <Transaction>2017/11/24 13:09:31.000.100,F:\OneDrive\softarena\pnl\Unit1.pas=F:\OneDrive\softarena\pnl\unCadastroInicial.pas</Transaction>
+    <Transaction>2017/11/24 13:09:31.000.100,F:\OneDrive\softarena\pnl\Unit1.dfm=F:\OneDrive\softarena\pnl\unCadastroInicial.dfm</Transaction>
     <Transaction>2017/11/28 18:28:37.000.985,=F:\OneDrive\softarena\pnl\Unit1.pas</Transaction>
-    <Transaction>2017/11/28 18:29:18.000.769,F:\OneDrive\softarena\pnl\Unit1.pas=F:\OneDrive\softarena\pnl\unFrameMenu.pas</Transaction>
-    <Transaction>2017/11/28 18:29:18.000.769,F:\OneDrive\softarena\pnl\Unit1.dfm=F:\OneDrive\softarena\pnl\unFrameMenu.dfm</Transaction>
+    <Transaction>2017/11/28 18:29:18.000.769,F:\OneDrive\softarena\pnl\unFrameMenu.pas=F:\OneDrive\softarena\pnl\Unit1.pas</Transaction>
+    <Transaction>2017/11/28 18:29:18.000.769,F:\OneDrive\softarena\pnl\unFrameMenu.dfm=F:\OneDrive\softarena\pnl\Unit1.dfm</Transaction>
     <Transaction>2017/11/28 19:12:27.000.407,F:\OneDrive\softarena\pnl\unFrameMenu.pas=</Transaction>
     <Transaction>2017/11/28 19:12:47.000.635,=F:\OneDrive\softarena\pnl\Unit1.pas</Transaction>
-    <Transaction>2017/11/28 19:13:16.000.853,F:\OneDrive\softarena\pnl\Unit1.pas=F:\OneDrive\softarena\pnl\unFrameMenu.pas</Transaction>
-    <Transaction>2017/11/28 19:13:16.000.853,F:\OneDrive\softarena\pnl\Unit1.dfm=F:\OneDrive\softarena\pnl\unFrameMenu.dfm</Transaction>
+    <Transaction>2017/11/28 19:13:16.000.853,F:\OneDrive\softarena\pnl\unFrameMenu.pas=F:\OneDrive\softarena\pnl\Unit1.pas</Transaction>
+    <Transaction>2017/11/28 19:13:16.000.853,F:\OneDrive\softarena\pnl\unFrameMenu.dfm=F:\OneDrive\softarena\pnl\Unit1.dfm</Transaction>
+    <Transaction>2017/12/01 15:00:14.042,=F:\OneDrive\softarena\pnl\Unit1.pas</Transaction>
+    <Transaction>2017/12/01 15:01:35.738,F:\OneDrive\softarena\pnl\unTipoPessoas.pas=F:\OneDrive\softarena\pnl\Unit1.pas</Transaction>
+    <Transaction>2017/12/01 15:01:35.738,F:\OneDrive\softarena\pnl\unTipoPessoas.dfm=F:\OneDrive\softarena\pnl\Unit1.dfm</Transaction>
   </Transactions>
 </BorlandProject>

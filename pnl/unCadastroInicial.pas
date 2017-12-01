@@ -24,7 +24,7 @@ implementation
 {$R *.dfm}
 
 uses
-  MainModule, uniGUIApplication;
+  MainModule, uniGUIApplication, Main;
 
 function frmCadastroInicial: TfrmCadastroInicial;
 begin
@@ -34,6 +34,11 @@ end;
 procedure TfrmCadastroInicial.UniBitBtn1Click(Sender: TObject);
 begin
  Close;
+ if MainForm.ControlConteudo.ActivePage.Caption = 'Cadastro Inicial' then begin
+   MainForm.ControlConteudo.ActivePage.Destroy;
+   MainForm.ControlConteudo.ActivePage := Nil;
+   MainForm.UniTab := Nil;
+ end;
 end;
 
 end.

@@ -17,7 +17,8 @@ uses
   unLogin in 'unLogin.pas' {frmLogin: TUniLoginForm},
   unEsqueciSenha in 'unEsqueciSenha.pas' {frmEsqueciSenha: TUniForm},
   unCadastroInicial in 'unCadastroInicial.pas' {frmCadastroInicial: TUniForm},
-  unFrameMenu in 'unFrameMenu.pas' {frmFrameMenu: TUniFrame};
+  unFrameMenu in 'unFrameMenu.pas' {frmFrameMenu: TUniFrame},
+  unTipoPessoas in 'unTipoPessoas.pas' {frmTipoPessoas: TUniForm};
 
 {$R *.res}
 
@@ -33,6 +34,7 @@ begin
   ReportMemoryLeaksOnShutdown := True;
   Application.Initialize;
   TUniServerModule.Create(Application);
+  Application.CreateForm(TfrmTipoPessoas, frmTipoPessoas);
   Application.Run;
 {$endif}
 end.
