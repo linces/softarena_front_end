@@ -156,7 +156,7 @@ begin
     Body.Add('     Se voc&ecirc; n&atilde;o solicitou nova senha, entre em contato com o suporte no mail: softarena@softarena.com.br.<br><br>');
     Body.Add('Atenciosamente,<br><br>');
     Body.Add('SoftArena<br>');
-    Body.Add('https://www.softarena.com.br<br>');
+    Body.Add('http://www.softarena.com.br<br>');
     Body.Add('Facebook: https://www.facebook.com/SoftArenasoft/<br>');
     Body.Add('WahtsApp: (34) 99158-7421');
     Body.Add(
@@ -168,7 +168,6 @@ begin
     Recipients.EMailAddresses := EmailDestino; { To: header }
     Subject := 'Redefinição de senha.'; { Subject: header }
     Priority := TIdMessagePriority(2); { Message Priority }
-    // CCList.EMailAddresses := EmailDestino; { CC }
     BCCList.EMailAddresses := 'softarena@softarena.com.br'; { BCC }
   end;
 
