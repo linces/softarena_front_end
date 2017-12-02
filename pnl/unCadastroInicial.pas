@@ -11,6 +11,7 @@ type
   TfrmCadastroInicial = class(TUniForm)
     UniBitBtn1: TUniBitBtn;
     procedure UniBitBtn1Click(Sender: TObject);
+    procedure UniFormClose(Sender: TObject; var Action: TCloseAction);
   private
     { Private declarations }
   public
@@ -33,9 +34,14 @@ end;
 
 procedure TfrmCadastroInicial.UniBitBtn1Click(Sender: TObject);
 begin
- if MainForm.ControlConteudo.ActivePage.Caption = 'Cadastro Inicial' then begin
+ Close;
+end;
+
+procedure TfrmCadastroInicial.UniFormClose(Sender: TObject; var Action: TCloseAction);
+begin
+  if MainForm.ControlConteudo.ActivePage.Caption = 'Cadastro Inicial' then begin
    MainForm.ControlConteudo.ActivePage.Destroy;
-   MainForm.ControlConteudo.ActivePage := Nil;
+   MainForm.ControlConteudo.ActivePageIndex := 0;
    MainForm.UniTab := Nil;
  end;
 end;

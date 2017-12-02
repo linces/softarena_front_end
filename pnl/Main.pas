@@ -32,7 +32,10 @@ type
     UniPanel1: TUniPanel;
     UniImage1: TUniImage;
     Painel: TUniTabSheet;
-    UniLabel6: TUniLabel;
+    UniPanel5: TUniPanel;
+    UniPanel4: TUniPanel;
+    UniLabel7: TUniLabel;
+    UniNativeImageList2: TUniNativeImageList;
     procedure UniBitBtn1Click(Sender: TObject);
     procedure actSairExecute(Sender: TObject);
     procedure UniImage1Click(Sender: TObject);
@@ -40,7 +43,6 @@ type
     procedure frmFrameMenu1UniButton3Click(Sender: TObject);
   private
     procedure CriaForm(Form: TUniForm; Titulo: string; itag: integer);
-    function ChecaTabSheet(Nome: String; itag: integer): boolean;
   public
     uniTab: TUniTabSheet;
   end;
@@ -68,12 +70,11 @@ procedure TMainForm.CriaForm(Form: TUniForm; Titulo: string; itag: integer);
 var
   i: integer;
 begin
-
   if not Assigned(uniTab) then begin
-    ChecaTabSheet(Titulo, itag);
     uniTab := TUniTabSheet.Create(ControlConteudo);
     uniTab.PageControl := ControlConteudo;
     uniTab.Caption := Titulo;
+    uniTab.Closable := true;
     ControlConteudo.ActivePage := uniTab;
     ControlConteudo.ActivePage.Tag := itag;
     Form.Parent := uniTab;
@@ -82,30 +83,14 @@ begin
 
 end;
 
-function TMainForm.ChecaTabSheet(Nome : String; itag: integer):boolean;
-var
- i : integer;
-begin
-  result := false;
- for i := 0 to Pred(Self.ComponentCount) do begin
-    if Self.Components[I].ClassType = TUniTabSheet then begin
-      if TUniTabSheet(Self.Components[i]).PageControl.Caption = 'Nome' then begin
-        ShowMessage(Nome);
-        result := true;
-      end;
-    end;
-  end;
-
-end;
-
 procedure TMainForm.frmFrameMenu1UniButton13Click(Sender: TObject);
 begin
-  CriaForm(frmCadastroInicial, 'Cadastro Inicial', 1);
+ CriaForm(frmCadastroInicial, 'Cadastro Inicial', 1);
 end;
 
 procedure TMainForm.frmFrameMenu1UniButton3Click(Sender: TObject);
 begin
-  CriaForm(frmTipoPessoas, 'Tipo Pessoas', 2);
+ CriaForm(frmTipoPessoas, 'Tipo Pessoas', 2);
 end;
 
 procedure TMainForm.UniBitBtn1Click(Sender: TObject);

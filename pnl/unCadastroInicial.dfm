@@ -6,10 +6,10 @@ object frmCadastroInicial: TfrmCadastroInicial
   ClientWidth = 868
   Caption = 'Cadastro Inicial'
   BorderStyle = bsNone
-  WindowState = wsMaximized
   OldCreateOrder = False
   ShowHint = True
-  BorderIcons = []
+  OnClose = UniFormClose
+  BorderIcons = [biSystemMenu]
   MonitoredKeys.Keys = <>
   PixelsPerInch = 96
   TextHeight = 13
@@ -22,7 +22,6 @@ object frmCadastroInicial: TfrmCadastroInicial
     ShowHint = True
     Caption = 'Fechar'
     TabOrder = 0
-    Images = UniMainModule.ImgListCadastros
     ImageIndex = 5
     OnClick = UniBitBtn1Click
   end

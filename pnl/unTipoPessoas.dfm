@@ -1,4 +1,5 @@
 object frmTipoPessoas: TfrmTipoPessoas
+  AlignWithMargins = True
   Left = 0
   Top = 0
   ClientHeight = 299
@@ -6,6 +7,7 @@ object frmTipoPessoas: TfrmTipoPessoas
   Caption = 'frmTipoPessoas'
   OldCreateOrder = False
   MonitoredKeys.Keys = <>
+  AlignmentControl = uniAlignmentClient
   PixelsPerInch = 96
   TextHeight = 13
   object UniButton1: TUniButton

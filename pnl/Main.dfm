@@ -1604,25 +1604,12 @@ object MainForm: TMainForm
         Anchors = [akLeft, akTop, akRight, akBottom]
       end
     end
-    object UniLabel6: TUniLabel
-      Left = 691
-      Top = 23
-      Width = 103
-      Height = 29
-      Hint = ''
-      ShowHint = True
-      Caption = 'UniLabel6'
-      ParentFont = False
-      Font.Color = clWhite
-      Font.Height = -24
-      TabOrder = 6
-    end
   end
   inline frmFrameMenu1: TfrmFrameMenu
     Left = 0
     Top = 76
     Width = 200
-    Height = 768
+    Height = 740
     Margins.Top = 1
     Layout = 'fit'
     ParentAlignmentControl = False
@@ -1636,7 +1623,7 @@ object MainForm: TMainForm
     ExplicitHeight = 768
     inherited UniPanel1: TUniPanel
       Width = 200
-      Height = 768
+      Height = 740
       Margins.Top = 1
       ExplicitWidth = 200
       ExplicitHeight = 768
@@ -1689,17 +1676,88 @@ object MainForm: TMainForm
     Left = 200
     Top = 76
     Width = 1284
-    Height = 768
+    Height = 740
     Hint = ''
     ShowHint = True
     ActivePage = Painel
+    Images = UniNativeImageList2
     Align = alClient
     Anchors = [akLeft, akTop, akRight, akBottom]
     TabOrder = 2
+    ExplicitHeight = 768
     object Painel: TUniTabSheet
       Hint = ''
       ShowHint = True
-      Caption = 'Principal'
+      ImageIndex = 1
+      Caption = ''
+      ExplicitHeight = 740
     end
+  end
+  object UniPanel5: TUniPanel
+    Left = 0
+    Top = 816
+    Width = 1484
+    Height = 28
+    Hint = ''
+    ShowHint = True
+    Align = alBottom
+    Anchors = [akLeft, akRight, akBottom]
+    TabOrder = 3
+    BorderStyle = ubsNone
+    Caption = ''
+    ExplicitLeft = 1
+    ExplicitTop = 818
+    object UniLabel7: TUniLabel
+      Left = 184
+      Top = 0
+      Width = 1300
+      Height = 28
+      Hint = ''
+      ShowHint = True
+      Alignment = taCenter
+      AutoSize = False
+      Caption = #174' SoftArena - 2017                                       '
+      Align = alRight
+      Anchors = [akTop, akRight, akBottom]
+      ParentFont = False
+      Font.Height = -16
+      TabOrder = 2
+      ExplicitLeft = 125
+      ExplicitTop = 2
+    end
+    object UniPanel4: TUniPanel
+      Left = 0
+      Top = 0
+      Width = 201
+      Height = 28
+      Hint = ''
+      ShowHint = True
+      Align = alLeft
+      Anchors = [akLeft, akTop, akBottom]
+      TabOrder = 1
+      BorderStyle = ubsNone
+      Caption = ''
+      Color = 4276545
+    end
+  end
+  object UniNativeImageList2: TUniNativeImageList
+    Left = 80
+    Top = 408
+    Images = {
+      02000000FFFFFF1F025400000047494638396110001000800100005830000000
+      21F90401000001002C000000001000100000022B8C8FA90670BD4283D2298AAF
+      651B614B3DE0C489DC3456273AB66C56BDA817BEF4668B387BEBA4EEA3140000
+      3BFFFFFF1F046601000089504E470D0A1A0A0000000D49484452000000100000
+      00100804000000B5FA37EA0000012D494441542853958F414AC340148673841C
+      A147C811E6081EA137302B97922EDA6E8446DC94224D4B16064588446C5528D3
+      8A60A0A5B1442BC5C55B2845117C7561C5CD6F2641830A82EF63183EDE07C368
+      DAFFE65D5F16D47D27090BF16BFD62DCD28C9F93C5509EE3E167302FC6DC87E4
+      4BCC8BD7468FE6DF03B2421C53C73C353B51881B7BAABFEA5FCB377DEA4BF8F2
+      C81E608013DB973D5CF9CBCFE0C91845013CFBD0EFB2471E7739905E2BC0285A
+      1492F5BDE8B3C76D33A07DB8B4235D7269173EB76D8FCFF8D1D02EACA6D55E39
+      8083069C2470C8A106B6B18756B1698DCDF491586C41516787EA5CE7CCA2FC17
+      B1D880A286CDE4D490599C071351460A9545026536C983B15887A22295556466
+      E33C188A3528AA695095990DF32014AB5094D2A024330BF3E0AFF900C1C9DB3E
+      EAC3CC1B0000000049454E44AE426082}
   end
 end

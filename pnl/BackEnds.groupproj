@@ -1,9 +1,15 @@
 ﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
     <PropertyGroup>
-        <ProjectGuid>{263FF01E-51ED-401A-9842-BC210AC1CD06}</ProjectGuid>
+        <ProjectGuid>{C9C28523-8166-4940-8A13-86253D8D36A5}</ProjectGuid>
     </PropertyGroup>
     <ItemGroup>
         <Projects Include="BackEndSoftArena.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="C:\Program Files (x86)\FMSoft\Framework\uniGUI\Demos\Desktop\AllFeaturesDemo\mdemo.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Buttons Css\Buttons Css\Project1.dproj">
             <Dependencies/>
         </Projects>
     </ItemGroup>
@@ -23,14 +29,32 @@
     <Target Name="BackEndSoftArena:Make">
         <MSBuild Projects="BackEndSoftArena.dproj" Targets="Make"/>
     </Target>
+    <Target Name="mdemo">
+        <MSBuild Projects="C:\Program Files (x86)\FMSoft\Framework\uniGUI\Demos\Desktop\AllFeaturesDemo\mdemo.dproj"/>
+    </Target>
+    <Target Name="mdemo:Clean">
+        <MSBuild Projects="C:\Program Files (x86)\FMSoft\Framework\uniGUI\Demos\Desktop\AllFeaturesDemo\mdemo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="mdemo:Make">
+        <MSBuild Projects="C:\Program Files (x86)\FMSoft\Framework\uniGUI\Demos\Desktop\AllFeaturesDemo\mdemo.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Project1">
+        <MSBuild Projects="Buttons Css\Buttons Css\Project1.dproj"/>
+    </Target>
+    <Target Name="Project1:Clean">
+        <MSBuild Projects="Buttons Css\Buttons Css\Project1.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Project1:Make">
+        <MSBuild Projects="Buttons Css\Buttons Css\Project1.dproj" Targets="Make"/>
+    </Target>
     <Target Name="Build">
-        <CallTarget Targets="BackEndSoftArena"/>
+        <CallTarget Targets="BackEndSoftArena;mdemo;Project1"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="BackEndSoftArena:Clean"/>
+        <CallTarget Targets="BackEndSoftArena:Clean;mdemo:Clean;Project1:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="BackEndSoftArena:Make"/>
+        <CallTarget Targets="BackEndSoftArena:Make;mdemo:Make;Project1:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>

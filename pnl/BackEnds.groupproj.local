@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions/>
-  <Default.Personality>
-    <Projects ActiveProject="F:\OneDrive\softarena\pnl\BackEndSoftArena.dproj"/>
-  </Default.Personality>
+	<Transactions>
+    <Transaction>2017/12/02 12:55:44.000.373,C:\Users\Linces Marques\Documents\Embarcadero\Studio\Projects\ProjectGroup1.groupproj=F:\OneDrive\softarena\pnl\BackEnds.groupproj</Transaction>
+  </Transactions>
+	<Default.Personality>
+		<Projects ActiveProject="F:\OneDrive\softarena\pnl\BackEndSoftArena.dproj"/>
+	</Default.Personality>
 </BorlandProject>
