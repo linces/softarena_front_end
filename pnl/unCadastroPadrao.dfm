@@ -24,8 +24,8 @@ object frmCadastroPadrao: TfrmCadastroPadrao
     object btnIncluir: TUniButton
       Left = 3
       Top = 3
-      Width = 94
-      Height = 63
+      Width = 60
+      Height = 60
       Hint = ''
       Caption = '&Incluir'
       TabOrder = 1
@@ -34,50 +34,50 @@ object frmCadastroPadrao: TfrmCadastroPadrao
       OnClick = btnIncluirClick
     end
     object btnAlterar: TUniButton
-      Left = 103
-      Top = 16
-      Width = 75
-      Height = 25
+      Left = 69
+      Top = 3
+      Width = 60
+      Height = 60
       Hint = ''
       Caption = 'btnAlterar'
       TabOrder = 2
       OnClick = btnAlterarClick
     end
     object btnSalvar: TUniButton
-      Left = 246
-      Top = 16
-      Width = 75
-      Height = 25
+      Left = 201
+      Top = 3
+      Width = 60
+      Height = 60
       Hint = ''
       Caption = 'btnSalvar'
       TabOrder = 3
       OnClick = btnSalvarClick
     end
     object btnCancelar: TUniButton
-      Left = 165
-      Top = 16
-      Width = 75
-      Height = 25
+      Left = 135
+      Top = 3
+      Width = 60
+      Height = 60
       Hint = ''
       Caption = 'btnCancelar'
       TabOrder = 4
       OnClick = btnCancelarClick
     end
     object btnExcluir: TUniButton
-      Left = 327
-      Top = 16
-      Width = 75
-      Height = 25
+      Left = 267
+      Top = 6
+      Width = 60
+      Height = 60
       Hint = ''
       Caption = 'btnExcluir'
       TabOrder = 5
       OnClick = btnExcluirClick
     end
     object btnConsultar: TUniButton
-      Left = 486
-      Top = 15
-      Width = 75
-      Height = 25
+      Left = 399
+      Top = 6
+      Width = 60
+      Height = 60
       Hint = ''
       Caption = 'btnConsultar'
       TabOrder = 6
@@ -94,23 +94,14 @@ object frmCadastroPadrao: TfrmCadastroPadrao
       OnClick = btnSairClick
     end
     object btnFiltrar: TUniButton
-      Left = 405
-      Top = 17
-      Width = 75
-      Height = 25
+      Left = 333
+      Top = 6
+      Width = 60
+      Height = 60
       Hint = ''
       Caption = 'btnFiltrar'
       TabOrder = 7
       OnClick = btnFiltrarClick
-    end
-    object UniBitBtn1: TUniBitBtn
-      Left = 616
-      Top = 40
-      Width = 75
-      Height = 25
-      Hint = ''
-      Caption = 'UniBitBtn1'
-      TabOrder = 9
     end
   end
   object UniPanel2: TUniPanel

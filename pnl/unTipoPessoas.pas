@@ -3,33 +3,36 @@ unit unTipoPessoas;
 interface
 
 uses
-  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, unCadastroPadrao, Data.DB, uniLabel, uniBitBtn, uniButton,
-  uniGUIBaseClasses, uniGUIClasses, uniPanel;
+  Windows, Messages, SysUtils, Variants, Classes, Graphics,
+  Controls, Forms, uniGUITypes, uniGUIAbstractClasses,
+  uniGUIClasses, uniGUIForm, uniGUIBaseClasses, uniButton;
 
 type
-  TfrmTipoPessoas = class(TfrmCadastroPadrao)
-    procedure btnSairClick(Sender: TObject);
+  TfrmTipoPessoas = class(TUniForm)
+    UniButton1: TUniButton;
+    procedure UniButton1Click(Sender: TObject);
   private
     { Private declarations }
   public
     { Public declarations }
   end;
 
-var
-  frmTipoPessoas: TfrmTipoPessoas;
+function frmTipoPessoas: TfrmTipoPessoas;
 
 implementation
 
-uses
-  Main;
-
 {$R *.dfm}
 
-procedure TfrmTipoPessoas.btnSairClick(Sender: TObject);
+uses
+  MainModule, uniGUIApplication, Main;
+
+function frmTipoPessoas: TfrmTipoPessoas;
 begin
-  inherited;
- Close;
+  Result := TfrmTipoPessoas(UniMainModule.GetFormInstance(TfrmTipoPessoas));
+end;
+
+procedure TfrmTipoPessoas.UniButton1Click(Sender: TObject);
+begin
  if MainForm.ControlConteudo.ActivePage.Caption = 'Tipo Pessoas' then begin
    MainForm.ControlConteudo.ActivePage.Destroy;
    MainForm.ControlConteudo.ActivePage := Nil;

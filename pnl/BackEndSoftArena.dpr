@@ -34,7 +34,6 @@ begin
   ReportMemoryLeaksOnShutdown := True;
   Application.Initialize;
   TUniServerModule.Create(Application);
-  Application.CreateForm(TfrmTipoPessoas, frmTipoPessoas);
   Application.Run;
 {$endif}
 end.

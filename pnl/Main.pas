@@ -40,6 +40,7 @@ type
     procedure frmFrameMenu1UniButton3Click(Sender: TObject);
   private
     procedure CriaForm(Form: TUniForm; Titulo: string; itag: integer);
+    function ChecaTabSheet(Nome: String; itag: integer): boolean;
   public
     uniTab: TUniTabSheet;
   end;
@@ -65,21 +66,35 @@ end;
 
 procedure TMainForm.CriaForm(Form: TUniForm; Titulo: string; itag: integer);
 var
- i: integer;
+  i: integer;
 begin
 
-if ControlConteudo.tag <> itag then begin
-//if not Assigned(uniTab) and (ControlConteudo.tag <> itag ) then begin
-  uniTab := TUniTabSheet.Create(ControlConteudo);
-  uniTab.PageControl := ControlConteudo;
-  uniTab.Caption := Titulo;
-  ControlConteudo.Tag := itag;
-  ControlConteudo.ActivePage := uniTab;
-  ShowMessage('Tag: '+inttostr(ControlConteudo.Tag));
-  Form.Parent := uniTab;
-  Form.Show();
- end;
+  if not Assigned(uniTab) then begin
+    ChecaTabSheet(Titulo, itag);
+    uniTab := TUniTabSheet.Create(ControlConteudo);
+    uniTab.PageControl := ControlConteudo;
+    uniTab.Caption := Titulo;
+    ControlConteudo.ActivePage := uniTab;
+    ControlConteudo.ActivePage.Tag := itag;
+    Form.Parent := uniTab;
+    Form.Show();
+  end;
 
+end;
+
+function TMainForm.ChecaTabSheet(Nome : String; itag: integer):boolean;
+var
+ i : integer;
+begin
+  result := false;
+ for i := 0 to Pred(Self.ComponentCount) do begin
+    if Self.Components[I].ClassType = TUniTabSheet then begin
+      if TUniTabSheet(Self.Components[i]).PageControl.Caption = 'Nome' then begin
+        ShowMessage(Nome);
+        result := true;
+      end;
+    end;
+  end;
 
 end;
 

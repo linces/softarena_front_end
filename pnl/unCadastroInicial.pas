@@ -33,7 +33,6 @@ end;
 
 procedure TfrmCadastroInicial.UniBitBtn1Click(Sender: TObject);
 begin
- Close;
  if MainForm.ControlConteudo.ActivePage.Caption = 'Cadastro Inicial' then begin
    MainForm.ControlConteudo.ActivePage.Destroy;
    MainForm.ControlConteudo.ActivePage := Nil;

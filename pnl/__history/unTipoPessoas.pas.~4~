@@ -1,0 +1,33 @@
+unit unTipoPessoas;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics,
+  Controls, Forms, uniGUITypes, uniGUIAbstractClasses,
+  uniGUIClasses, uniGUIForm, uniGUIBaseClasses, uniButton;
+
+type
+  TfrmTipoPessoas = class(TUniForm)
+    UniButton1: TUniButton;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+function frmTipoPessoas: TfrmTipoPessoas;
+
+implementation
+
+{$R *.dfm}
+
+uses
+  MainModule, uniGUIApplication;
+
+function frmTipoPessoas: TfrmTipoPessoas;
+begin
+  Result := TfrmTipoPessoas(UniMainModule.GetFormInstance(TfrmTipoPessoas));
+end;
+
+end.

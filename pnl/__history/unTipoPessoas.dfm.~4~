@@ -1,0 +1,13 @@
+inherited frmTipoPessoas: TfrmTipoPessoas
+  Caption = 'Tipo Pessoas'
+  PixelsPerInch = 96
+  TextHeight = 13
+  inherited UniPanel1: TUniPanel
+    inherited UniBitBtn1: TUniBitBtn
+      Left = 584
+      Top = 16
+      ExplicitLeft = 584
+      ExplicitTop = 16
+    end
+  end
+end

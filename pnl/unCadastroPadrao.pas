@@ -25,7 +25,6 @@ type
     dsCadastro: TDataSource;
     UniPanel2: TUniPanel;
     UniLabel1: TUniLabel;
-    UniBitBtn1: TUniBitBtn;
     procedure btnIncluirClick(Sender: TObject);
     procedure btnAlterarClick(Sender: TObject);
     procedure btnSalvarClick(Sender: TObject);
