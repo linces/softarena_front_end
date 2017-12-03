@@ -12,6 +12,9 @@
         <Projects Include="Buttons Css\Buttons Css\Project1.dproj">
             <Dependencies/>
         </Projects>
+        <Projects Include="C:\Users\Linces Marques\Downloads\Exemplo Unigui + Bootstrap\Exemplo_Sharing.dproj">
+            <Dependencies/>
+        </Projects>
     </ItemGroup>
     <ProjectExtensions>
         <Borland.Personality>Default.Personality.12</Borland.Personality>
@@ -47,14 +50,23 @@
     <Target Name="Project1:Make">
         <MSBuild Projects="Buttons Css\Buttons Css\Project1.dproj" Targets="Make"/>
     </Target>
+    <Target Name="Exemplo_Sharing">
+        <MSBuild Projects="C:\Users\Linces Marques\Downloads\Exemplo Unigui + Bootstrap\Exemplo_Sharing.dproj"/>
+    </Target>
+    <Target Name="Exemplo_Sharing:Clean">
+        <MSBuild Projects="C:\Users\Linces Marques\Downloads\Exemplo Unigui + Bootstrap\Exemplo_Sharing.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Exemplo_Sharing:Make">
+        <MSBuild Projects="C:\Users\Linces Marques\Downloads\Exemplo Unigui + Bootstrap\Exemplo_Sharing.dproj" Targets="Make"/>
+    </Target>
     <Target Name="Build">
-        <CallTarget Targets="BackEndSoftArena;mdemo;Project1"/>
+        <CallTarget Targets="BackEndSoftArena;mdemo;Project1;Exemplo_Sharing"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="BackEndSoftArena:Clean;mdemo:Clean;Project1:Clean"/>
+        <CallTarget Targets="BackEndSoftArena:Clean;mdemo:Clean;Project1:Clean;Exemplo_Sharing:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="BackEndSoftArena:Make;mdemo:Make;Project1:Make"/>
+        <CallTarget Targets="BackEndSoftArena:Make;mdemo:Make;Project1:Make;Exemplo_Sharing:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>

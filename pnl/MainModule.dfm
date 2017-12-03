@@ -443,14 +443,17 @@ object UniMainModule: TUniMainModule
   Height = 226
   Width = 354
   object Conexao: TFDConnection
+    ConnectionName = 'mmmysal'
     Params.Strings = (
-      'User_Name=saadm'
+      'User_Name=linces'
       'Password=Secnil12345'
-      'Server=165.227.66.145'
+      'Server=mysql762.umbler.com'
       'Database=saadm'
       'UseSSL=True'
+      'Port=41890'
       'DriverID=MySQL')
     ConnectedStoredUsage = []
+    Connected = True
     LoginPrompt = False
     Left = 40
     Top = 40
@@ -459,7 +462,7 @@ object UniMainModule: TUniMainModule
     Left = 120
     Top = 40
     Bitmap = {
-      494C010110001800240010001000FFFFFFFF2110FFFFFFFFFFFFFFFF424D3600
+      494C010110001800280010001000FFFFFFFF2110FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000400000005000000001002000000000000050
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000

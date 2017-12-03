@@ -1609,7 +1609,7 @@ object MainForm: TMainForm
     Left = 0
     Top = 76
     Width = 200
-    Height = 740
+    Height = 768
     Margins.Top = 1
     Layout = 'fit'
     ParentAlignmentControl = False
@@ -1623,14 +1623,16 @@ object MainForm: TMainForm
     ExplicitHeight = 768
     inherited UniPanel1: TUniPanel
       Width = 200
-      Height = 740
+      Height = 768
       Margins.Top = 1
       ExplicitWidth = 200
       ExplicitHeight = 768
       inherited UniPanel2: TUniPanel
+        Top = 19
         Title = 
           '<i class="fa fa-address-book-o" aria-hidden="true"></i> Cadastro' +
           's'
+        ExplicitTop = 19
         inherited UniButton3: TUniButton
           OnClick = frmFrameMenu1UniButton3Click
         end
@@ -1676,7 +1678,7 @@ object MainForm: TMainForm
     Left = 200
     Top = 76
     Width = 1284
-    Height = 740
+    Height = 768
     Hint = ''
     ShowHint = True
     ActivePage = Painel
@@ -1684,60 +1686,11 @@ object MainForm: TMainForm
     Align = alClient
     Anchors = [akLeft, akTop, akRight, akBottom]
     TabOrder = 2
-    ExplicitHeight = 768
     object Painel: TUniTabSheet
       Hint = ''
       ShowHint = True
       ImageIndex = 1
       Caption = ''
-      ExplicitHeight = 740
-    end
-  end
-  object UniPanel5: TUniPanel
-    Left = 0
-    Top = 816
-    Width = 1484
-    Height = 28
-    Hint = ''
-    ShowHint = True
-    Align = alBottom
-    Anchors = [akLeft, akRight, akBottom]
-    TabOrder = 3
-    BorderStyle = ubsNone
-    Caption = ''
-    ExplicitLeft = 1
-    ExplicitTop = 818
-    object UniLabel7: TUniLabel
-      Left = 184
-      Top = 0
-      Width = 1300
-      Height = 28
-      Hint = ''
-      ShowHint = True
-      Alignment = taCenter
-      AutoSize = False
-      Caption = #174' SoftArena - 2017                                       '
-      Align = alRight
-      Anchors = [akTop, akRight, akBottom]
-      ParentFont = False
-      Font.Height = -16
-      TabOrder = 2
-      ExplicitLeft = 125
-      ExplicitTop = 2
-    end
-    object UniPanel4: TUniPanel
-      Left = 0
-      Top = 0
-      Width = 201
-      Height = 28
-      Hint = ''
-      ShowHint = True
-      Align = alLeft
-      Anchors = [akLeft, akTop, akBottom]
-      TabOrder = 1
-      BorderStyle = ubsNone
-      Caption = ''
-      Color = 4276545
     end
   end
   object UniNativeImageList2: TUniNativeImageList

@@ -32,9 +32,6 @@ type
     UniPanel1: TUniPanel;
     UniImage1: TUniImage;
     Painel: TUniTabSheet;
-    UniPanel5: TUniPanel;
-    UniPanel4: TUniPanel;
-    UniLabel7: TUniLabel;
     UniNativeImageList2: TUniNativeImageList;
     procedure UniBitBtn1Click(Sender: TObject);
     procedure actSairExecute(Sender: TObject);
@@ -43,8 +40,10 @@ type
     procedure frmFrameMenu1UniButton3Click(Sender: TObject);
   private
     procedure CriaForm(Form: TUniForm; Titulo: string; itag: integer);
+
   public
     uniTab: TUniTabSheet;
+    idtabc : Integer;
   end;
 
 function MainForm: TMainForm;
@@ -68,20 +67,76 @@ end;
 
 procedure TMainForm.CriaForm(Form: TUniForm; Titulo: string; itag: integer);
 var
-  i: integer;
+  nd, i: integer;
+  TS: TUniTabSheet;
+  Nome : string;
 begin
-  if not Assigned(uniTab) then begin
-    uniTab := TUniTabSheet.Create(ControlConteudo);
+   nd := itag;
+   Nome := Form.Name;
+   TS := uniTab;
+  for i := 0 to Pred(MainForm.ComponentCount) do begin
+
+    if MainForm.Components[i].ClassType = TUniTabSheet then begin
+      if TUniTabSheet(MainForm.Components[i]).Name = Form.Name then begin
+        Break
+      end
+      else begin
+          uniTab := TUniTabSheet.Create(ControlConteudo);
     uniTab.PageControl := ControlConteudo;
     uniTab.Caption := Titulo;
     uniTab.Closable := true;
-    ControlConteudo.ActivePage := uniTab;
-    ControlConteudo.ActivePage.Tag := itag;
-    Form.Parent := uniTab;
+    uniTab.PageControl.ActivePage.Name := Form.Name;
+//    uniTab.PageControl.ActivePage.Tag := itag;
+
+      uniTab.PageControl.ActivePage := uniTab;
+          Form.Parent := uniTab;
     Form.Show();
+      end;
+
+    end;
   end;
 
-end;
+
+
+ end;
+
+
+//procedure TMainForm.CriaForm2(Sender: TObject);
+//var
+//  Nd : TUniButton;
+//  Ts : TUniTabSheet;
+//  FrC : TUniFrameClass;
+//  Fr : TUniFrame;
+//  FClassName, Path: string;
+//begin
+//  Nd := Tob.;
+//  if Nd.Count = 0 then
+//  begin
+//    Ts := Nd.Data;
+//    if not Assigned(Ts) then
+//    begin
+//      Ts := TUniTabSheet.Create(Self);
+//      Ts.PageControl := UniPageControl1;
+//
+//      Ts.Closable := True;
+//      Ts.OnClose := TabSheetClose;
+//      Ts.Tag := NativeInt(Nd);
+//      Ts.Caption := Nd.Text;
+//      Ts.ImageIndex := Nd.ImageIndex;
+//
+//      FClassName := 'TUni' + FileNames.Values[Nd.Text];
+//
+//      FrC := TUniFrameClass(FindClass(FClassName));
+//
+//      Fr := FrC.Create(Self);
+//      Fr.Align := alClient;
+//      Fr.Parent := Ts;
+//
+//      Nd.Data := Ts;
+//    end;
+//    UniPageControl1.ActivePage := Ts;
+//  end;
+//end;
 
 procedure TMainForm.frmFrameMenu1UniButton13Click(Sender: TObject);
 begin

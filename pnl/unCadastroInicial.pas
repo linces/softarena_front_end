@@ -42,7 +42,7 @@ begin
   if MainForm.ControlConteudo.ActivePage.Caption = 'Cadastro Inicial' then begin
    MainForm.ControlConteudo.ActivePage.Destroy;
    MainForm.ControlConteudo.ActivePageIndex := 0;
-   MainForm.UniTab := Nil;
+
  end;
 end;
 

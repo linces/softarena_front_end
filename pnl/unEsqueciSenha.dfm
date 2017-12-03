@@ -148,6 +148,7 @@ object frmEsqueciSenha: TfrmEsqueciSenha
   end
   object fdEmail: TFDQuery
     CachedUpdates = True
+    Connection = UniMainModule.Conexao
     SQL.Strings = (
       'select id, username, email, password from usuarios')
     Left = 476

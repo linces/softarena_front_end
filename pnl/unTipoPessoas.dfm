@@ -6,12 +6,13 @@ object frmTipoPessoas: TfrmTipoPessoas
   ClientWidth = 852
   Caption = 'frmTipoPessoas'
   OldCreateOrder = False
+  OnClose = UniFormClose
   MonitoredKeys.Keys = <>
   AlignmentControl = uniAlignmentClient
   PixelsPerInch = 96
   TextHeight = 13
   object UniButton1: TUniButton
-    Left = 360
+    Left = 368
     Top = 112
     Width = 75
     Height = 25

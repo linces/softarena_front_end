@@ -11,6 +11,7 @@ type
   TfrmTipoPessoas = class(TUniForm)
     UniButton1: TUniButton;
     procedure UniButton1Click(Sender: TObject);
+    procedure UniFormClose(Sender: TObject; var Action: TCloseAction);
   private
     { Private declarations }
   public
@@ -33,11 +34,18 @@ end;
 
 procedure TfrmTipoPessoas.UniButton1Click(Sender: TObject);
 begin
+Close;
+end;
+
+
+procedure TfrmTipoPessoas.UniFormClose(Sender: TObject; var Action: TCloseAction);
+begin
  if MainForm.ControlConteudo.ActivePage.Caption = 'Tipo Pessoas' then begin
    MainForm.ControlConteudo.ActivePage.Destroy;
-   MainForm.ControlConteudo.ActivePage := Nil;
-   MainForm.UniTab := Nil;
+ //  MainForm.ControlConteudo.ActivePage := Nil;
+  // MainForm.UniTab := Nil;
  end;
+
 end;
 
 end.
