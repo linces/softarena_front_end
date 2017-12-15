@@ -1,0 +1,16 @@
+BackEndSoftArena.exe: 0000072C: 14:35:19 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 0000072C: 14:35:19 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 0000072C: 14:35:19 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 0000072C: 14:35:19 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+BackEndSoftArena.exe: 0000072C: 14:35:19 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 0000072C: 14:35:19 [TUniServerModule]:HTTP Server Started. Port: 8077
+BackEndSoftArena.exe: 0000072C: 14:35:22 [TUniServerModule]:Shutting Down Server.
+BackEndSoftArena.exe: 0000072C: 14:35:23 [TUniServerModule]:HTTP Server Stopped.
+BackEndSoftArena.exe: 0000072C: 14:35:23 [TUniGUISessionManager]:Terminating Session manager.
+BackEndSoftArena.exe: 0000072C: 14:35:23 [TUniGUISessionManager]:Stopping Cache Eraser...
+BackEndSoftArena.exe: 0000072C: 14:35:23 [TUniGUISessionManager]:Cache Eraser Stopped.
+BackEndSoftArena.exe: 0000072C: 14:35:23 [TUniGUISessionManager]:Destroying Worker Threads.
+BackEndSoftArena.exe: 0000072C: 14:35:23 [TUniGUISessionManager]:Session manager terminated.
+BackEndSoftArena.exe: 0000072C: 14:35:23 [TUniServerModule]:Server Shutdown Completed.
+BackEndSoftArena.exe: 0000072C: 14:35:23 []:<-------------------------------------------------------------->
+BackEndSoftArena.exe: 0000072C: 14:35:23 [Terminated]:Exit Code: 0

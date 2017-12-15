@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2017/12/08 14:33:23.022,=F:\OneDrive\softarena\pnl\ServerModule.pas</Transaction>
+    <Transaction>2017/12/08 14:33:23.134,=F:\OneDrive\softarena\pnl\MainModule.pas</Transaction>
+    <Transaction>2017/12/08 14:33:23.516,=F:\OneDrive\softarena\pnl\Main.pas</Transaction>
+    <Transaction>2017/12/08 14:33:41.907,F:\OneDrive\softarena\pnl\Main.pas=</Transaction>
+    <Transaction>2017/12/08 14:33:42.130,F:\OneDrive\softarena\pnl\MainModule.pas=</Transaction>
+    <Transaction>2017/12/08 14:33:42.178,F:\OneDrive\softarena\pnl\ServerModule.pas=</Transaction>
+    <Transaction>2017/12/08 14:34:06.918,=F:\OneDrive\softarena\pnl\Main.pas</Transaction>
+    <Transaction>2017/12/08 14:35:54.411,F:\OneDrive\softarena\pnl\besa\besa.dproj=F:\OneDrive\softarena\pnl\besa.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

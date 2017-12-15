@@ -1,0 +1,59 @@
+BackEndSoftArena.exe: 00000A38: 19:31:09 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 00000A38: 19:31:09 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 00000A38: 19:31:09 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 00000A38: 19:31:09 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+BackEndSoftArena.exe: 00000A38: 19:31:10 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 00000A38: 19:31:10 [TUniServerModule]:HTTP Server Started. Port: 8077
+BackEndSoftArena.exe: 00000A38: 19:31:14 [TUniServerModule]:Shutting Down Server.
+BackEndSoftArena.exe: 00000A38: 19:31:14 [TUniServerModule]:HTTP Server Stopped.
+BackEndSoftArena.exe: 00000A38: 19:31:14 [TUniGUISessionManager]:Terminating Session manager.
+BackEndSoftArena.exe: 00000A38: 19:31:14 [TUniGUISessionManager]:Stopping Cache Eraser...
+BackEndSoftArena.exe: 00000A38: 19:31:14 [TUniGUISessionManager]:Cache Eraser Stopped.
+BackEndSoftArena.exe: 00000A38: 19:31:14 [TUniGUISessionManager]:Destroying Worker Threads.
+BackEndSoftArena.exe: 00000A38: 19:31:14 [TUniGUISessionManager]:Session manager terminated.
+BackEndSoftArena.exe: 00000A38: 19:31:14 [TUniServerModule]:Server Shutdown Completed.
+BackEndSoftArena.exe: 00000A38: 19:31:14 []:<-------------------------------------------------------------->
+BackEndSoftArena.exe: 00000A38: 19:31:14 [Terminated]:Exit Code: 0
+BackEndSoftArena.exe: 00000E2C: 19:35:37 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 00000E2C: 19:35:37 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 00000E2C: 19:35:37 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 00000E2C: 19:35:37 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+BackEndSoftArena.exe: 00000E2C: 19:35:37 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 00000E2C: 19:35:37 [TUniServerModule]:HTTP Server Started. Port: 8077
+BackEndSoftArena.exe: 00000B98: 19:36:15 [HandleFileRequest[127.0.0.1]]:Access denied: fontawesome-webfont.woff2.
+BackEndSoftArena.exe: 0000328C: 19:36:16 [HandleFileRequest[127.0.0.1]]:Access denied: fontawesome-webfont.woff.
+BackEndSoftArena.exe: 00000B98: 19:36:16 [HandleFileRequest[127.0.0.1]]:Access denied: fontawesome-webfont.ttf.
+BackEndSoftArena.exe: 00003260: 19:37:13 [127.0.0.1]:EAccessViolation : Access violation at address 0090D684 in module 'BackEndSoftArena.exe'. Read of address 00000000 : Addr: $0090D684
+BackEndSoftArena.exe: 00003260: 19:43:34 [127.0.0.1]:EAccessViolation : Access violation at address 0090D684 in module 'BackEndSoftArena.exe'. Read of address 00000000 : Addr: $0090D684
+BackEndSoftArena.exe: 00003690: 20:02:53 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $00771102
+BackEndSoftArena.exe: 00000E2C: 20:33:53 [TUniServerModule]:Shutting Down Server.
+BackEndSoftArena.exe: 00000E2C: 20:33:53 [TUniServerModule]:HTTP Server Stopped.
+BackEndSoftArena.exe: 00000E2C: 20:33:53 [TUniGUISessionManager]:Terminating Session manager.
+BackEndSoftArena.exe: 00000E2C: 20:33:53 [TUniGUISessionManager]:Stopping Cache Eraser...
+BackEndSoftArena.exe: 00000E2C: 20:33:53 [TUniGUISessionManager]:Cache Eraser Stopped.
+BackEndSoftArena.exe: 00000E2C: 20:33:53 [TUniGUISessionManager]:Destroying Worker Threads.
+BackEndSoftArena.exe: 00000E2C: 20:33:53 [TUniGUISessionManager]:Session manager terminated.
+BackEndSoftArena.exe: 00000E2C: 20:33:53 [TUniServerModule]:Server Shutdown Completed.
+BackEndSoftArena.exe: 00000E2C: 20:33:53 []:<-------------------------------------------------------------->
+BackEndSoftArena.exe: 00000E2C: 20:33:53 [Terminated]:Exit Code: 0
+BackEndSoftArena.exe: 00002FE0: 20:47:25 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 00002FE0: 20:47:25 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 00002FE0: 20:47:25 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 00002FE0: 20:47:25 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+BackEndSoftArena.exe: 00002FE0: 20:47:25 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 00002FE0: 20:47:25 [TUniServerModule]:HTTP Server Started. Port: 8077
+BackEndSoftArena.exe: 00002EC4: 20:47:30 [HandleFileRequest[127.0.0.1]]:Access denied: fontawesome-webfont.woff2.
+BackEndSoftArena.exe: 000033C0: 20:47:30 [HandleFileRequest[127.0.0.1]]:Access denied: fontawesome-webfont.woff.
+BackEndSoftArena.exe: 00002EC4: 20:47:30 [HandleFileRequest[127.0.0.1]]:Access denied: fontawesome-webfont.ttf.
+BackEndSoftArena.exe: 00002EC4: 20:47:30 [HandleFileRequest[127.0.0.1]]:Access denied: fontawesome-webfont.woff2.
+BackEndSoftArena.exe: 00002EC4: 20:47:30 [HandleFileRequest[127.0.0.1]]:Access denied: fontawesome-webfont.woff.
+BackEndSoftArena.exe: 00002EC4: 20:47:30 [HandleFileRequest[127.0.0.1]]:Access denied: fontawesome-webfont.ttf.
+BackEndSoftArena.exe: 00003888: 20:47:37 [127.0.0.1]:EReadError : Error reading FButton.ClientHeight: Property ClientHeight does not exist : Addr: $004C0400
+BackEndSoftArena.exe: 00003888: 20:47:58 [127.0.0.1]:EReadError : Error reading FButton.ClientHeight: Property ClientHeight does not exist : Addr: $004C0400
+BackEndSoftArena.exe: 00002440: 21:00:08 [HandleFileRequest[127.0.0.1]]:Access denied: fontawesome-webfont.woff2.
+BackEndSoftArena.exe: 000038D0: 21:00:08 [HandleFileRequest[127.0.0.1]]:Access denied: fontawesome-webfont.woff.
+BackEndSoftArena.exe: 000038D0: 21:00:08 [HandleFileRequest[127.0.0.1]]:Access denied: fontawesome-webfont.ttf.
+BackEndSoftArena.exe: 000038D0: 21:00:08 [HandleFileRequest[127.0.0.1]]:Access denied: fontawesome-webfont.woff2.
+BackEndSoftArena.exe: 000038D0: 21:00:08 [HandleFileRequest[127.0.0.1]]:Access denied: fontawesome-webfont.woff.
+BackEndSoftArena.exe: 000038D0: 21:00:08 [HandleFileRequest[127.0.0.1]]:Access denied: fontawesome-webfont.ttf.
+BackEndSoftArena.exe: 00001EA0: 21:23:50 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $0077185A

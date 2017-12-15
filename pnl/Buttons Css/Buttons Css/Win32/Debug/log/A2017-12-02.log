@@ -1,0 +1,33 @@
+Project1.exe: 000027D8: 19:31:16 []:>--------------------------------------------------------------<
+Project1.exe: 000027D8: 19:31:16 [TUniServerModule]:Server First Init.
+Project1.exe: 000027D8: 19:31:16 [TUniServerModule]:Erasing Cache Folder...
+Project1.exe: 000027D8: 19:31:16 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+Project1.exe: 000027D8: 19:31:16 [TUniServerModule]:Starting HTTP Server...
+Project1.exe: 000027D8: 19:31:16 [InitWebServer]:EIdCouldNotBindSocket : Could not bind socket. Address and port are already in use. : Addr: $006631CD
+Project1.exe: 000027D8: 19:31:22 [TUniServerModule]:Shutting Down Server.
+Project1.exe: 000027D8: 19:31:23 [TUniServerModule]:HTTP Server Stopped.
+Project1.exe: 000027D8: 19:31:23 [TUniGUISessionManager]:Terminating Session manager.
+Project1.exe: 000027D8: 19:31:23 [TUniGUISessionManager]:Stopping Cache Eraser...
+Project1.exe: 000027D8: 19:31:23 [TUniGUISessionManager]:Cache Eraser Stopped.
+Project1.exe: 000027D8: 19:31:23 [TUniGUISessionManager]:Destroying Worker Threads.
+Project1.exe: 000027D8: 19:31:23 [TUniGUISessionManager]:Session manager terminated.
+Project1.exe: 000027D8: 19:31:23 [TUniServerModule]:Server Shutdown Completed.
+Project1.exe: 000027D8: 19:31:23 []:<-------------------------------------------------------------->
+Project1.exe: 000027D8: 19:31:23 [Terminated]:Exit Code: 0
+Project1.exe: 00000600: 19:31:31 []:>--------------------------------------------------------------<
+Project1.exe: 00000600: 19:31:31 [TUniServerModule]:Server First Init.
+Project1.exe: 00000600: 19:31:31 [TUniServerModule]:Erasing Cache Folder...
+Project1.exe: 00000600: 19:31:31 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+Project1.exe: 00000600: 19:31:31 [TUniServerModule]:Starting HTTP Server...
+Project1.exe: 00000600: 19:31:31 [TUniServerModule]:HTTP Server Started. Port: 8077
+Project1.exe: 00001314: 19:31:42 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $006FDD52
+Project1.exe: 00000600: 20:00:11 [TUniServerModule]:Shutting Down Server.
+Project1.exe: 00000600: 20:00:12 [TUniServerModule]:HTTP Server Stopped.
+Project1.exe: 00000600: 20:00:12 [TUniGUISessionManager]:Terminating Session manager.
+Project1.exe: 00000600: 20:00:12 [TUniGUISessionManager]:Stopping Cache Eraser...
+Project1.exe: 00000600: 20:00:12 [TUniGUISessionManager]:Cache Eraser Stopped.
+Project1.exe: 00000600: 20:00:12 [TUniGUISessionManager]:Destroying Worker Threads.
+Project1.exe: 00000600: 20:00:12 [TUniGUISessionManager]:Session manager terminated.
+Project1.exe: 00000600: 20:00:12 [TUniServerModule]:Server Shutdown Completed.
+Project1.exe: 00000600: 20:00:12 []:<-------------------------------------------------------------->
+Project1.exe: 00000600: 20:00:12 [Terminated]:Exit Code: 0

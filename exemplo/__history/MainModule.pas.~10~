@@ -1,0 +1,67 @@
+unit MainModule;
+
+interface
+
+uses
+  uniGUIMainModule, SysUtils, Classes, FireDAC.Stan.Intf, FireDAC.Stan.Option, FireDAC.Stan.Error,
+  FireDAC.UI.Intf, FireDAC.Phys.Intf, FireDAC.Stan.Def, FireDAC.Stan.Pool, FireDAC.Stan.Async,
+  FireDAC.Phys, FireDAC.VCLUI.Wait, Data.DB, FireDAC.Comp.Client, FireDAC.Phys.MySQL,
+  FireDAC.Phys.MySQLDef, uniGUIBaseClasses, uniGUIClasses, uniImageList, System.Actions,
+  Vcl.ActnList, Vcl.PlatformDefaultStyleActnCtrls, Vcl.ActnMan, DCPsha1, DCPsha512, DCPmd5,
+  DCPcrypt2, DCPblockciphers, DCPrijndael, DCPrc4;
+
+type
+  TUniMainModule = class(TUniGUIMainModule)
+    Conexao: TFDConnection;
+    ImgListCadastros: TUniImageList;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+function UniMainModule: TUniMainModule;
+
+implementation
+
+{$R *.dfm}
+
+uses
+  UniGUIVars, ServerModule, uniGUIApplication;
+
+function UniMainModule: TUniMainModule;
+begin
+  Result := TUniMainModule(UniApplication.UniMainModule)
+end;
+
+function encriptar(Str, Keystr: string): string;
+var
+  i: integer;
+  Cipher: TDCP_rc4;
+begin
+
+      Cipher:= TDCP_rc4.Create(Self);
+      Cipher.InitStr(KeyStr,TDCP_sha1);
+      result := Cipher.EncryptString(Str);
+      Cipher.Burn;
+      Cipher.Free;
+
+end;
+
+function decriptar(Str, Keystr: string): string;
+var
+  i: integer;
+  Cipher: TDCP_rc4;
+begin
+
+      Cipher:= TDCP_rc4.Create(Self);
+      Cipher.InitStr(KeyStr,TDCP_sha1);
+      result := Cipher.DecryptString(Str);
+      Cipher.Burn;
+      Cipher.Free;
+
+end;
+
+initialization
+  RegisterMainModuleClass(TUniMainModule);
+end.

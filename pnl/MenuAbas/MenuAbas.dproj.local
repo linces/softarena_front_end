@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/06/03 10:45:12.000.463,=F:\Documentos\Embarcadero\Studio\Projects\MenuAbas\MainModule.pas</Transaction>
+    <Transaction>2017/06/03 10:45:12.000.413,=F:\Documentos\Embarcadero\Studio\Projects\MenuAbas\ServerModule.pas</Transaction>
+    <Transaction>2017/06/03 10:45:13.000.576,=F:\Documentos\Embarcadero\Studio\Projects\MenuAbas\Main.pas</Transaction>
+    <Transaction>2017/06/03 10:47:03.000.582,=F:\Documentos\Embarcadero\Studio\Projects\MenuAbas\UframeTeste.pas</Transaction>
+    <Transaction>2017/12/10 00:50:58.000.067,=F:\PROGRAMAS\Demos UniGui\MenuAbas\Unit1.pas</Transaction>
+    <Transaction>2017/12/10 00:51:13.000.433,F:\PROGRAMAS\Demos UniGui\MenuAbas\Unit1.pas=F:\PROGRAMAS\Demos UniGui\MenuAbas\uframeTeste2.pas</Transaction>
+    <Transaction>2017/12/10 00:51:13.000.433,F:\PROGRAMAS\Demos UniGui\MenuAbas\Unit1.dfm=F:\PROGRAMAS\Demos UniGui\MenuAbas\uframeTeste2.dfm</Transaction>
+    <Transaction>2017/12/10 00:52:04.000.034,=F:\PROGRAMAS\Demos UniGui\MenuAbas\Unit1.pas</Transaction>
+    <Transaction>2017/12/10 00:52:32.000.992,F:\PROGRAMAS\Demos UniGui\MenuAbas\Unit1.dfm=F:\PROGRAMAS\Demos UniGui\MenuAbas\uframeTeste3.dfm</Transaction>
+    <Transaction>2017/12/10 00:52:32.000.992,F:\PROGRAMAS\Demos UniGui\MenuAbas\Unit1.pas=F:\PROGRAMAS\Demos UniGui\MenuAbas\uframeTeste3.pas</Transaction>
+    <Transaction>2017/12/10 01:05:05.000.893,=F:\PROGRAMAS\Demos UniGui\MenuAbas\Unit1.pas</Transaction>
+    <Transaction>2017/12/10 01:05:28.000.510,F:\PROGRAMAS\Demos UniGui\MenuAbas\Unit1.pas=F:\PROGRAMAS\Demos UniGui\MenuAbas\uframeTeste4.pas</Transaction>
+    <Transaction>2017/12/10 01:05:28.000.510,F:\PROGRAMAS\Demos UniGui\MenuAbas\Unit1.dfm=F:\PROGRAMAS\Demos UniGui\MenuAbas\uframeTeste4.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

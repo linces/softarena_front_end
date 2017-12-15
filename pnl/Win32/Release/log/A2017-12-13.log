@@ -1,0 +1,154 @@
+BackEndSoftArena.exe: 00000FD0: 17:04:07 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 00000FD0: 17:04:07 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 00000FD0: 17:04:07 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 00000FD0: 17:04:07 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+BackEndSoftArena.exe: 00000FD0: 17:04:07 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 00000FD0: 17:04:07 [TUniServerModule]:HTTP Server Started. Port: 8077
+BackEndSoftArena.exe: 00001A7C: 17:25:04 [HandleFileRequest[127.0.0.1]]:File not found: F:\OneDrive\softarena\pnl\Win32\Release\files\css\Butons.css
+BackEndSoftArena.exe: 0000301C: 17:25:04 [HandleFileRequest[127.0.0.1]]:File not found: F:\OneDrive\softarena\pnl\Win32\Release\files\font-awesome\css\font-awesome.css
+BackEndSoftArena.exe: 00001B4C: 17:25:04 [HandleFileRequest[127.0.0.1]]:File not found: F:\OneDrive\softarena\pnl\Win32\Release\files\bootstrap\css\bootstrap.min.css
+BackEndSoftArena.exe: 000029C4: 17:25:05 [HandleFileRequest[127.0.0.1]]:File not found: F:\OneDrive\softarena\pnl\Win32\Release\files\css\Butons.css
+BackEndSoftArena.exe: 00002764: 17:25:05 [HandleFileRequest[127.0.0.1]]:File not found: F:\OneDrive\softarena\pnl\Win32\Release\files\font-awesome\css\font-awesome.css
+BackEndSoftArena.exe: 00000920: 17:25:05 [HandleFileRequest[127.0.0.1]]:File not found: F:\OneDrive\softarena\pnl\Win32\Release\files\bootstrap\css\bootstrap.min.css
+BackEndSoftArena.exe: 00001B2C: 17:25:10 [127.0.0.1]:EAccessViolation : Access violation at address 008F6289 in module 'BackEndSoftArena.exe'. Read of address 000004B0 : Addr: $008F6289
+BackEndSoftArena.exe: 00001B2C: 17:28:04 [127.0.0.1]:EAccessViolation : Access violation at address 008F6289 in module 'BackEndSoftArena.exe'. Read of address 000004B0 : Addr: $008F6289
+BackEndSoftArena.exe: 00002A80: 17:29:02 [HandleFileRequest[127.0.0.1]]:File not found: F:\OneDrive\softarena\pnl\Win32\Release\files\css\Butons.css
+BackEndSoftArena.exe: 00001410: 17:29:02 [HandleFileRequest[127.0.0.1]]:File not found: F:\OneDrive\softarena\pnl\Win32\Release\files\font-awesome\css\font-awesome.css
+BackEndSoftArena.exe: 00000CFC: 17:29:02 [HandleFileRequest[127.0.0.1]]:File not found: F:\OneDrive\softarena\pnl\Win32\Release\files\bootstrap\css\bootstrap.min.css
+BackEndSoftArena.exe: 000019B0: 17:29:02 [HandleFileRequest[127.0.0.1]]:File not found: F:\OneDrive\softarena\pnl\Win32\Release\files\css\Butons.css
+BackEndSoftArena.exe: 00000578: 17:29:03 [HandleFileRequest[127.0.0.1]]:File not found: F:\OneDrive\softarena\pnl\Win32\Release\files\font-awesome\css\font-awesome.css
+BackEndSoftArena.exe: 000012F8: 18:01:51 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $0076FB32
+BackEndSoftArena.exe: 00000FD0: 18:12:17 [TUniServerModule]:Shutting Down Server.
+BackEndSoftArena.exe: 00000FD0: 18:12:17 [TUniServerModule]:HTTP Server Stopped.
+BackEndSoftArena.exe: 00000FD0: 18:12:17 [TUniGUISessionManager]:Terminating Session manager.
+BackEndSoftArena.exe: 00000FD0: 18:12:17 [TUniGUISessionManager]:Stopping Cache Eraser...
+BackEndSoftArena.exe: 00000FD0: 18:12:17 [TUniGUISessionManager]:Cache Eraser Stopped.
+BackEndSoftArena.exe: 00000FD0: 18:12:17 [TUniGUISessionManager]:Destroying Worker Threads.
+BackEndSoftArena.exe: 00000FD0: 18:12:17 [TUniGUISessionManager]:Session manager terminated.
+BackEndSoftArena.exe: 00000FD0: 18:12:17 [TUniServerModule]:Server Shutdown Completed.
+BackEndSoftArena.exe: 00000FD0: 18:12:17 []:<-------------------------------------------------------------->
+BackEndSoftArena.exe: 00000FD0: 18:12:17 [Terminated]:Exit Code: 0
+BackEndSoftArena.exe: 000023E4: 18:16:19 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 000023E4: 18:16:19 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 000023E4: 18:16:19 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 000023E4: 18:16:19 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+BackEndSoftArena.exe: 000023E4: 18:16:20 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 000023E4: 18:16:20 [TUniServerModule]:HTTP Server Started. Port: 8077
+BackEndSoftArena.exe: 000019A4: 18:16:28 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $0076FB32
+BackEndSoftArena.exe: 000019A4: 18:16:28 [HandleFileRequest[127.0.0.1]]:File not found: F:\OneDrive\softarena\pnl\Win32\Release\files\css\Butons.css
+BackEndSoftArena.exe: 00001F60: 18:16:28 [HandleFileRequest[127.0.0.1]]:File not found: F:\OneDrive\softarena\pnl\Win32\Release\files\font-awesome\css\font-awesome.css
+BackEndSoftArena.exe: 000032BC: 18:16:28 [HandleFileRequest[127.0.0.1]]:File not found: F:\OneDrive\softarena\pnl\Win32\Release\files\bootstrap\css\bootstrap.min.css
+BackEndSoftArena.exe: 00002A78: 18:16:29 [HandleFileRequest[127.0.0.1]]:File not found: F:\OneDrive\softarena\pnl\Win32\Release\files\font-awesome\css\font-awesome.css
+BackEndSoftArena.exe: 00002D10: 18:16:29 [HandleFileRequest[127.0.0.1]]:File not found: F:\OneDrive\softarena\pnl\Win32\Release\files\bootstrap\css\bootstrap.min.css
+BackEndSoftArena.exe: 0000264C: 18:16:29 [HandleFileRequest[127.0.0.1]]:File not found: F:\OneDrive\softarena\pnl\Win32\Release\files\css\Butons.css
+BackEndSoftArena.exe: 00002AF0: 18:16:32 [127.0.0.1]:EAccessViolation : Access violation at address 008F6289 in module 'BackEndSoftArena.exe'. Read of address 000004B0 : Addr: $008F6289
+BackEndSoftArena.exe: 000023E4: 18:18:19 [TUniServerModule]:Shutting Down Server.
+BackEndSoftArena.exe: 000026D0: 18:18:20 [Indy]:EIdNotConnected : Not Connected : Addr: $006E1D72
+BackEndSoftArena.exe: 000025F0: 18:18:20 [Indy]:EIdNotConnected : Not Connected : Addr: $006E1D72
+BackEndSoftArena.exe: 0000154C: 18:18:20 [Indy]:EIdNotConnected : Not Connected : Addr: $006E1D72
+BackEndSoftArena.exe: 00001BD8: 18:18:20 [Indy]:EIdNotConnected : Not Connected : Addr: $006E1D72
+BackEndSoftArena.exe: 000023E4: 18:18:20 [TUniServerModule]:HTTP Server Stopped.
+BackEndSoftArena.exe: 000023E4: 18:18:20 [TUniGUISessionManager]:Terminating Session manager.
+BackEndSoftArena.exe: 000023E4: 18:18:20 [TUniGUISessionManager]:Stopping Cache Eraser...
+BackEndSoftArena.exe: 000023E4: 18:18:20 [TUniGUISessionManager]:Cache Eraser Stopped.
+BackEndSoftArena.exe: 000023E4: 18:18:20 [TUniGUISessionManager]:Destroying Worker Threads.
+BackEndSoftArena.exe: 000023E4: 18:18:20 [TUniGUISessionManager]:Session manager terminated.
+BackEndSoftArena.exe: 000023E4: 18:18:20 [TUniServerModule]:Server Shutdown Completed.
+BackEndSoftArena.exe: 000023E4: 18:18:20 []:<-------------------------------------------------------------->
+BackEndSoftArena.exe: 000023E4: 18:18:20 [Terminated]:Exit Code: 0
+BackEndSoftArena.exe: 00002840: 18:18:39 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 00002840: 18:18:39 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 00002840: 18:18:39 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 00002840: 18:18:39 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+BackEndSoftArena.exe: 00002840: 18:18:39 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 00002840: 18:18:39 [TUniServerModule]:HTTP Server Started. Port: 8077
+BackEndSoftArena.exe: 0000241C: 18:18:43 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $0076FB32
+BackEndSoftArena.exe: 0000241C: 18:18:43 [HandleFileRequest[127.0.0.1]]:File not found: F:\OneDrive\softarena\pnl\Win32\Release\files\css\Butons.css
+BackEndSoftArena.exe: 00000C30: 18:18:43 [HandleFileRequest[127.0.0.1]]:File not found: F:\OneDrive\softarena\pnl\Win32\Release\files\bootstrap\css\bootstrap.min.css
+BackEndSoftArena.exe: 00001750: 18:18:43 [HandleFileRequest[127.0.0.1]]:File not found: F:\OneDrive\softarena\pnl\Win32\Release\files\font-awesome\css\font-awesome.css
+BackEndSoftArena.exe: 00000C7C: 18:18:43 [HandleFileRequest[127.0.0.1]]:File not found: F:\OneDrive\softarena\pnl\Win32\Release\files\css\Butons.css
+BackEndSoftArena.exe: 00002940: 18:18:43 [HandleFileRequest[127.0.0.1]]:File not found: F:\OneDrive\softarena\pnl\Win32\Release\files\font-awesome\css\font-awesome.css
+BackEndSoftArena.exe: 000032E8: 18:18:43 [HandleFileRequest[127.0.0.1]]:File not found: F:\OneDrive\softarena\pnl\Win32\Release\files\bootstrap\css\bootstrap.min.css
+BackEndSoftArena.exe: 00002F60: 18:18:45 [127.0.0.1]:EReadError : Error reading MainForm.OnCreate: Invalid property value : Addr: $004C0400
+BackEndSoftArena.exe: 00002840: 18:19:41 [TUniServerModule]:Shutting Down Server.
+BackEndSoftArena.exe: 00002D90: 18:19:42 [Indy]:EIdNotConnected : Not Connected : Addr: $006E1D72
+BackEndSoftArena.exe: 0000057C: 18:19:42 [Indy]:EIdNotConnected : Not Connected : Addr: $006E1D72
+BackEndSoftArena.exe: 00001B54: 18:19:42 [Indy]:EIdNotConnected : Not Connected : Addr: $006E1D72
+BackEndSoftArena.exe: 00002840: 18:19:42 [TUniServerModule]:HTTP Server Stopped.
+BackEndSoftArena.exe: 00002840: 18:19:42 [TUniGUISessionManager]:Terminating Session manager.
+BackEndSoftArena.exe: 00002840: 18:19:42 [TUniGUISessionManager]:Stopping Cache Eraser...
+BackEndSoftArena.exe: 00002840: 18:19:43 [TUniGUISessionManager]:Cache Eraser Stopped.
+BackEndSoftArena.exe: 00002840: 18:19:43 [TUniGUISessionManager]:Destroying Worker Threads.
+BackEndSoftArena.exe: 00002840: 18:19:43 [TUniGUISessionManager]:Session manager terminated.
+BackEndSoftArena.exe: 00002840: 18:19:43 [TUniServerModule]:Server Shutdown Completed.
+BackEndSoftArena.exe: 00002840: 18:19:43 []:<-------------------------------------------------------------->
+BackEndSoftArena.exe: 00002840: 18:19:43 [Terminated]:Exit Code: 0
+BackEndSoftArena.exe: 00001E30: 18:20:30 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 00001E30: 18:20:30 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 00001E30: 18:20:30 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 00001E30: 18:20:30 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+BackEndSoftArena.exe: 00001E30: 18:20:30 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 00001E30: 18:20:30 [TUniServerModule]:HTTP Server Started. Port: 8077
+BackEndSoftArena.exe: 0000315C: 18:20:32 [HandleFileRequest[127.0.0.1]]:File not found: F:\OneDrive\softarena\pnl\Win32\Release\files\css\Butons.css
+BackEndSoftArena.exe: 00001A40: 18:20:32 [HandleFileRequest[127.0.0.1]]:File not found: F:\OneDrive\softarena\pnl\Win32\Release\files\font-awesome\css\font-awesome.css
+BackEndSoftArena.exe: 00002E50: 18:20:32 [HandleFileRequest[127.0.0.1]]:File not found: F:\OneDrive\softarena\pnl\Win32\Release\files\bootstrap\css\bootstrap.min.css
+BackEndSoftArena.exe: 00001A0C: 18:20:32 [HandleFileRequest[127.0.0.1]]:File not found: F:\OneDrive\softarena\pnl\Win32\Release\files\css\Butons.css
+BackEndSoftArena.exe: 00001664: 18:20:32 [HandleFileRequest[127.0.0.1]]:File not found: F:\OneDrive\softarena\pnl\Win32\Release\files\font-awesome\css\font-awesome.css
+BackEndSoftArena.exe: 00001E3C: 18:20:32 [HandleFileRequest[127.0.0.1]]:File not found: F:\OneDrive\softarena\pnl\Win32\Release\files\bootstrap\css\bootstrap.min.css
+BackEndSoftArena.exe: 00000DCC: 18:20:36 [127.0.0.1]:EAccessViolation : Access violation at address 008F62CD in module 'BackEndSoftArena.exe'. Read of address 000004B0 : Addr: $008F62CD
+BackEndSoftArena.exe: 00002D34: 18:50:22 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $0076FB32
+BackEndSoftArena.exe: 00002D34: 18:50:24 [HandleFileRequest[127.0.0.1]]:File not found: F:\OneDrive\softarena\pnl\Win32\Release\files\css\Butons.css
+BackEndSoftArena.exe: 000013E0: 18:50:24 [HandleFileRequest[127.0.0.1]]:File not found: F:\OneDrive\softarena\pnl\Win32\Release\files\font-awesome\css\font-awesome.css
+BackEndSoftArena.exe: 0000025C: 18:50:24 [HandleFileRequest[127.0.0.1]]:File not found: F:\OneDrive\softarena\pnl\Win32\Release\files\bootstrap\css\bootstrap.min.css
+BackEndSoftArena.exe: 00002FDC: 18:50:25 [HandleFileRequest[127.0.0.1]]:File not found: F:\OneDrive\softarena\pnl\Win32\Release\files\css\Butons.css
+BackEndSoftArena.exe: 0000076C: 18:50:25 [HandleFileRequest[127.0.0.1]]:File not found: F:\OneDrive\softarena\pnl\Win32\Release\files\font-awesome\css\font-awesome.css
+BackEndSoftArena.exe: 00001E30: 18:53:48 [TUniServerModule]:Shutting Down Server.
+BackEndSoftArena.exe: 00001E00: 18:53:48 [Indy]:EIdNotConnected : Not Connected : Addr: $006E1D72
+BackEndSoftArena.exe: 00001E30: 18:53:49 [TUniServerModule]:HTTP Server Stopped.
+BackEndSoftArena.exe: 00001E30: 18:53:49 [TUniGUISessionManager]:Terminating Session manager.
+BackEndSoftArena.exe: 00001E30: 18:53:49 [TUniGUISessionManager]:Stopping Cache Eraser...
+BackEndSoftArena.exe: 00001E30: 18:53:49 [TUniGUISessionManager]:Cache Eraser Stopped.
+BackEndSoftArena.exe: 00001E30: 18:53:49 [TUniGUISessionManager]:Destroying Worker Threads.
+BackEndSoftArena.exe: 00001E30: 18:53:49 [TUniGUISessionManager]:Session manager terminated.
+BackEndSoftArena.exe: 00001E30: 18:53:49 [TUniServerModule]:Server Shutdown Completed.
+BackEndSoftArena.exe: 00001E30: 18:53:49 []:<-------------------------------------------------------------->
+BackEndSoftArena.exe: 00001E30: 18:53:49 [Terminated]:Exit Code: 0
+BackEndSoftArena.exe: 000028F4: 18:58:23 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 000028F4: 18:58:23 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 000028F4: 18:58:23 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 000028F4: 18:58:23 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+BackEndSoftArena.exe: 000028F4: 18:58:23 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 000028F4: 18:58:23 [InitWebServer]:EIdCouldNotBindSocket : Could not bind socket. Address and port are already in use. : Addr: $006D936E
+BackEndSoftArena.exe: 000028F4: 18:58:26 [TUniServerModule]:Shutting Down Server.
+BackEndSoftArena.exe: 000028F4: 18:58:27 [TUniServerModule]:HTTP Server Stopped.
+BackEndSoftArena.exe: 000028F4: 18:58:27 [TUniGUISessionManager]:Terminating Session manager.
+BackEndSoftArena.exe: 000028F4: 18:58:27 [TUniGUISessionManager]:Stopping Cache Eraser...
+BackEndSoftArena.exe: 000028F4: 18:58:27 [TUniGUISessionManager]:Cache Eraser Stopped.
+BackEndSoftArena.exe: 000028F4: 18:58:27 [TUniGUISessionManager]:Destroying Worker Threads.
+BackEndSoftArena.exe: 000028F4: 18:58:27 [TUniGUISessionManager]:Session manager terminated.
+BackEndSoftArena.exe: 000028F4: 18:58:27 [TUniServerModule]:Server Shutdown Completed.
+BackEndSoftArena.exe: 000028F4: 18:58:27 []:<-------------------------------------------------------------->
+BackEndSoftArena.exe: 000028F4: 18:58:27 [Terminated]:Exit Code: 0
+BackEndSoftArena.exe: 00002BF4: 18:58:36 []:>--------------------------------------------------------------<
+BackEndSoftArena.exe: 00002BF4: 18:58:36 [TUniServerModule]:Server First Init.
+BackEndSoftArena.exe: 00002BF4: 18:58:36 [TUniServerModule]:Erasing Cache Folder...
+BackEndSoftArena.exe: 00002BF4: 18:58:36 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+BackEndSoftArena.exe: 00002BF4: 18:58:36 [TUniServerModule]:Starting HTTP Server...
+BackEndSoftArena.exe: 00002BF4: 18:58:36 [TUniServerModule]:HTTP Server Started. Port: 8077
+BackEndSoftArena.exe: 00002FDC: 18:58:42 [HandleFileRequest[127.0.0.1]]:File not found: F:\OneDrive\softarena\pnl\Win32\Release\files\bootstrap\css\bootstrap.min.css
+BackEndSoftArena.exe: 000028FC: 18:58:42 [HandleFileRequest[127.0.0.1]]:File not found: F:\OneDrive\softarena\pnl\Win32\Release\files\font-awesome\css\font-awesome.css
+BackEndSoftArena.exe: 000030C8: 18:58:42 [HandleFileRequest[127.0.0.1]]:File not found: F:\OneDrive\softarena\pnl\Win32\Release\files\css\Butons.css
+BackEndSoftArena.exe: 0000064C: 18:58:43 [HandleFileRequest[127.0.0.1]]:File not found: F:\OneDrive\softarena\pnl\Win32\Release\files\css\Butons.css
+BackEndSoftArena.exe: 0000076C: 18:58:43 [HandleFileRequest[127.0.0.1]]:File not found: F:\OneDrive\softarena\pnl\Win32\Release\files\bootstrap\css\bootstrap.min.css
+BackEndSoftArena.exe: 000016D8: 18:58:43 [HandleFileRequest[127.0.0.1]]:File not found: F:\OneDrive\softarena\pnl\Win32\Release\files\font-awesome\css\font-awesome.css
+BackEndSoftArena.exe: 00000F34: 18:58:47 [127.0.0.1]:EAccessViolation : Access violation at address 008FB0A9 in module 'BackEndSoftArena.exe'. Read of address 000004B0 : Addr: $008FB0A9
+BackEndSoftArena.exe: 00002BF4: 19:06:55 [TUniServerModule]:Shutting Down Server.
+BackEndSoftArena.exe: 00002BF4: 19:06:55 [TUniServerModule]:HTTP Server Stopped.
+BackEndSoftArena.exe: 00002BF4: 19:06:55 [TUniGUISessionManager]:Terminating Session manager.
+BackEndSoftArena.exe: 00002BF4: 19:06:55 [TUniGUISessionManager]:Stopping Cache Eraser...
+BackEndSoftArena.exe: 00002BF4: 19:06:56 [TUniGUISessionManager]:Cache Eraser Stopped.
+BackEndSoftArena.exe: 00002BF4: 19:06:56 [TUniGUISessionManager]:Destroying Worker Threads.
+BackEndSoftArena.exe: 00002BF4: 19:06:56 [TUniGUISessionManager]:Session manager terminated.
+BackEndSoftArena.exe: 00002BF4: 19:06:56 [TUniServerModule]:Server Shutdown Completed.
+BackEndSoftArena.exe: 00002BF4: 19:06:56 []:<-------------------------------------------------------------->
+BackEndSoftArena.exe: 00002BF4: 19:06:56 [Terminated]:Exit Code: 0

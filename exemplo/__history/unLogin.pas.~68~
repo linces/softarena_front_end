@@ -1,0 +1,157 @@
+unit unLogin;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics,
+  Controls, Forms, uniGUITypes, uniGUIAbstractClasses,
+  uniGUIClasses, uniGUIRegClasses, uniGUIForm, FireDAC.Stan.Intf, FireDAC.Stan.Option,
+  FireDAC.Stan.Param, FireDAC.Stan.Error, FireDAC.DatS, FireDAC.Phys.Intf, FireDAC.DApt.Intf,
+  FireDAC.Stan.Async, FireDAC.DApt, Data.DB, FireDAC.Comp.DataSet, FireDAC.Comp.Client,
+  uniGUIBaseClasses, uniEdit, uniButton, uniLabel, uniImage, dxGDIPlusClasses, uniBitBtn,
+  System.Actions, Vcl.ActnList, Vcl.PlatformDefaultStyleActnCtrls, Vcl.ActnMan, DCPsha512, DCPsha1,
+  DCPrc4, DCPcrypt2, DCPblockciphers, DCPrijndael, DCPmd5;
+
+
+type
+  TfrmLogin = class(TUniLoginForm)
+    fdLogin: TFDQuery;
+    dsLogin: TDataSource;
+    edtUsuario: TUniEdit;
+    edtSenha: TUniEdit;
+    btnLogar: TUniButton;
+    UniLabel1: TUniLabel;
+    UniLabel2: TUniLabel;
+    UniImage1: TUniImage;
+    UniLabel3: TUniLabel;
+    UniLabel4: TUniLabel;
+    UniButton1: TUniButton;
+    ActionManager1: TActionManager;
+    actSair: TAction;
+    procedure btnLogarClick(Sender: TObject);
+    procedure UniLabel3Click(Sender: TObject);
+    procedure UniButton1Click(Sender: TObject);
+    procedure actSairExecute(Sender: TObject);
+  private
+     dcsnh: string;
+    function decriptar(Pass: string): String;
+    procedure encriptar(Sender: TObject);
+    function gerasenha(email: string):string;
+    { Private declarations }
+  public
+   Nvsenha: string;
+  end;
+
+function frmLogin: TfrmLogin;
+
+implementation
+
+{$R *.dfm}
+
+uses
+  uniGUIVars, MainModule, uniGUIApplication, Main, unEsqueciSenha, unCadastroInicial;
+
+function frmLogin: TfrmLogin;
+begin
+  Result := TfrmLogin(UniMainModule.GetFormInstance(TfrmLogin));
+end;
+
+procedure TfrmLogin.actSairExecute(Sender: TObject);
+begin
+ Close;
+end;
+
+procedure TfrmLogin.btnLogarClick(Sender: TObject);
+begin
+
+ if (edtUsuario.Text <> '') and (edtSenha.Text <> '') then begin
+   btnLogar.Caption := 'Aguarde';
+  try
+   uniMainModule.Conexao.Connected := False;
+   uniMainModule.Conexao.Connected := True;
+  except
+    on E : Exception do begin
+      ShowMessage('Erro de conexão com o banco de dados.')
+    end;
+  end;
+    encriptar(Self);
+
+  fdLogin.Close;
+  fdLogin.SQL.Text := 'SELECT * FROM usuarios WHERE username = "'+edtUsuario.Text+'" and password = "'+Nvsenha+'"';
+  fdLogin.Open;
+    if fdLogin.RecordCount > 0 then
+    begin
+     Cursor := crDefault;
+     btnLogar.Caption := 'Entrar';
+     MainForm.Show;
+     frmLogin.Visible := False;
+    end
+    else
+    begin
+     Cursor := crDefault;
+     ShowMessage('Nome de usuário ou senha incorreta!');
+     btnLogar.Caption := 'Entrar';
+     edtUsuario.SetFocus;
+    end;
+ end else begin
+    ShowMessage('Preencha os campos corretamente!');
+    edtUsuario.SetFocus;
+ end;
+
+
+end;
+
+    function TfrmLogin.decriptar(Pass: string):string;
+      var
+        i: integer;
+        Cipher: TDCP_rc4;
+        KeyStr: string;
+      begin
+        KeyStr:= 'Secnil19xodaionn';
+            Cipher:= TDCP_rc4.Create(Self);
+          Cipher.InitStr(KeyStr,TDCP_sha1);         // initialize the cipher with a hash of the passphrase
+          dcsnh := Cipher.DecryptString(Pass);
+          Cipher.Burn;
+          Cipher.Free;
+        end;
+
+procedure TfrmLogin.encriptar(Sender: TObject);
+var
+    i: integer;
+    Cipher: TDCP_rc4;
+    KeyStr: string;
+  begin
+    KeyStr:= 'Secnil19xodaionn';
+
+      Cipher:= TDCP_rc4.Create(Self);
+      Cipher.InitStr(KeyStr,TDCP_sha1);         // initialize the cipher with a hash of the passphrase
+             // encrypt the contents of the memo
+        Nvsenha := Cipher.EncryptString(Trim(edtSenha.Text));
+      Cipher.Burn;
+      Cipher.Free;
+    end;
+
+
+function TfrmLogin.gerasenha(email: string): string;
+var
+  part1, part2, part3, part4
+begin
+
+ email
+
+end;
+
+procedure TfrmLogin.UniButton1Click(Sender: TObject);
+begin
+  frmCadastroInicial.Show;
+end;
+
+procedure TfrmLogin.UniLabel3Click(Sender: TObject);
+begin
+  frmEsqueciSenha.Show;
+end;
+
+initialization
+  RegisterAppFormClass(TfrmLogin);
+
+end.

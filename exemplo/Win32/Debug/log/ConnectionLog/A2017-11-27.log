@@ -1,0 +1,9 @@
+BackEndSoftArena.exe: 00000744: 09:12:18 [127.0.0.1]:Failed Sequence Recovery: SeqId: 10, Event: click
+BackEndSoftArena.exe: 00000744: 09:12:22 [127.0.0.1]:Sequence sent from cache:  SeqId: 10
+BackEndSoftArena.exe: 00000744: 09:12:22 [127.0.0.1]:Processed: Id: 10, Evt: click, [J3Br7vVa8P100B215C2]
+BackEndSoftArena.exe: 000027DC: 09:58:15 [127.0.0.1]:Failed Sequence Recovery: SeqId: 12, Event: click
+BackEndSoftArena.exe: 000027DC: 09:58:23 [127.0.0.1]:Sequence sent from cache:  SeqId: 12
+BackEndSoftArena.exe: 000027DC: 09:58:23 [127.0.0.1]:Processed: Id: 12, Evt: click, [VtvwdtiPGX100B2223D]
+BackEndSoftArena.exe: 00000470: 10:47:42 [127.0.0.1]:Failed Sequence Recovery: SeqId: 11, Event: click
+BackEndSoftArena.exe: 000019A4: 10:48:17 [127.0.0.1]:Failed Sequence Recovery: SeqId: 11, Event: click
+BackEndSoftArena.exe: 00002820: 10:48:52 [127.0.0.1]:Failed Sequence Recovery: SeqId: 11, Event: click

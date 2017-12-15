@@ -1,0 +1,25 @@
+MenuAbas.exe: 00000E28: 10:49:59 [TUniServerModule]:Server First Init.
+MenuAbas.exe: 00000E28: 10:49:59 [TUniServerModule]:Debug Mode = ON
+MenuAbas.exe: 00000E28: 10:49:59 [TUniServerModule]:Starting HTTP Server...
+MenuAbas.exe: 00000E28: 10:49:59 [TUniServerModule]:HTTP Server Started. Port: 8077
+MenuAbas.exe: 0000097C: 12:13:14 [TUniServerModule]:Server First Init.
+MenuAbas.exe: 0000097C: 12:13:14 [TUniServerModule]:Erasing Cache Folder...
+MenuAbas.exe: 0000097C: 12:13:14 [TUniServerModule]:Cache Folder Erased. <1> Files deleted.
+MenuAbas.exe: 0000097C: 12:13:14 [TUniServerModule]:Starting HTTP Server...
+MenuAbas.exe: 0000097C: 12:13:14 [TUniServerModule]:HTTP Server Started. Port: 8077
+MenuAbas.exe: 00000704: 17:03:18 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $00731B8E
+MenuAbas.exe: 0000097C: 17:10:09 [TUniServerModule]:Shutting Down Server.
+MenuAbas.exe: 00001798: 17:10:10 [Indy]:EIdNotConnected : Not Connected : Addr: $00658F8E
+MenuAbas.exe: 000004B4: 17:10:10 [Indy]:EIdNotConnected : Not Connected : Addr: $00658F8E
+MenuAbas.exe: 00000954: 17:10:10 [Indy]:EIdNotConnected : Not Connected : Addr: $00658F8E
+MenuAbas.exe: 00001E7C: 17:10:10 [Indy]:EIdNotConnected : Not Connected : Addr: $00658F8E
+MenuAbas.exe: 00001528: 17:10:10 [Indy]:EIdNotConnected : Not Connected : Addr: $00658F8E
+MenuAbas.exe: 000013C8: 17:10:10 [Indy]:EIdNotConnected : Not Connected : Addr: $00658F8E
+MenuAbas.exe: 0000097C: 17:10:10 [TUniServerModule]:HTTP Server Stopped.
+MenuAbas.exe: 0000097C: 17:10:10 [TUniGUISessionManager]:Terminating Session manager.
+MenuAbas.exe: 0000097C: 17:10:10 [TUniGUISessionManager]:Stopping Cache Eraser...
+MenuAbas.exe: 0000097C: 17:10:10 [TUniGUISessionManager]:Cache Eraser Stopped.
+MenuAbas.exe: 0000097C: 17:10:10 [TUniGUISessionManager]:Destroying Worker Threads.
+MenuAbas.exe: 0000097C: 17:10:10 [TUniGUISessionManager]:Session manager terminated.
+MenuAbas.exe: 0000097C: 17:10:10 [TUniServerModule]:Server Shutdown Completed.
+MenuAbas.exe: 0000097C: 17:10:10 [Terminated]:Exit Code: 0

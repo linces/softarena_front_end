@@ -1,0 +1,87 @@
+unit ServerModule;
+
+interface
+
+uses
+  Classes, SysUtils, uniGUIServer, uniGUIMainModule, uniGUIApplication, uIdCustomHTTPServer,
+  uniGUITypes, FireDAC.Stan.Intf, FireDAC.Stan.Option, FireDAC.Stan.Error, FireDAC.UI.Intf,
+  FireDAC.Phys.Intf, FireDAC.Stan.Def, FireDAC.Phys, FireDAC.Comp.Client, FireDAC.ConsoleUI.Wait,
+  FireDAC.Comp.UI, FireDAC.Phys.MySQLDef, FireDAC.Phys.MySQL, DCPsha1, DCPsha512, DCPmd5,
+  DCPcrypt2, DCPblockciphers, DCPrijndael, DCPrc4;
+
+type
+  TUniServerModule = class(TUniGUIServerModule)
+    FDManager: TFDManager;
+    FDCursor: TFDGUIxWaitCursor;
+    FDMySQLDriver: TFDPhysMySQLDriverLink;
+    procedure UniGUIServerModuleCreate(Sender: TObject);
+    procedure UniGUIServerModuleDestroy(Sender: TObject);
+  private
+    { Private declarations }
+  protected
+    procedure FirstInit; override;
+  public
+    function decriptar(Str, Keystr: string): string;
+    function encriptar(Str, Keystr: string): string;
+  end;
+
+function UniServerModule: TUniServerModule;
+
+implementation
+
+{$R *.dfm}
+
+uses
+  UniGUIVars;
+
+function UniServerModule: TUniServerModule;
+begin
+  Result:=TUniServerModule(UniGUIServerInstance);
+end;
+
+procedure TUniServerModule.FirstInit;
+begin
+  InitServerModule(Self);
+end;
+
+procedure TUniServerModule.UniGUIServerModuleCreate(Sender: TObject);
+begin
+ FDManager.Active := true;
+end;
+
+procedure TUniServerModule.UniGUIServerModuleDestroy(Sender: TObject);
+begin
+ FDManager.Active := false;
+end;
+
+function TUniServerModule.encriptar(Str, Keystr: string): string;
+var
+  i: integer;
+  Cipher: TDCP_rc4;
+begin
+
+      Cipher:= TDCP_rc4.Create(Self);
+      Cipher.InitStr(KeyStr,TDCP_sha1);
+      result := Cipher.EncryptString(Str);
+      Cipher.Burn;
+      Cipher.Free;
+
+end;
+
+function TUniServerModule.decriptar(Str, Keystr: string): string;
+var
+  i: integer;
+  Cipher: TDCP_rc4;
+begin
+
+      Cipher:= TDCP_rc4.Create(Self);
+      Cipher.InitStr(KeyStr,TDCP_sha1);
+      result := Cipher.DecryptString(Str);
+      Cipher.Burn;
+      Cipher.Free;
+
+end;
+
+initialization
+  RegisterServerModuleClass(TUniServerModule);
+end.

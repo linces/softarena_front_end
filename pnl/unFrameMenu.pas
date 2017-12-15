@@ -11,7 +11,6 @@ type
   TfrmFrameMenu = class(TUniFrame)
     UniPanel1: TUniPanel;
     UniPanel2: TUniPanel;
-    UniButton1: TUniButton;
     UniButton2: TUniButton;
     UniButton3: TUniButton;
     UniPanel3: TUniPanel;
@@ -27,11 +26,11 @@ type
     UniButton10: TUniButton;
     UniPanel6: TUniPanel;
     UniButton9: TUniButton;
-    UniButton11: TUniButton;
     UniButton12: TUniButton;
     UniButton16: TUniButton;
     UniButton17: TUniButton;
     UniButton18: TUniButton;
+    procedure UniButton13Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -40,8 +39,15 @@ type
 
 implementation
 
+uses
+  Main, unCadPadrao;
+
 {$R *.dfm}
 
 
+procedure TfrmFrameMenu.UniButton13Click(Sender: TObject);
+begin
+   MainForm.NovaAba(TFrame(TfrmCadPadrao),'Cadastro da Empresa',True);
+end;
 
 end.

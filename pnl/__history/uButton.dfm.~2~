@@ -1,0 +1,870 @@
+object FButton: TFButton
+  Left = 0
+  Top = 0
+  Width = 916
+  Height = 608
+  TabOrder = 0
+  ParentFont = False
+  DesignSize = (
+    916
+    608)
+  object UniContainerPanel1: TUniContainerPanel
+    Left = 751
+    Top = 558
+    Width = 806
+    Height = 613
+    Hint = ''
+    ParentColor = False
+    Anchors = []
+    TabOrder = 0
+    ExplicitLeft = 0
+    ExplicitTop = 35
+    object UniGroupBox1: TUniGroupBox
+      Left = 24
+      Top = 24
+      Width = 185
+      Height = 113
+      Hint = ''
+      Caption = '16x16 BitBtn Icon'
+      TabOrder = 1
+      object UniBitBtn1: TUniSFBitBtn
+        Left = 16
+        Top = 71
+        Width = 75
+        Height = 25
+        Hint = ''
+        Caption = 'Left'
+        TabOrder = 1
+        OnClick = UniButton4Click
+        IconFont = fa_home
+        IconFontColor = fc_white
+        IconFontSize = fs_16
+        ButtonStyles = bs_info
+      end
+      object UniBitBtn4: TUniSFBitBtn
+        Left = 16
+        Top = 23
+        Width = 75
+        Height = 42
+        Hint = ''
+        Caption = 'Top'
+        TabOrder = 2
+        IconAlign = iaTop
+        OnClick = UniButton4Click
+        IconFont = fa_home
+        IconFontColor = fc_white
+        IconFontSize = fs_16
+        ButtonStyles = bs_primary
+      end
+      object UniBitBtn5: TUniSFBitBtn
+        Left = 97
+        Top = 23
+        Width = 75
+        Height = 42
+        Hint = ''
+        Caption = 'Bottom'
+        TabOrder = 3
+        IconAlign = iaBottom
+        OnClick = UniButton4Click
+        IconFont = fa_home
+        IconFontColor = fc_white
+        IconFontSize = fs_16
+        ButtonStyles = bs_success
+      end
+      object UniBitBtn6: TUniSFBitBtn
+        Left = 97
+        Top = 71
+        Width = 75
+        Height = 25
+        Hint = ''
+        Caption = 'Right'
+        TabOrder = 4
+        IconAlign = iaRight
+        OnClick = UniButton4Click
+        IconFont = fa_home
+        IconFontColor = fc_white
+        IconFontSize = fs_16
+        ButtonStyles = bs_danger
+      end
+    end
+    object UniGroupBox2: TUniGroupBox
+      Left = 224
+      Top = 24
+      Width = 281
+      Height = 169
+      Hint = ''
+      Caption = '24x24 BitBtn Icon'
+      TabOrder = 2
+      object UniBitBtn2: TUniSFBitBtn
+        Left = 16
+        Top = 96
+        Width = 113
+        Height = 42
+        Hint = ''
+        Caption = 'Left'
+        TabOrder = 1
+        OnClick = UniButton4Click
+        IconFont = fa_calculator
+        IconFontColor = fc_white
+        IconFontSize = fs_24
+        ButtonStyles = bs_info
+      end
+      object UniBitBtn7: TUniSFBitBtn
+        Left = 147
+        Top = 96
+        Width = 113
+        Height = 42
+        Hint = ''
+        Caption = 'Right'
+        TabOrder = 2
+        IconAlign = iaRight
+        OnClick = UniButton4Click
+        IconFont = fa_calculator
+        IconFontColor = fc_white
+        IconFontSize = fs_24
+        ButtonStyles = bs_warning
+      end
+      object UniBitBtn8: TUniSFBitBtn
+        Left = 16
+        Top = 23
+        Width = 113
+        Height = 58
+        Hint = ''
+        Caption = 'Top'
+        TabOrder = 3
+        IconAlign = iaTop
+        OnClick = UniButton4Click
+        IconFont = fa_calculator
+        IconFontColor = fc_white
+        IconFontSize = fs_24
+        ButtonStyles = bs_danger
+      end
+      object UniBitBtn9: TUniSFBitBtn
+        Left = 147
+        Top = 23
+        Width = 113
+        Height = 58
+        Hint = ''
+        Caption = 'Bottom'
+        TabOrder = 4
+        IconAlign = iaBottom
+        OnClick = UniButton4Click
+        IconFont = fa_calculator
+        IconFontColor = fc_white
+        IconFontSize = fs_24
+        ButtonStyles = bs_success
+      end
+    end
+    object UniGroupBox3: TUniGroupBox
+      Left = 224
+      Top = 200
+      Width = 361
+      Height = 185
+      Hint = ''
+      Caption = '32x32 BitBtn Icon'
+      TabOrder = 3
+      object UniBitBtn3: TUniSFBitBtn
+        Left = 19
+        Top = 15
+        Width = 153
+        Height = 66
+        Hint = ''
+        Caption = 'Top'
+        ParentFont = False
+        Font.Height = -16
+        Font.Style = [fsBold]
+        TabOrder = 1
+        Scale = bbsLarge
+        IconAlign = iaTop
+        OnClick = UniButton4Click
+        IconFont = fa_credit_card
+        IconFontColor = fc_white
+        IconFontSize = fs_32
+        ButtonStyles = bs_primary
+      end
+      object UniBitBtn10: TUniSFBitBtn
+        Left = 192
+        Top = 95
+        Width = 153
+        Height = 66
+        Hint = ''
+        Caption = 'Bottom'
+        ParentFont = False
+        Font.Height = -16
+        Font.Style = [fsBold]
+        TabOrder = 2
+        Scale = bbsLarge
+        IconAlign = iaBottom
+        OnClick = UniButton4Click
+        IconFont = fa_credit_card
+        IconFontColor = fc_white
+        IconFontSize = fs_32
+        ButtonStyles = bs_warning
+      end
+      object UniBitBtn11: TUniSFBitBtn
+        Left = 19
+        Top = 95
+        Width = 153
+        Height = 66
+        Hint = ''
+        Caption = 'Left'
+        ParentFont = False
+        Font.Height = -16
+        Font.Style = [fsBold]
+        TabOrder = 3
+        Scale = bbsLarge
+        OnClick = UniButton4Click
+        IconFont = fa_credit_card
+        IconFontColor = fc_white
+        IconFontSize = fs_32
+        ButtonStyles = bs_success
+      end
+      object UniBitBtn12: TUniSFBitBtn
+        Left = 192
+        Top = 15
+        Width = 153
+        Height = 66
+        Hint = ''
+        Caption = 'Right'
+        ParentFont = False
+        Font.Height = -16
+        Font.Style = [fsBold]
+        TabOrder = 4
+        Scale = bbsLarge
+        IconAlign = iaRight
+        OnClick = UniButton4Click
+        IconFont = fa_credit_card
+        IconFontColor = fc_white
+        IconFontSize = fs_32
+        ButtonStyles = bs_danger
+      end
+    end
+    object UniGroupBox4: TUniGroupBox
+      Left = 24
+      Top = 143
+      Width = 185
+      Height = 105
+      Hint = ''
+      Caption = '16x16 SpeedButton Icon'
+      TabOrder = 4
+      object UniSpeedButton1: TUniSFSpeedButton
+        Left = 16
+        Top = 16
+        Width = 75
+        Height = 42
+        Hint = ''
+        GroupIndex = 1
+        Down = True
+        Caption = 'Top'
+        ParentColor = False
+        Color = clWindow
+        IconAlign = iaTop
+        TabOrder = 1
+        OnClick = UniButton4Click
+        IconFont = fa_headphones
+        IconFontColor = fc_white
+        IconFontSize = fs_16
+        ButtonStyles = bs_primary
+      end
+      object UniSpeedButton2: TUniSFSpeedButton
+        Left = 97
+        Top = 16
+        Width = 75
+        Height = 42
+        Hint = ''
+        GroupIndex = 1
+        Caption = 'Bottom'
+        ParentColor = False
+        Color = clWindow
+        IconAlign = iaBottom
+        TabOrder = 2
+        OnClick = UniButton4Click
+        IconFont = fa_headphones
+        IconFontColor = fc_white
+        IconFontSize = fs_16
+        ButtonStyles = bs_success
+      end
+      object UniSpeedButton3: TUniSFSpeedButton
+        Left = 16
+        Top = 64
+        Width = 75
+        Height = 25
+        Hint = ''
+        GroupIndex = 1
+        Caption = 'Left'
+        ParentColor = False
+        Color = clWindow
+        TabOrder = 3
+        OnClick = UniButton4Click
+        IconFont = fa_headphones
+        IconFontColor = fc_white
+        IconFontSize = fs_16
+        ButtonStyles = bs_info
+      end
+      object UniSpeedButton4: TUniSFSpeedButton
+        Left = 97
+        Top = 64
+        Width = 75
+        Height = 25
+        Hint = ''
+        GroupIndex = 1
+        Caption = 'Right'
+        ParentColor = False
+        Color = clWindow
+        IconAlign = iaRight
+        TabOrder = 4
+        OnClick = UniButton4Click
+        IconFont = fa_headphones
+        IconFontColor = fc_white
+        IconFontSize = fs_16
+        ButtonStyles = bs_danger
+      end
+    end
+    object UniGroupBox5: TUniGroupBox
+      Left = 519
+      Top = 24
+      Width = 274
+      Height = 170
+      Hint = ''
+      Caption = '24x24 SpeedButton Icon'
+      TabOrder = 5
+      object UniSpeedButton5: TUniSFSpeedButton
+        Left = 16
+        Top = 23
+        Width = 113
+        Height = 58
+        Hint = ''
+        GroupIndex = 2
+        Down = True
+        Caption = 'Top'
+        ParentColor = False
+        Color = clWindow
+        IconAlign = iaTop
+        TabOrder = 1
+        OnClick = UniButton4Click
+        IconFont = fa_power_off
+        IconFontColor = fc_white
+        IconFontSize = fs_24
+        ButtonStyles = bs_danger
+      end
+      object UniSpeedButton6: TUniSFSpeedButton
+        Left = 145
+        Top = 23
+        Width = 113
+        Height = 58
+        Hint = ''
+        GroupIndex = 2
+        Caption = 'Bottom'
+        ParentColor = False
+        Color = clWindow
+        IconAlign = iaBottom
+        TabOrder = 2
+        OnClick = UniButton4Click
+        IconFont = fa_power_off
+        IconFontColor = fc_white
+        IconFontSize = fs_24
+        ButtonStyles = bs_success
+      end
+      object UniSpeedButton7: TUniSFSpeedButton
+        Left = 16
+        Top = 96
+        Width = 113
+        Height = 42
+        Hint = ''
+        GroupIndex = 2
+        Caption = 'Left'
+        ParentColor = False
+        Color = clWindow
+        TabOrder = 3
+        OnClick = UniButton4Click
+        IconFont = fa_power_off
+        IconFontColor = fc_white
+        IconFontSize = fs_24
+        ButtonStyles = bs_info
+      end
+      object UniSpeedButton8: TUniSFSpeedButton
+        Left = 145
+        Top = 96
+        Width = 113
+        Height = 42
+        Hint = ''
+        GroupIndex = 2
+        Caption = 'Right'
+        ParentColor = False
+        Color = clWindow
+        IconAlign = iaRight
+        TabOrder = 4
+        OnClick = UniButton4Click
+        IconFont = fa_power_off
+        IconFontColor = fc_white
+        IconFontSize = fs_24
+        ButtonStyles = bs_warning
+      end
+    end
+    object UniGroupBox6: TUniGroupBox
+      Left = 224
+      Top = 391
+      Width = 361
+      Height = 194
+      Hint = ''
+      Caption = '32x32 SpeedButton Icon'
+      TabOrder = 6
+      object UniSpeedButton9: TUniSFSpeedButton
+        Left = 16
+        Top = 16
+        Width = 153
+        Height = 66
+        Hint = ''
+        GroupIndex = 3
+        Down = True
+        Caption = 'Top'
+        ParentColor = False
+        Color = clWindow
+        IconAlign = iaTop
+        TabOrder = 1
+        OnClick = UniButton4Click
+        IconFont = fa_android
+        IconFontColor = fc_white
+        IconFontSize = fs_32
+        ButtonStyles = bs_primary
+      end
+      object UniSpeedButton10: TUniSFSpeedButton
+        Left = 193
+        Top = 16
+        Width = 153
+        Height = 66
+        Hint = ''
+        GroupIndex = 3
+        Caption = 'Bottom'
+        ParentColor = False
+        Color = clWindow
+        IconAlign = iaBottom
+        TabOrder = 2
+        OnClick = UniButton4Click
+        IconFont = fa_android
+        IconFontColor = fc_white
+        IconFontSize = fs_32
+        ButtonStyles = bs_danger
+      end
+      object UniSpeedButton11: TUniSFSpeedButton
+        Left = 16
+        Top = 104
+        Width = 153
+        Height = 66
+        Hint = ''
+        GroupIndex = 3
+        Caption = 'Left'
+        ParentColor = False
+        Color = clWindow
+        TabOrder = 3
+        OnClick = UniButton4Click
+        IconFont = fa_android
+        IconFontColor = fc_white
+        IconFontSize = fs_32
+        ButtonStyles = bs_success
+      end
+      object UniSpeedButton12: TUniSFSpeedButton
+        Left = 193
+        Top = 104
+        Width = 153
+        Height = 66
+        Hint = ''
+        GroupIndex = 3
+        Caption = 'Right'
+        ParentColor = False
+        Color = clWindow
+        IconAlign = iaRight
+        TabOrder = 4
+        OnClick = UniButton4Click
+        IconFont = fa_android
+        IconFontColor = fc_white
+        IconFontSize = fs_32
+        ButtonStyles = bs_warning
+      end
+    end
+    object UniGroupBox7: TUniGroupBox
+      Left = 24
+      Top = 296
+      Width = 185
+      Height = 314
+      Hint = ''
+      Caption = 'Button '
+      TabOrder = 7
+      object UniButton1: TUniSFButton
+        Left = 16
+        Top = 237
+        Width = 145
+        Height = 65
+        Hint = ''
+        Caption = 'Left'
+        TabOrder = 1
+        OnClick = UniButton4Click
+        IconFont = fa_refresh
+        IconFontColor = fc_white
+        IconFontSize = fs_32
+        ButtonStyles = bs_primary
+      end
+      object UniButton2: TUniSFButton
+        Left = 16
+        Top = 166
+        Width = 145
+        Height = 65
+        Hint = ''
+        Caption = 'Right'
+        TabOrder = 2
+        IconAlign = iaRight
+        OnClick = UniButton4Click
+        IconFont = fa_refresh
+        IconFontColor = fc_white
+        IconFontSize = fs_32
+        ButtonStyles = bs_primary
+      end
+      object UniButton3: TUniSFButton
+        Left = 16
+        Top = 95
+        Width = 145
+        Height = 65
+        Hint = ''
+        Caption = 'Top'
+        TabOrder = 3
+        IconAlign = iaTop
+        OnClick = UniButton4Click
+        IconFont = fa_refresh
+        IconFontColor = fc_white
+        IconFontSize = fs_32
+        ButtonStyles = bs_primary
+      end
+      object UniButton4: TUniSFButton
+        Left = 16
+        Top = 24
+        Width = 145
+        Height = 65
+        Hint = ''
+        Caption = 'Bottom'
+        TabOrder = 4
+        IconAlign = iaBottom
+        OnClick = UniButton4Click
+        IconFont = fa_refresh
+        IconFontColor = fc_white
+        IconFontSize = fs_32
+        ButtonStyles = bs_primary
+      end
+    end
+    object UniGroupBox8: TUniGroupBox
+      Left = 591
+      Top = 200
+      Width = 185
+      Height = 198
+      Hint = ''
+      Caption = '16x16 Menu button'
+      TabOrder = 8
+      object UniSFSpeedButton1: TUniSFMenuButton
+        Left = 16
+        Top = 16
+        Width = 153
+        Height = 42
+        Hint = ''
+        DropdownMenu = UniPopupMenu1
+        Caption = 'Top'
+        TabOrder = 1
+        IconAlign = iaTop
+        OnClick = UniButton4Click
+        IconFont = fa_google_plus_official
+        IconFontColor = fc_white
+        IconFontSize = fs_16
+        ButtonStyles = bs_primary
+      end
+      object UniSFSpeedButton2: TUniSFMenuButton
+        Left = 17
+        Top = 68
+        Width = 152
+        Height = 42
+        Hint = ''
+        DropdownMenu = UniPopupMenu2
+        Caption = 'Bottom'
+        TabOrder = 2
+        IconAlign = iaBottom
+        OnClick = UniButton4Click
+        IconFont = fa_facebook_official
+        IconFontColor = fc_white
+        IconFontSize = fs_16
+        ButtonStyles = bs_success
+      end
+      object UniSFSpeedButton3: TUniSFMenuButton
+        Left = 16
+        Top = 120
+        Width = 153
+        Height = 25
+        Hint = ''
+        DropdownMenu = UniPopupMenu3
+        Caption = 'Left'
+        TabOrder = 3
+        OnClick = UniButton4Click
+        IconFont = fa_amazon
+        IconFontColor = fc_white
+        IconFontSize = fs_16
+        ButtonStyles = bs_info
+      end
+      object UniSFSpeedButton4: TUniSFMenuButton
+        Left = 17
+        Top = 154
+        Width = 152
+        Height = 25
+        Hint = ''
+        DropdownMenu = UniPopupMenu4
+        Caption = 'Right'
+        TabOrder = 4
+        IconAlign = iaRight
+        OnClick = UniButton4Click
+        IconFont = fa_windows
+        IconFontColor = fc_white
+        IconFontSize = fs_16
+        ButtonStyles = bs_danger
+      end
+    end
+    object UniGroupBox9: TUniGroupBox
+      Left = 591
+      Top = 404
+      Width = 130
+      Height = 133
+      Hint = ''
+      Caption = ' Transparent '
+      TabOrder = 9
+      object UniSFButton1: TUniSFButton
+        Left = 66
+        Top = 74
+        Width = 44
+        Height = 44
+        Hint = ''
+        Caption = ''
+        TabOrder = 1
+        IconAlign = iaCenter
+        OnClick = UniButton4Click
+        IconFont = fa_tag
+        IconFontColor = fc_yellow
+        IconFontSize = fs_32
+        ButtonStyles = bs_transparent
+      end
+      object UniSFButton2: TUniSFButton
+        Left = 16
+        Top = 74
+        Width = 44
+        Height = 44
+        Hint = ''
+        Caption = ''
+        TabOrder = 2
+        IconAlign = iaCenter
+        OnClick = UniButton4Click
+        IconFont = fa_bank
+        IconFontColor = fc_success
+        IconFontSize = fs_32
+        ButtonStyles = bs_transparent
+      end
+      object UniSFButton3: TUniSFButton
+        Left = 66
+        Top = 24
+        Width = 44
+        Height = 44
+        Hint = ''
+        Caption = ''
+        TabOrder = 3
+        IconAlign = iaCenter
+        OnClick = UniButton4Click
+        IconFont = fa_edge
+        IconFontColor = fc_info
+        IconFontSize = fs_32
+        ButtonStyles = bs_transparent
+      end
+      object UniSFButton4: TUniSFButton
+        Left = 16
+        Top = 24
+        Width = 44
+        Height = 44
+        Hint = ''
+        Caption = ''
+        TabOrder = 4
+        IconAlign = iaCenter
+        OnClick = UniButton4Click
+        IconFont = fa_recycle
+        IconFontColor = fc_danger
+        IconFontSize = fs_32
+        ButtonStyles = bs_transparent
+      end
+    end
+    object cbStyle: TUniComboBox
+      Left = 66
+      Top = 268
+      Width = 143
+      Hint = ''
+      Style = csDropDownList
+      Text = 'bs_primary'
+      Items.Strings = (
+        'bs_none'
+        'bs_default'
+        'bs_primary'
+        'bs_success'
+        'bs_info'
+        'bs_warning'
+        'bs_danger'
+        'bs_purple'
+        'bs_pink'
+        'bs_inverse'
+        'bs_grey'
+        'bs_light'
+        'bs_yellow'
+        'bs_transparent')
+      ItemIndex = 2
+      TabOrder = 10
+      OnChange = cbStyleChange
+    end
+    object lbl1: TUniLabel
+      Left = 24
+      Top = 268
+      Width = 29
+      Height = 13
+      Hint = ''
+      Caption = 'Styles'
+      TabOrder = 11
+    end
+  end
+  object UniToolBar1: TUniToolBar
+    Left = 0
+    Top = 0
+    Width = 916
+    Height = 29
+    Hint = ''
+    Anchors = [akLeft, akTop, akRight]
+    Align = alTop
+    TabOrder = 1
+    ParentColor = False
+    Color = clBtnFace
+    ExplicitWidth = 320
+    object UniSFBitBtn1: TUniSFBitBtn
+      Left = 99
+      Top = 0
+      Width = 112
+      Height = 29
+      Hint = ''
+      Caption = 'Cancel'
+      Align = alLeft
+      Anchors = [akLeft, akTop, akBottom]
+      TabOrder = 1
+      IconFont = fa_close
+      IconFontColor = fc_white
+      IconFontSize = fs_16
+      ButtonStyles = bs_danger
+    end
+    object UniSFBitBtn2: TUniSFBitBtn
+      Left = 211
+      Top = 0
+      Width = 112
+      Height = 29
+      Hint = ''
+      Caption = 'Confirm'
+      Align = alLeft
+      Anchors = [akLeft, akTop, akBottom]
+      TabOrder = 2
+      IconFont = fa_check
+      IconFontColor = fc_white
+      IconFontSize = fs_16
+      ButtonStyles = bs_success
+    end
+    object UniSFBitBtn3: TUniSFBitBtn
+      Left = 0
+      Top = 0
+      Width = 33
+      Height = 29
+      Hint = ''
+      Caption = ''
+      Align = alLeft
+      Anchors = [akLeft, akTop, akBottom]
+      TabOrder = 3
+      IconFont = fa_plus
+      IconFontColor = fc_primary
+      IconFontSize = fs_16
+      ButtonStyles = bs_light
+    end
+    object UniSFBitBtn4: TUniSFBitBtn
+      Left = 33
+      Top = 0
+      Width = 33
+      Height = 29
+      Hint = ''
+      Caption = ''
+      Align = alLeft
+      Anchors = [akLeft, akTop, akBottom]
+      TabOrder = 4
+      IconFont = fa_pencil
+      IconFontColor = fc_success
+      IconFontSize = fs_16
+      ButtonStyles = bs_light
+    end
+    object UniSFBitBtn5: TUniSFBitBtn
+      Left = 66
+      Top = 0
+      Width = 33
+      Height = 29
+      Hint = ''
+      Caption = ''
+      Align = alLeft
+      Anchors = [akLeft, akTop, akBottom]
+      TabOrder = 5
+      IconFont = fa_trash
+      IconFontColor = fc_danger
+      IconFontSize = fs_16
+      ButtonStyles = bs_light
+    end
+  end
+  object UniPopupMenu1: TUniPopupMenu
+    Left = 629
+    Top = 515
+    object One1: TUniMenuItem
+      Caption = 'One'
+    end
+    object wo1: TUniMenuItem
+      Caption = 'Two'
+    end
+    object hree1: TUniMenuItem
+      Caption = 'Three'
+    end
+  end
+  object UniPopupMenu2: TUniPopupMenu
+    Left = 629
+    Top = 451
+    object UniMenuItem1: TUniMenuItem
+      Caption = 'One'
+    end
+    object UniMenuItem2: TUniMenuItem
+      Caption = 'Two'
+    end
+    object UniMenuItem3: TUniMenuItem
+      Caption = 'Three'
+    end
+  end
+  object UniPopupMenu3: TUniPopupMenu
+    Left = 741
+    Top = 451
+    object UniMenuItem4: TUniMenuItem
+      Caption = 'One'
+    end
+    object UniMenuItem5: TUniMenuItem
+      Caption = 'Two'
+    end
+    object UniMenuItem6: TUniMenuItem
+      Caption = 'Three'
+    end
+  end
+  object UniPopupMenu4: TUniPopupMenu
+    Left = 741
+    Top = 515
+    object UniMenuItem7: TUniMenuItem
+      Caption = 'One'
+    end
+    object UniMenuItem8: TUniMenuItem
+      Caption = 'Two'
+    end
+    object UniMenuItem9: TUniMenuItem
+      Caption = 'Three'
+    end
+  end
+end

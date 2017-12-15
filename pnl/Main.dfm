@@ -735,17 +735,6 @@ object MainForm: TMainForm
       Font.Color = clWhite
       TabOrder = 3
     end
-    object UniBitBtn1: TUniBitBtn
-      Left = 73
-      Top = 42
-      Width = 64
-      Height = 23
-      Hint = ''
-      ShowHint = True
-      Caption = '<i class="fa fa-sign-out fa-lg"></i>  Sair'
-      TabOrder = 4
-      OnClick = UniBitBtn1Click
-    end
     object UniPanel1: TUniPanel
       Left = 5
       Top = 3
@@ -753,7 +742,7 @@ object MainForm: TMainForm
       Height = 65
       Hint = ''
       ShowHint = True
-      TabOrder = 5
+      TabOrder = 4
       ClientEvents.ExtEvents.Strings = (
         
           'afterrender=function afterrender(sender, eOpts)'#13#10'{'#13#10'  sender.set' +
@@ -1604,6 +1593,21 @@ object MainForm: TMainForm
         Anchors = [akLeft, akTop, akRight, akBottom]
       end
     end
+    object UniSFBitBtn1: TUniSFBitBtn
+      Left = 75
+      Top = 42
+      Width = 75
+      Height = 25
+      Hint = ''
+      ShowHint = True
+      Caption = 'Sair'
+      TabOrder = 5
+      OnClick = UniSFBitBtn1Click
+      IconFont = fa_power_off
+      IconFontColor = fc_white
+      IconFontSize = fs_16
+      ButtonStyles = bs_none
+    end
   end
   inline frmFrameMenu1: TfrmFrameMenu
     Left = 0
@@ -1628,49 +1632,9 @@ object MainForm: TMainForm
       ExplicitWidth = 200
       ExplicitHeight = 768
       inherited UniPanel2: TUniPanel
-        Top = 19
         Title = 
           '<i class="fa fa-address-book-o" aria-hidden="true"></i> Cadastro' +
           's'
-        ExplicitTop = 19
-        inherited UniButton3: TUniButton
-          OnClick = frmFrameMenu1UniButton3Click
-        end
-        inherited UniButton13: TUniButton
-          OnClick = frmFrameMenu1UniButton13Click
-        end
-      end
-      inherited UniPanel5: TUniPanel
-        inherited UniButton10: TUniButton
-          ExplicitLeft = 1
-          ExplicitTop = 1
-        end
-        inherited UniButton18: TUniButton
-          ExplicitLeft = 1
-          ExplicitTop = 26
-        end
-      end
-      inherited UniPanel6: TUniPanel
-        inherited UniButton9: TUniButton
-          ExplicitLeft = 1
-          ExplicitTop = 101
-        end
-        inherited UniButton11: TUniButton
-          ExplicitLeft = 1
-          ExplicitTop = 76
-        end
-        inherited UniButton12: TUniButton
-          ExplicitLeft = 1
-          ExplicitTop = 51
-        end
-        inherited UniButton16: TUniButton
-          ExplicitLeft = 1
-          ExplicitTop = 26
-        end
-        inherited UniButton17: TUniButton
-          ExplicitLeft = 1
-          ExplicitTop = 1
-        end
       end
     end
   end
@@ -1682,35 +1646,13 @@ object MainForm: TMainForm
     Hint = ''
     ShowHint = True
     ActivePage = Painel
-    Images = UniNativeImageList2
     Align = alClient
     Anchors = [akLeft, akTop, akRight, akBottom]
     TabOrder = 2
     object Painel: TUniTabSheet
       Hint = ''
       ShowHint = True
-      ImageIndex = 1
-      Caption = ''
+      Caption = 'Principal'
     end
-  end
-  object UniNativeImageList2: TUniNativeImageList
-    Left = 80
-    Top = 408
-    Images = {
-      02000000FFFFFF1F025400000047494638396110001000800100005830000000
-      21F90401000001002C000000001000100000022B8C8FA90670BD4283D2298AAF
-      651B614B3DE0C489DC3456273AB66C56BDA817BEF4668B387BEBA4EEA3140000
-      3BFFFFFF1F046601000089504E470D0A1A0A0000000D49484452000000100000
-      00100804000000B5FA37EA0000012D494441542853958F414AC340148673841C
-      A147C811E6081EA137302B97922EDA6E8446DC94224D4B16064588446C5528D3
-      8A60A0A5B1442BC5C55B2845117C7561C5CD6F2641830A82EF63183EDE07C368
-      DAFFE65D5F16D47D27090BF16BFD62DCD28C9F93C5509EE3E167302FC6DC87E4
-      4BCC8BD7468FE6DF03B2421C53C73C353B51881B7BAABFEA5FCB377DEA4BF8F2
-      C81E608013DB973D5CF9CBCFE0C91845013CFBD0EFB2471E7739905E2BC0285A
-      1492F5BDE8B3C76D33A07DB8B4235D7269173EB76D8FCFF8D1D02EACA6D55E39
-      8083069C2470C8A106B6B18756B1698DCDF491586C41516787EA5CE7CCA2FC17
-      B1D880A286CDE4D490599C071351460A9545026536C983B15887A22295556466
-      E33C188A3528AA695095990DF32014AB5094D2A024330BF3E0AFF900C1C9DB3E
-      EAC3CC1B0000000049454E44AE426082}
   end
 end

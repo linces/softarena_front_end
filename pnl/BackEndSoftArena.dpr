@@ -13,12 +13,10 @@ uses
   ServerModule in 'ServerModule.pas' {UniServerModule: TUniGUIServerModule},
   MainModule in 'MainModule.pas' {UniMainModule: TUniGUIMainModule},
   Main in 'Main.pas' {MainForm: TUniForm},
-  unCadastroPadrao in 'unCadastroPadrao.pas' {frmCadastroPadrao: TUniForm},
   unLogin in 'unLogin.pas' {frmLogin: TUniLoginForm},
   unEsqueciSenha in 'unEsqueciSenha.pas' {frmEsqueciSenha: TUniForm},
-  unCadastroInicial in 'unCadastroInicial.pas' {frmCadastroInicial: TUniForm},
   unFrameMenu in 'unFrameMenu.pas' {frmFrameMenu: TUniFrame},
-  unTipoPessoas in 'unTipoPessoas.pas' {frmTipoPessoas: TUniForm};
+  unCadPadrao in 'unCadPadrao.pas' {frmCadPadrao: TUniFrame};
 
 {$R *.res}
 

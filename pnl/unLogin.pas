@@ -11,11 +11,11 @@ uses
   FireDAC.DApt.Intf,
   FireDAC.Stan.Async, FireDAC.DApt, Data.DB, FireDAC.Comp.DataSet,
   FireDAC.Comp.Client,
-  uniGUIBaseClasses, uniEdit, uniButton, uniLabel, uniImage, dxGDIPlusClasses,
+  uniGUIBaseClasses, uniEdit, uniButton, uniLabel, uniImage ,
   uniBitBtn,
   System.Actions, Vcl.ActnList, Vcl.PlatformDefaultStyleActnCtrls, Vcl.ActnMan,
   DCPsha512, DCPsha1,
-  DCPrc4, DCPcrypt2, DCPblockciphers, DCPrijndael, DCPmd5;
+  DCPrc4, DCPcrypt2, DCPblockciphers, DCPrijndael, DCPmd5, dxGDIPlusClasses;
 
 type
   TfrmLogin = class(TUniLoginForm)

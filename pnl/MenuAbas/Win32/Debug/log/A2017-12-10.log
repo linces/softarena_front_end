@@ -1,0 +1,114 @@
+MenuAbas.exe: 0000208C: 00:54:32 []:>--------------------------------------------------------------<
+MenuAbas.exe: 0000208C: 00:54:32 [TUniServerModule]:Server First Init.
+MenuAbas.exe: 0000208C: 00:54:32 [TUniServerModule]:Erasing Cache Folder...
+MenuAbas.exe: 0000208C: 00:54:32 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+MenuAbas.exe: 0000208C: 00:54:32 [TUniServerModule]:Starting HTTP Server...
+MenuAbas.exe: 0000208C: 00:54:32 [InitWebServer]:EIdCouldNotBindSocket : Could not bind socket. Address and port are already in use. : Addr: $0064F971
+MenuAbas.exe: 0000208C: 00:54:35 [TUniServerModule]:Shutting Down Server.
+MenuAbas.exe: 0000208C: 00:54:35 [TUniServerModule]:HTTP Server Stopped.
+MenuAbas.exe: 0000208C: 00:54:35 [TUniGUISessionManager]:Terminating Session manager.
+MenuAbas.exe: 0000208C: 00:54:35 [TUniGUISessionManager]:Stopping Cache Eraser...
+MenuAbas.exe: 0000208C: 00:54:35 [TUniGUISessionManager]:Cache Eraser Stopped.
+MenuAbas.exe: 0000208C: 00:54:35 [TUniGUISessionManager]:Destroying Worker Threads.
+MenuAbas.exe: 0000208C: 00:54:35 [TUniGUISessionManager]:Session manager terminated.
+MenuAbas.exe: 0000208C: 00:54:35 [TUniServerModule]:Server Shutdown Completed.
+MenuAbas.exe: 0000208C: 00:54:35 []:<-------------------------------------------------------------->
+MenuAbas.exe: 0000208C: 00:54:35 [Terminated]:Exit Code: 0
+MenuAbas.exe: 0000227C: 00:55:00 []:>--------------------------------------------------------------<
+MenuAbas.exe: 0000227C: 00:55:00 [TUniServerModule]:Server First Init.
+MenuAbas.exe: 0000227C: 00:55:00 [TUniServerModule]:Erasing Cache Folder...
+MenuAbas.exe: 0000227C: 00:55:00 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+MenuAbas.exe: 0000227C: 00:55:00 [TUniServerModule]:Starting HTTP Server...
+MenuAbas.exe: 0000227C: 00:55:00 [TUniServerModule]:HTTP Server Started. Port: 8077
+MenuAbas.exe: 00001D18: 00:55:07 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $00732A4E
+MenuAbas.exe: 00002178: 00:55:21 [127.0.0.1]:EComponentError : A component named frameTeste already exists : Addr: $004C9F76
+MenuAbas.exe: 0000227C: 00:55:58 [TUniServerModule]:Shutting Down Server.
+MenuAbas.exe: 00001D18: 00:55:58 [Indy]:EIdNotConnected : Not Connected : Addr: $0065907A
+MenuAbas.exe: 00002178: 00:55:58 [Indy]:EIdNotConnected : Not Connected : Addr: $0065907A
+MenuAbas.exe: 0000227C: 00:55:59 [TUniServerModule]:HTTP Server Stopped.
+MenuAbas.exe: 0000227C: 00:55:59 [TUniGUISessionManager]:Terminating Session manager.
+MenuAbas.exe: 0000227C: 00:55:59 [TUniGUISessionManager]:Stopping Cache Eraser...
+MenuAbas.exe: 0000227C: 00:55:59 [TUniGUISessionManager]:Cache Eraser Stopped.
+MenuAbas.exe: 0000227C: 00:55:59 [TUniGUISessionManager]:Destroying Worker Threads.
+MenuAbas.exe: 0000227C: 00:55:59 [TUniGUISessionManager]:Session manager terminated.
+MenuAbas.exe: 0000227C: 00:55:59 [TUniServerModule]:Server Shutdown Completed.
+MenuAbas.exe: 0000227C: 00:55:59 []:<-------------------------------------------------------------->
+MenuAbas.exe: 0000227C: 00:55:59 [Terminated]:Exit Code: 0
+MenuAbas.exe: 0000207C: 00:58:05 []:>--------------------------------------------------------------<
+MenuAbas.exe: 0000207C: 00:58:05 [TUniServerModule]:Server First Init.
+MenuAbas.exe: 0000207C: 00:58:05 [TUniServerModule]:Erasing Cache Folder...
+MenuAbas.exe: 0000207C: 00:58:05 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+MenuAbas.exe: 0000207C: 00:58:05 [TUniServerModule]:Starting HTTP Server...
+MenuAbas.exe: 0000207C: 00:58:05 [TUniServerModule]:HTTP Server Started. Port: 8077
+MenuAbas.exe: 00000FB0: 00:58:10 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $00732A4E
+MenuAbas.exe: 0000207C: 01:01:23 [TUniServerModule]:Shutting Down Server.
+MenuAbas.exe: 00000FB0: 01:01:24 [Indy]:EIdNotConnected : Not Connected : Addr: $0065907A
+MenuAbas.exe: 00000A9C: 01:01:24 [Indy]:EIdNotConnected : Not Connected : Addr: $0065907A
+MenuAbas.exe: 0000207C: 01:01:24 [TUniServerModule]:HTTP Server Stopped.
+MenuAbas.exe: 0000207C: 01:01:24 [TUniGUISessionManager]:Terminating Session manager.
+MenuAbas.exe: 0000207C: 01:01:24 [TUniGUISessionManager]:Stopping Cache Eraser...
+MenuAbas.exe: 0000207C: 01:01:24 [TUniGUISessionManager]:Cache Eraser Stopped.
+MenuAbas.exe: 0000207C: 01:01:24 [TUniGUISessionManager]:Destroying Worker Threads.
+MenuAbas.exe: 0000207C: 01:01:24 [TUniGUISessionManager]:Session manager terminated.
+MenuAbas.exe: 0000207C: 01:01:24 [TUniServerModule]:Server Shutdown Completed.
+MenuAbas.exe: 0000207C: 01:01:24 []:<-------------------------------------------------------------->
+MenuAbas.exe: 0000207C: 01:01:24 [Terminated]:Exit Code: 0
+MenuAbas.exe: 0000239C: 01:01:29 []:>--------------------------------------------------------------<
+MenuAbas.exe: 0000239C: 01:01:29 [TUniServerModule]:Server First Init.
+MenuAbas.exe: 0000239C: 01:01:29 [TUniServerModule]:Erasing Cache Folder...
+MenuAbas.exe: 0000239C: 01:01:29 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+MenuAbas.exe: 0000239C: 01:01:30 [TUniServerModule]:Starting HTTP Server...
+MenuAbas.exe: 0000239C: 01:01:30 [TUniServerModule]:HTTP Server Started. Port: 8077
+MenuAbas.exe: 00001E48: 01:01:31 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $00732A4E
+MenuAbas.exe: 0000239C: 01:02:44 [TUniServerModule]:Shutting Down Server.
+MenuAbas.exe: 00001E48: 01:02:44 [Indy]:EIdNotConnected : Not Connected : Addr: $0065907A
+MenuAbas.exe: 00001D44: 01:02:44 [Indy]:EIdNotConnected : Not Connected : Addr: $0065907A
+MenuAbas.exe: 0000239C: 01:02:45 [TUniServerModule]:HTTP Server Stopped.
+MenuAbas.exe: 0000239C: 01:02:45 [TUniGUISessionManager]:Terminating Session manager.
+MenuAbas.exe: 0000239C: 01:02:45 [TUniGUISessionManager]:Stopping Cache Eraser...
+MenuAbas.exe: 0000239C: 01:02:45 [TUniGUISessionManager]:Cache Eraser Stopped.
+MenuAbas.exe: 0000239C: 01:02:45 [TUniGUISessionManager]:Destroying Worker Threads.
+MenuAbas.exe: 0000239C: 01:02:45 [TUniGUISessionManager]:Session manager terminated.
+MenuAbas.exe: 0000239C: 01:02:45 [TUniServerModule]:Server Shutdown Completed.
+MenuAbas.exe: 0000239C: 01:02:45 []:<-------------------------------------------------------------->
+MenuAbas.exe: 0000239C: 01:02:45 [Terminated]:Exit Code: 0
+MenuAbas.exe: 00001EF4: 01:06:50 []:>--------------------------------------------------------------<
+MenuAbas.exe: 00001EF4: 01:06:50 [TUniServerModule]:Server First Init.
+MenuAbas.exe: 00001EF4: 01:06:50 [TUniServerModule]:Erasing Cache Folder...
+MenuAbas.exe: 00001EF4: 01:06:50 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+MenuAbas.exe: 00001EF4: 01:06:50 [TUniServerModule]:Starting HTTP Server...
+MenuAbas.exe: 00001EF4: 01:06:50 [TUniServerModule]:HTTP Server Started. Port: 8077
+MenuAbas.exe: 00001588: 01:06:53 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $00732A4E
+MenuAbas.exe: 000003C0: 01:19:52 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. : Addr: $00732A4E
+MenuAbas.exe: 00001738: 18:24:57 []:>--------------------------------------------------------------<
+MenuAbas.exe: 00001738: 18:24:57 [TUniServerModule]:Server First Init.
+MenuAbas.exe: 00001738: 18:24:57 [TUniServerModule]:Erasing Cache Folder...
+MenuAbas.exe: 00001738: 18:24:57 [TUniServerModule]:Cache Folder Erased. <1> Files deleted.
+MenuAbas.exe: 00001738: 18:24:57 [TUniServerModule]:Starting HTTP Server...
+MenuAbas.exe: 00001738: 18:24:57 [InitWebServer]:EIdCouldNotBindSocket : Could not bind socket. Address and port are already in use. : Addr: $0064F971
+MenuAbas.exe: 00001738: 18:24:59 [TUniServerModule]:Shutting Down Server.
+MenuAbas.exe: 00001738: 18:25:00 [TUniServerModule]:HTTP Server Stopped.
+MenuAbas.exe: 00001738: 18:25:00 [TUniGUISessionManager]:Terminating Session manager.
+MenuAbas.exe: 00001738: 18:25:00 [TUniGUISessionManager]:Stopping Cache Eraser...
+MenuAbas.exe: 00001738: 18:25:00 [TUniGUISessionManager]:Cache Eraser Stopped.
+MenuAbas.exe: 00001738: 18:25:00 [TUniGUISessionManager]:Destroying Worker Threads.
+MenuAbas.exe: 00001738: 18:25:00 [TUniGUISessionManager]:Session manager terminated.
+MenuAbas.exe: 00001738: 18:25:00 [TUniServerModule]:Server Shutdown Completed.
+MenuAbas.exe: 00001738: 18:25:00 []:<-------------------------------------------------------------->
+MenuAbas.exe: 00001738: 18:25:00 [Terminated]:Exit Code: 0
+MenuAbas.exe: 00001EF4: 18:25:01 [TUniServerModule]:Shutting Down Server.
+MenuAbas.exe: 00001EF4: 18:25:02 [TUniServerModule]:HTTP Server Stopped.
+MenuAbas.exe: 00001EF4: 18:25:02 [TUniGUISessionManager]:Terminating Session manager.
+MenuAbas.exe: 00001EF4: 18:25:02 [TUniGUISessionManager]:Stopping Cache Eraser...
+MenuAbas.exe: 00001EF4: 18:25:02 [TUniGUISessionManager]:Cache Eraser Stopped.
+MenuAbas.exe: 00001EF4: 18:25:02 [TUniGUISessionManager]:Destroying Worker Threads.
+MenuAbas.exe: 00001EF4: 18:25:02 [TUniGUISessionManager]:Session manager terminated.
+MenuAbas.exe: 00001EF4: 18:25:02 [TUniServerModule]:Server Shutdown Completed.
+MenuAbas.exe: 00001EF4: 18:25:02 []:<-------------------------------------------------------------->
+MenuAbas.exe: 00001EF4: 18:25:02 [Terminated]:Exit Code: 0
+MenuAbas.exe: 00001958: 18:25:04 []:>--------------------------------------------------------------<
+MenuAbas.exe: 00001958: 18:25:04 [TUniServerModule]:Server First Init.
+MenuAbas.exe: 00001958: 18:25:04 [TUniServerModule]:Erasing Cache Folder...
+MenuAbas.exe: 00001958: 18:25:04 [TUniServerModule]:Cache Folder Erased. <0> Files deleted.
+MenuAbas.exe: 00001958: 18:25:04 [TUniServerModule]:Starting HTTP Server...
+MenuAbas.exe: 00001958: 18:25:04 [TUniServerModule]:HTTP Server Started. Port: 8077
