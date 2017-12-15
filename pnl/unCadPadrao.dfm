@@ -29,8 +29,6 @@ object frmCadPadrao: TfrmCadPadrao
     BorderStyle = ubsNone
     Caption = ''
     ExplicitTop = -3
-    ExplicitWidth = 1131
-    ExplicitHeight = 630
     object UniPanel3: TUniPanel
       Left = 0
       Top = 658
@@ -43,23 +41,6 @@ object frmCadPadrao: TfrmCadPadrao
       BorderStyle = ubsNone
       Caption = ''
       ExplicitTop = 661
-      object btnIncluir: TUniSFBitBtn
-        Left = 21
-        Top = 3
-        Width = 70
-        Height = 54
-        Hint = 'Incluir um registro'
-        ShowHint = True
-        ParentShowHint = False
-        Caption = 'Incluir'
-        TabOrder = 1
-        IconAlign = iaTop
-        OnClick = btnIncluirClick
-        IconFont = fa_plus_square
-        IconFontColor = fc_white
-        IconFontSize = fs_24
-        ButtonStyles = bs_none
-      end
       object btnSalvar: TUniSFBitBtn
         Left = 97
         Top = 3
@@ -70,7 +51,7 @@ object frmCadPadrao: TfrmCadPadrao
         ShowHint = True
         ParentShowHint = False
         Caption = 'Gravar'
-        TabOrder = 2
+        TabOrder = 1
         IconAlign = iaTop
         OnClick = btnSalvarClick
         IconFont = fa_check_square
@@ -88,7 +69,7 @@ object frmCadPadrao: TfrmCadPadrao
         ShowHint = True
         ParentShowHint = False
         Caption = 'Cancelar'
-        TabOrder = 3
+        TabOrder = 2
         IconAlign = iaTop
         OnClick = btnCancelarClick
         IconFont = fa_ban
@@ -105,7 +86,7 @@ object frmCadPadrao: TfrmCadPadrao
         ShowHint = True
         ParentShowHint = False
         Caption = 'Excluir'
-        TabOrder = 4
+        TabOrder = 3
         IconAlign = iaTop
         OnClick = btnExcluirClick
         IconFont = fa_minus_square
@@ -122,7 +103,7 @@ object frmCadPadrao: TfrmCadPadrao
         ShowHint = True
         ParentShowHint = False
         Caption = 'Filtrar'
-        TabOrder = 5
+        TabOrder = 4
         IconAlign = iaTop
         OnClick = btnFiltrarClick
         IconFont = fa_filter
@@ -139,7 +120,7 @@ object frmCadPadrao: TfrmCadPadrao
         ShowHint = True
         ParentShowHint = False
         Caption = 'Consultar'
-        TabOrder = 6
+        TabOrder = 5
         IconAlign = iaTop
         OnClick = btnConsultarClick
         IconFont = fa_search
@@ -147,18 +128,23 @@ object frmCadPadrao: TfrmCadPadrao
         IconFontSize = fs_24
         ButtonStyles = bs_none
       end
-    end
-    object UniDBGrid1: TUniDBGrid
-      AlignWithMargins = True
-      Left = 3
-      Top = 3
-      Width = 1299
-      Height = 652
-      Hint = ''
-      LoadMask.Message = 'Loading data...'
-      Align = alClient
-      Anchors = [akLeft, akTop, akRight, akBottom]
-      TabOrder = 2
+      object btnIncluir: TUniSFBitBtn
+        Left = 21
+        Top = 3
+        Width = 70
+        Height = 54
+        Hint = 'Incluir um registro'
+        ShowHint = True
+        ParentShowHint = False
+        Caption = 'Incluir'
+        TabOrder = 6
+        IconAlign = iaTop
+        OnClick = btnIncluirClick
+        IconFont = fa_plus_square
+        IconFontColor = fc_white
+        IconFontSize = fs_24
+        ButtonStyles = bs_none
+      end
     end
   end
   object dsCadastro: TDataSource

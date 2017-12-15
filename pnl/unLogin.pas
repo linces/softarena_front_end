@@ -34,7 +34,6 @@ type
     actSair: TAction;
     procedure btnLogarClick(Sender: TObject);
     procedure UniLabel3Click(Sender: TObject);
-    procedure UniButton1Click(Sender: TObject);
     procedure actSairExecute(Sender: TObject);
   private
     dcsnh: string;
@@ -51,7 +50,7 @@ implementation
 
 uses
   uniGUIVars, MainModule, uniGUIApplication, Main, unEsqueciSenha,
-  unCadastroInicial, ServerModule;
+   ServerModule;
 
 function frmLogin: TfrmLogin;
 begin
@@ -106,11 +105,6 @@ begin
 
 end;
 
-
-procedure TfrmLogin.UniButton1Click(Sender: TObject);
-begin
-  frmCadastroInicial.Show;
-end;
 
 procedure TfrmLogin.UniLabel3Click(Sender: TObject);
 begin

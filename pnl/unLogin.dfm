@@ -265,7 +265,6 @@ object frmLogin: TfrmLogin
       
         'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'    send' +
         'er.addCls("Botao_Base Botao_Azul")'#13#10'}')
-    OnClick = UniButton1Click
   end
   object fdLogin: TFDQuery
     Connection = UniMainModule.Conexao

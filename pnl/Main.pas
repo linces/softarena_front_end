@@ -50,7 +50,7 @@ implementation
 {$R *.dfm}
 
 uses
-  uniGUIVars, MainModule, uniGUIApplication, unCadastroInicial, unTipoPessoas;
+  uniGUIVars, MainModule, uniGUIApplication;
 
 function MainForm: TMainForm;
 begin

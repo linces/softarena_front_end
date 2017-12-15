@@ -24,7 +24,6 @@ type
     btnExcluir: TUniSFBitBtn;
     btnFiltrar: TUniSFBitBtn;
     btnConsultar: TUniSFBitBtn;
-    UniDBGrid1: TUniDBGrid;
     procedure UniFrameCreate(Sender: TObject);
     procedure btnIncluirClick(Sender: TObject);
     procedure btnCancelarClick(Sender: TObject);
@@ -245,8 +244,6 @@ begin
  Self.Height := MainForm.ControlConteudo.ActivePage.Height;
  Self.Width := MainForm.ControlConteudo.ActivePage.Width;
  cSQL := TFDQuery(dsCadastro.DataSet).SQL.Text;
- UniDBGrid1.Width := pnlCadastro.Width;
- UniDBGrid1.Height := pnlCadastro.Height;
 
 end;
 
