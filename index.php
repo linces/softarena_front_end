@@ -65,86 +65,10 @@
                             
                         </li>
                         <li class="menu-item menu-item-has-children mega-menu">
-                            <a href="#">Features</a><i class="sub-menu-toggle fa fa-angle-down"></i>
-                            <ul class="sub-menu">
-                                <li class="menu-item">
-                                    <div class="mega-menu-content">
-                                        <div class="row no-padding">
-                                            <div class="col-sm-12">
-                                                <div class="row">
-                                                    <ul class="col-md-12">
-                                                        <li><a href="./features_rev_slider.html"><i class="fa fa-image"></i> Revolution Slider</a></li>
-                                                        <li><a href="./features_blazing_speed.html"><i class="fa fa-rocket"></i>&nbsp;Fast Loading Speed</a></li>
-                                                        <li><a href="./features_contact_form.html"><i class="fa fa-map-marker"></i>&nbsp;Contact Form</a></li>
-                                                        <li><a href="./features_homepages.html"><i class="fa fa-home"></i> 15+ Homepages</a></li>
-                                                        <li><a href="./features_smooth_animation.html"><i class="fa fa-css3"></i> Smooth CSS3 Animation</a></li>
-                                                    </ul>
-                                                    <ul class="col-md-12">
-                                                        <li><a href="./features_blog_layouts.html"><i class="fa fa-file-text-o"></i> 3+ Post Layouts</a></li>
-                                                        <li><a href="./features_blog_options.html"><i class="fa fa-newspaper-o"></i>&nbsp;3+ Blog Options</a></li>
-                                                        <li><a href="./features_project-options.html"><i class="fa fa-database"></i>&nbsp;12+ Project Options</a></li>
-                                                        <li><a href="./features_portfolio_details.html"><i class="fa fa-columns"></i>&nbsp;5+ Project Details</a></li>
-                                                        <li><a href="./features_sticky_header.html"><i class="fa fa-minus"></i> Sticky Header</a></li>
-                                                    </ul>
-                                                    <ul class="col-md-12">
-                                                        <li><a href="./features_retina.html"><i class="fa fa-desktop"></i> Responsive &amp; Retina</a></li>
-                                                        <li><a href="./features_ul_colors.html"><i class="fa fa-magic"></i> Unlimited Colors</a></li>
-                                                        <li><a href="./features_support.html"><i class="fa fa-magic"></i> Premium Support</a></li>
-                                                    </ul>
-                                                    <ul class="col-md-12">
-                                                        <li><a href="./features_bootstrap.html"><i class="fa fa-html5"></i> Bootstrap 3.x Based</a></li>
-                                                        <li><a href="./features_update.html"><i class="fa fa-hand-o-up"></i>&nbsp;Lifetime Update</a></li>
-                                                        <li><a href="./features_google_fonts.html"><i class="fa fa-google"></i> 600+ Google Fonts</a></li>
-                                                        <li><a href="./features_fontawesome.html"><i class="fa fa-font"></i> Font Awesome Icons</a></li>
-                                                        <li><a href="./features_seo.html"><i class="fa fa-google"></i>&nbsp;SEO Optimization</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
+                            
                         </li>
                         <li class="menu-item menu-item-has-children mega-menu">
-                            <a href="./element_accordion.html">Elements</a><i class="sub-menu-toggle fa fa-angle-down"></i>
-                            <ul class="sub-menu">
-                                <li>
-                                    <div class="mega-menu-content mega-menu-elements">
-                                        <div class="container">
-                                            <div class="row">
-                                                <ul class="col-md-3">
-                                                    <li><a href="./element_accordion.html"><span class="pe-7s-menu"> &nbsp; </span>Accordion</a></li>
-                                                    <li><a href="./element_alerts.html"><span class="pe-7s-attention"> &nbsp; </span>Alert Message</a></li>
-                                                    <li><a href="./element_button.html"><span class="pe-7s-link"> &nbsp; </span>Buttons</a></li>
-                                                    <li><a href="./element_call-to-action.html"><span class="pe-7s-mouse"> &nbsp; </span>Call-To-Action</a></li>
-                                                    <li><a href="./element_charts.html"><span class="pe-7s-graph3"> &nbsp; </span>Charts</a></li>
-                                                </ul>
-                                                <ul class="col-md-3">
-                                                    <li><a href="./element_columns.html"><span class="pe-7s-bookmarks"> &nbsp; </span>Columns</a></li>
-                                                    <li><a href="./element_counters.html"><span class="pe-7s-edit"> &nbsp; </span>Counters</a></li>
-                                                    <li><a href="./element_countdown-clock.html"><span class="pe-7s-clock"> &nbsp; </span>Countdown Clock</a></li>
-                                                    <li><a href="./element_divider.html"><span class="pe-7s-more"> &nbsp; </span>Divider</a></li>
-                                                    <li><a href="./element_dropcaps.html"><span class="pe-7s-info"> &nbsp; </span>Drop caps</a></li>
-                                                </ul>
-                                                <ul class="col-md-3">
-                                                    <li><a href="./element_forms.html"><span class="pe-7s-box2"> &nbsp; </span>Forms</a></li>
-                                                    <li><a href="./element_gallery.html"><span class="pe-7s-comment"> &nbsp; </span>Gallery with light box</a></li>
-                                                    <li><a href="./element_iconboxes.html"><span class="pe-7s-photo"> &nbsp; </span>Icon Boxes</a></li>
-                                                    <li><a href="./element_lists.html"><span class="pe-7s-note2"> &nbsp; </span>Lists</a></li>
-                                                    <li><a href="./pricing.html"><span class="pe-7s-cash"> &nbsp; </span>Pricing Tables</a></li>
-                                                </ul>
-                                                <ul class="col-md-3">
-                                                    <li><a href="./element_testimonials.html"><span class="pe-7s-diamond">&nbsp;</span>Testimonials &amp; Quotes</a></li>
-                                                    <li><a href="./element_text-block.html"><span class="pe-7s-menu">&nbsp;</span>Text Block</a></li>
-                                                    <li><a href="./element_text-box.html"><span class="pe-7s-photo-gallery">&nbsp;</span>Text Boxes</a></li>
-                                                    <li><a href="./element_typography.html"><span class="pe-7s-pen">&nbsp;</span>Typography</a></li>
-                                                    <li><a href="./element_tabs.html"><span class="pe-7s-wallet">&nbsp;</span>Tabs</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
+                            
                         </li>
                         <li class="menu-item menu-item-has-children">
                             <a href="./about-our-company.html">Pages</a><i class="sub-menu-toggle fa fa-angle-down"></i>
