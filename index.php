@@ -391,72 +391,7 @@
                                             <a href="./index.php">Home</a>
                             
                                         </li>
-                                        <li class="menu-item menu-item-has-children mega-menu">
-                                            <a href="#">Features</a>
-                                            <ul class="sub-menu">
-                                                <li>
-                                                    <div class="mega-menu-content">
-                                                        <ul class="col-md-3">
-                                                            <li><a href="./features_rev_slider.html"><i class="fa fa-image"></i> Revolution Slider</a></li>
-                                                            <li><a href="./features_blazing_speed.html"><i class="fa fa-rocket"></i>&nbsp;Fast Loading Speed</a></li>
-                                                            <li><a href="./features_contact_form.html"><i class="fa fa-map-marker"></i>&nbsp;Contact Form</a></li>
-                                                            <li><a href="./features_homepages.html"><i class="fa fa-home"></i> 15+ Homepages</a></li>
-                                                            <li><a href="./features_smooth_animation.html"><i class="fa fa-css3"></i> Smooth CSS3 Animation</a></li>
-                                                        </ul>
-                                                        <ul class="col-md-3">
-                                                            <li><a href="./features_blog_layouts.html"><i class="fa fa-file-text-o"></i> 3+ Post Layouts</a></li>
-                                                            <li><a href="./features_blog_options.html"><i class="fa fa-newspaper-o"></i>&nbsp;3+ Blog Options</a></li>
-                                                            <li><a href="./features_project-options.html"><i class="fa fa-database"></i>&nbsp;12+ Project Options</a></li>
-                                                            <li><a href="./features_portfolio_details.html"><i class="fa fa-columns"></i>&nbsp;5+ Project Details</a></li>
-                                                            <li><a href="./features_sticky_header.html"><i class="fa fa-minus"></i> Sticky Header</a></li>
-                                                        </ul>
-                                                        <ul class="col-md-3">
-                                                            <li class="menu-level2">
-                                                                <a href="./header-1-footer-1.html"><i class="fa fa-align-right"></i>&nbsp;12+ Header</a>
-                                                                <ul class="sub-menu">
-                                                                    <li><a href="./header-1-footer-1.html">Header 1</a></li>
-                                                                    <li><a href="./header-2-footer-2.html">Header 2</a></li>
-                                                                    <li><a href="./header-3-footer-3.html">Header 3</a></li>
-                                                                    <li><a href="./header-4-footer-4.html">Header 4</a></li>
-                                                                    <li><a href="./header-5-footer-5.html">Header 5</a></li>
-                                                                    <li><a href="./header-6-footer-6.html">Header 6</a></li>
-                                                                    <li><a href="./header-7-footer-7.html">Header 7</a></li>
-                                                                    <li><a href="./header-8-footer-8.html">Header 8</a></li>
-                                                                    <li><a href="./header-9.html">Header 9</a></li>
-                                                                    <li><a href="./header-10.html">Header 10</a></li>
-                                                                    <li><a href="./header-11.html">Header 11</a></li>
-                                                                    <li><a href="./header-12.html">Header 12</a></li>
-                                                                </ul>
-                                                            </li>
-                                                            <li class="menu-level2">
-                                                                <a href="./header-1-footer-1.html"><i class="fa fa-align-right"></i>&nbsp;8+ Footer</a>
-                                                                <ul class="sub-menu">
-                                                                    <li><a href="./header-1-footer-1.html#footer">Footer 1</a></li>
-                                                                    <li><a href="./header-2-footer-2.html#footer">Footer 2</a></li>
-                                                                    <li><a href="./header-3-footer-3.html#footer">Footer 3</a></li>
-                                                                    <li><a href="./header-4-footer-4.html#footer">Footer 4</a></li>
-                                                                    <li><a href="./header-5-footer-5.html#footer">Footer 5</a></li>
-                                                                    <li><a href="./header-6-footer-6.html#footer">Footer 6</a></li>
-                                                                    <li><a href="./header-7-footer-7.html#footer">Footer 7</a></li>
-                                                                    <li><a href="./header-8-footer-8.html#footer">Footer 8</a></li>
-                                                                </ul>
-                                                            </li>
-                                                            <li><a href="./features_retina.html"><i class="fa fa-desktop"></i> Responsive &amp; Retina</a></li>
-                                                            <li><a href="./features_ul_colors.html"><i class="fa fa-magic"></i> Unlimited Colors</a></li>
-                                                            <li><a href="./features_support.html"><i class="fa fa-magic"></i> Premium Support</a></li>
-                                                        </ul>
-                                                        <ul class="col-md-3">
-                                                            <li><a href="./features_bootstrap.html"><i class="fa fa-html5"></i> Bootstrap 3.x Based</a></li>
-                                                            <li><a href="./features_update.html"><i class="fa fa-hand-o-up"></i>&nbsp;Lifetime Update</a></li>
-                                                            <li><a href="./features_google_fonts.html"><i class="fa fa-google"></i> 600+ Google Fonts</a></li>
-                                                            <li><a href="./features_fontawesome.html"><i class="fa fa-font"></i> Font Awesome Icons</a></li>
-                                                            <li><a href="./features_seo.html"><i class="fa fa-google"></i>&nbsp;SEO Optimization</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        
+                                                                              
                                         <li class="menu-item menu-item-has-children">
                                             <a href="./about-our-company.html">Pages</a>
                                             <ul class="sub-menu">
@@ -560,7 +495,7 @@
                                                         <div class="container">
                                                             <div class="row">
                                                                 <div class="col-md-3">
-                                                                    <h5>My Shop</h5>
+                                                                    <h5>Minhas Compras</h5>
                                                                     <ul class="shop-menu">
                                                                         <li><a href="./shop.html">Shop</a></li>
                                                                         <li><a href="./shop-checkout.html">Checkout</a></li>
@@ -677,22 +612,7 @@
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li class="menu-item menu-item-has-children">
-                                            <a href="./blog.html">Blog</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="./blog.html">Standard Layout</a></li>
-                                                <li><a href="./blog-grid.html">Grid Layout</a></li>
-                                                <li><a href="./blog-modern.html">Modern layout</a></li>
-                                                <li class="menu-level2">
-                                                    <a href="./blog-single-standard.html">Single Post</a>
-                                                    <ul class="sub-menu">
-                                                        <li><a href="./blog-single-standard.html">Standard Post</a></li>
-                                                        <li><a href="./blog-single-video.html">Video</a></li>
-                                                        <li><a href="./blog-single-quote.html">Quote</a></li>
-                                                        <li><a href="./blog-single-gallery.html">Gallery</a></li>
-                                                        <li><a href="./blog-single-noimage.html">No image</a></li>
-                                                    </ul>
-                                                </li>
+                                        
                                             </ul>
                                         </li>
                                     </ul>
