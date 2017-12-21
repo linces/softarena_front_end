@@ -17,7 +17,9 @@ uses
   unEsqueciSenha in 'unEsqueciSenha.pas' {frmEsqueciSenha: TUniForm},
   unFrameMenu in 'unFrameMenu.pas' {frmFrameMenu: TUniFrame},
   unCadPadrao in 'unCadPadrao.pas' {frmCadPadrao: TUniFrame},
-  unListaPadrao in 'unListaPadrao.pas' {frmListaPadrao: TUniFrame};
+  unListaPadrao in 'unListaPadrao.pas' {frmListaPadrao: TUniFrame},
+  unCadEmpresa in 'unCadEmpresa.pas' {frmCadEmpresa: TUniFrame},
+  unListaEmpresa in 'unListaEmpresa.pas' {frmListaEmpresa: TUniFrame};
 
 {$R *.res}
 

@@ -10,20 +10,21 @@ uses
   FireDAC.Stan.Error, FireDAC.DatS, FireDAC.Phys.Intf, FireDAC.DApt.Intf,
   FireDAC.Stan.Async, FireDAC.DApt, FireDAC.Comp.DataSet, FireDAC.Comp.Client,
   uniDBNavigator, uniDBEdit, uniBasicGrid, uniDBGrid, uniEdit, uniLabel, uniBitBtn, UniSFBitBtn, uniGUIFrame,
-  uniMultiItem, uniComboBox, uniDBComboBox, uniDBLookupComboBox;
+  uniMultiItem, uniComboBox, uniDBComboBox, uniDBLookupComboBox, uniTabControl;
 
 type
   TfrmCadPadrao = class(TUniFrame)
     dsCadastro: TDataSource;
     FDQuery1: TFDQuery;
+    FDTransaction1: TFDTransaction;
     pnlCadastro: TUniPanel;
     UniPanel3: TUniPanel;
-    btnIncluir: TUniSFBitBtn;
     btnSalvar: TUniSFBitBtn;
     btnCancelar: TUniSFBitBtn;
     btnExcluir: TUniSFBitBtn;
     btnFiltrar: TUniSFBitBtn;
     btnConsultar: TUniSFBitBtn;
+    btnIncluir: TUniSFBitBtn;
     procedure UniFrameCreate(Sender: TObject);
     procedure btnIncluirClick(Sender: TObject);
     procedure btnCancelarClick(Sender: TObject);

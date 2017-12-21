@@ -41,6 +41,7 @@ type
   public
     uniTab: TUniTabSheet;
     procedure NovaAba(nomeFormFrame: TFrame; descFormFrame: string; Fechar: Boolean);
+    procedure TrocaAba(nomeFormFrame: TFrame; descFormFrame: string; Fechar: Boolean);
   end;
 
 function MainForm: TMainForm;
@@ -114,6 +115,46 @@ begin
               Exit;
             end;
 
+      TabSheet              := TUniTabSheet.Create(Self);
+      TabSheet.PageControl  := ControlConteudo;
+      TabSheet.Caption      := descFormFrame;
+      TabSheet.Closable     := Fechar;
+      TabSheet.Align        := alClient;
+      TabSheet.Layout       := 'fit';
+
+      FCurrentFrame:= TUniFrameClass(nomeFormFrame).Create(Self);
+
+      with FCurrentFrame do
+        begin
+          Align               := alClient;
+          Parent              := TabSheet;
+        end;
+
+      Refresh;
+
+      ControlConteudo.ActivePage := TabSheet;
+end;
+
+procedure TMainForm.TrocaAba(nomeFormFrame: TFrame; descFormFrame: string; Fechar: Boolean);
+var TabSheet      :TUniTabSheet;
+    FCurrentFrame :TUniFrame;
+    I             :Integer;
+begin
+
+
+//    {Verificando se a tela já está aberto e redireciona a ela}
+      for I := 0 to ControlConteudo.PageCount - 1 do
+        with ControlConteudo do
+          if Pages[I].Caption = descFormFrame  then
+            begin
+           ControlConteudo.ActivePage.Close;
+
+      end;
+
+
+      ControlConteudo.ActivePage := TabSheet;
+
+      ControlConteudo.ActivePage.CleanupInstance;
       TabSheet              := TUniTabSheet.Create(Self);
       TabSheet.PageControl  := ControlConteudo;
       TabSheet.Caption      := descFormFrame;

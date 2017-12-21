@@ -62,20 +62,7 @@
                     <ul id="mobile-menu" class="menu">
                         <li class="menu-item menu-item-has-children">
                             <a href="./index.php">Inicio</a><i class="sub-menu-toggle fa fa-angle-down"></i>
-                            <ul class="sub-menu">
-                                <li class="menu-item"><a href="./index-corporate.html">Home Corporate 1</a></li>
-                                <li class="menu-item"><a href="./index-corporate-2.html">Home Corporate 2</a></li>
-                                <li class="menu-item"><a href="./index_business.html">Home Business</a></li>
-                                <li class="menu-item"><a href="./index_business_2.html">Home Business 2</a></li>
-                                <li class="menu-item"><a href="./index_basic.html">Home Basic</a></li>
-                                <li class="menu-item"><a href="./index_landing.html">Home Landing</a></li>
-                                <li class="menu-item"><a href="./index_landing_2.html">Home Landing Page 2</a></li>
-                                <li class="menu-item"><a href="./index-portfolio-2.html">Home Portfolio 2</a></li>
-                                <li class="menu-item"><a href="./index-shop.html">Home Shop</a></li>
-                                <li class="menu-item"><a href="./index_blog_masonry.html">Home Blog Masonry</a></li>
-                                <li class="menu-item"><a href="./index_studio.html">Home Studio</a></li>
-                                <li class="menu-item"><a href="./index_minimalism.html">Home Minimalism</a></li>
-                            </ul>
+                            
                         </li>
                         <li class="menu-item menu-item-has-children mega-menu">
                             <a href="#">Features</a><i class="sub-menu-toggle fa fa-angle-down"></i>

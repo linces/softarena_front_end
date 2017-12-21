@@ -1653,6 +1653,10 @@ object MainForm: TMainForm
       Hint = ''
       ShowHint = True
       Caption = 'Principal'
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 256
+      ExplicitHeight = 128
     end
   end
 end

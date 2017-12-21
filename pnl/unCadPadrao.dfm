@@ -2,8 +2,8 @@ object frmCadPadrao: TfrmCadPadrao
   AlignWithMargins = True
   Left = 0
   Top = 0
-  Width = 1305
-  Height = 725
+  Width = 1003
+  Height = 413
   Margins.Left = 0
   Margins.Top = 0
   Margins.Right = 0
@@ -20,19 +20,22 @@ object frmCadPadrao: TfrmCadPadrao
   object pnlCadastro: TUniPanel
     Left = 0
     Top = 0
-    Width = 1305
-    Height = 725
+    Width = 1003
+    Height = 413
     Hint = ''
     Align = alClient
     Anchors = [akLeft, akTop, akRight, akBottom]
     TabOrder = 0
     BorderStyle = ubsNone
     Caption = ''
-    ExplicitTop = -3
+    ExplicitLeft = 4
+    ExplicitTop = 24
+    ExplicitWidth = 995
+    ExplicitHeight = 385
     object UniPanel3: TUniPanel
       Left = 0
-      Top = 658
-      Width = 1305
+      Top = 346
+      Width = 1003
       Height = 67
       Hint = ''
       Align = alBottom
@@ -40,7 +43,8 @@ object frmCadPadrao: TfrmCadPadrao
       TabOrder = 1
       BorderStyle = ubsNone
       Caption = ''
-      ExplicitTop = 661
+      ExplicitTop = 318
+      ExplicitWidth = 995
       object btnSalvar: TUniSFBitBtn
         Left = 97
         Top = 3
@@ -155,7 +159,13 @@ object frmCadPadrao: TfrmCadPadrao
   end
   object FDQuery1: TFDQuery
     Connection = UniMainModule.Conexao
+    Transaction = FDTransaction1
     Left = 864
     Top = 24
+  end
+  object FDTransaction1: TFDTransaction
+    Options.AutoStop = False
+    Left = 872
+    Top = 80
   end
 end

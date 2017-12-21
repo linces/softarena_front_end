@@ -31,7 +31,7 @@ type
     UniButton17: TUniButton;
     UniButton18: TUniButton;
     procedure UniButton3Click(Sender: TObject);
-    procedure UniButton14Click(Sender: TObject);
+    procedure UniButton13Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -41,14 +41,15 @@ type
 implementation
 
 uses
-  Main, unCadPadrao, unListaPadrao;
+  Main, unCadPadrao, unListaPadrao, unListaEmpresa;
 
 {$R *.dfm}
 
 
-procedure TfrmFrameMenu.UniButton14Click(Sender: TObject);
+
+procedure TfrmFrameMenu.UniButton13Click(Sender: TObject);
 begin
-    MainForm.NovaAba(TFrame(TfrmListaPadrao),'Listagem Padrão',True);
+  MainForm.NovaAba(TFrame(TfrmListaEmpresa),'Empresa',True);
 end;
 
 procedure TfrmFrameMenu.UniButton3Click(Sender: TObject);

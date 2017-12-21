@@ -51,6 +51,7 @@ object frmFrameMenu: TfrmFrameMenu
           
             'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'     sen' +
             'der.addCls("x-botao-menu x-botao-menu-over");'#13#10'}')
+        OnClick = UniButton13Click
       end
       object UniButton3: TUniButton
         Left = 1
@@ -71,7 +72,6 @@ object frmFrameMenu: TfrmFrameMenu
             'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'     sen' +
             'der.addCls("x-botao-menu x-botao-menu-over");'#13#10'}')
         OnClick = UniButton3Click
-        ExplicitTop = 76
       end
       object UniButton14: TUniButton
         Left = 1
@@ -91,8 +91,6 @@ object frmFrameMenu: TfrmFrameMenu
           
             'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'        ' +
             'sender.addCls("x-botao-menu x-botao-menu-over");'#13#10'}')
-        OnClick = UniButton14Click
-        ExplicitTop = 51
       end
       object UniButton2: TUniButton
         Left = 1
@@ -112,7 +110,6 @@ object frmFrameMenu: TfrmFrameMenu
           
             'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'        ' +
             'sender.addCls("x-botao-menu x-botao-menu-over");'#13#10'}')
-        ExplicitTop = 101
       end
       object UniButton15: TUniButton
         Left = 1
@@ -132,7 +129,6 @@ object frmFrameMenu: TfrmFrameMenu
           
             'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'     sen' +
             'der.addCls("x-botao-menu x-botao-menu-over");'#13#10'}')
-        ExplicitTop = 126
       end
     end
     object UniPanel3: TUniPanel
@@ -307,7 +303,6 @@ object frmFrameMenu: TfrmFrameMenu
           
             'added=function added(sender, container, pos, eOpts)'#13#10'{'#13#10'     sen' +
             'der.addCls("x-botao-menu x-botao-menu-over");'#13#10'}')
-        ExplicitTop = 101
       end
       object UniButton12: TUniButton
         Left = 1
