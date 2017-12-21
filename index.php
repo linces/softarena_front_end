@@ -166,19 +166,19 @@
                             </ul>
                         </li>
                         <li class="menu-item menu-item-has-children mega-menu">
-                            <a href="/shop/">Shop</a><i class="sub-menu-toggle fa fa-angle-down"></i>
+                            <a href="/shop/">Adquirir</a><i class="sub-menu-toggle fa fa-angle-down"></i>
                             <ul class="sub-menu">
                                 <li>
                                     <div class="mega-menu-content mega-menu-shop">
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-md-3">
-                                                    <h5>My Shop</h5>
+                                                    <h5>Minhas Comnpras</h5>
                                                     <ul class="shop-menu">
-                                                        <li><a href="./shop.html">Shop</a></li>
+                                                        <li><a href="./shop.html">Produtos</a></li>
                                                         <li><a href="./shop-checkout.html">Checkout</a></li>
-                                                        <li><a href="./shop-cart.html">Cart</a></li>
-                                                        <li><a href="./shop-single.html">Product detail</a></li>
+                                                        <li><a href="./shop-cart.html">Carrinho</a></li>
+                                                        <li><a href="./shop-single.html">Detalhes do produto</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-md-6">
@@ -366,7 +366,7 @@
                                     <div class="search-box">
                                         <form class="search-form">
                                             <label>
-                                                <span class="screen-reader-text">Search for:</span>
+                                                <span class="screen-reader-text">Busca por:</span>
                                                 <input type="search" class="search-field" placeholder="Search ..." value="">
                                             </label>
                                             <input type="submit" class="search-submit" value="Search">
@@ -389,20 +389,7 @@
                                     <ul id="primary-menu" class="menu">
                                         <li class="menu-item menu-item-has-children">
                                             <a href="./index.php">Home</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="./index-corporate.html">Home Corporate 1</a></li>
-                                                <li><a href="./index-corporate-2.html">Home Corporate 2</a></li>
-                                                <li><a href="./index_business.html">Home Business</a></li>
-                                                <li><a href="./index_business_2.html">Home Business 2</a></li>
-                                                <li><a href="./index_basic.html">Home Basic</a></li>
-                                                <li><a href="./index_landing.html">Home Landing</a></li>
-                                                <li><a href="./index_landing_2.html">Home Landing Page 2</a></li>
-                                                <li><a href="./index_onepage.html">Home Onepage</a></li>
-                                                <li><a href="./index_creative.html">Home Creative</a></li>
-                                                <li><a href="./index_creative_2.html">Home Creative 2</a></li>
-                                                <li><a href="./index_agency.html">Home Agency</a></li>
-                                                <li><a href="./index_agency_2.html">Home Agency 2</a></li>
-                                            </ul>
+                            
                                         </li>
                                         <li class="menu-item menu-item-has-children mega-menu">
                                             <a href="#">Features</a>
@@ -1311,21 +1298,21 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="footer-widget">
                             <p><img src="images/logo-footer.png" alt=""></p>
-                            <p>Loja Virtual SoftArena, e-commerce de softwares e games no Brasil. Através de parcerias com fabricantes nacionais, internacionais e revendedores individuais válidados. Agora com o Softarena você terá a oportunidade de comprar com segurança muitos softwares, games, itens para games, cursos, templates, plugins e vetores dos melhores fornecedores do mercado . Rápido, fácil e com preços acessíveis!</p>
+                            <p>Loja Virtual SoftArena, e-commerce de softwares e serviços. Através de parcerias com fabricantes nacionais, internacionais e revendedores individuais válidados. Agora com o Softarena você terá a oportunidade de comprar com segurança muitos softwares, cursos, templates, plugins e vetores dos melhores fornecedores do mercado . Rápido, fácil e com preços acessíveis!</p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="footer-widget footer-contact">
                             <h5>Contact</h5>
-                            <p><span class="pe-7s-call"></span>(61 2) 9251 5600</p>
+                            <p><span class="pe-7s-call"></span>(34) 99158-7421 (WhatsApp)</p>
                             <p><span class="pe-7s-mail-open-file"></span>softarena@softarena.com.br</p>
-                            <p><span class="pe-7s-map-2"></span>No.200 Joseph, Canada 10020</p>
-                            <p><span class="pe-7s-print"></span>(61 2) 9200 5700</p>
+                            <p><span class="pe-7s-map-2"></span>João Alves Gouveia, 432, Ituiutaba - MG</p>
+                          
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="footer-widget">
-                            <h5>Recent Projects</h5>
+                            <h5>Veja Mais</h5>
                             <ul class="fprojects">
                                 <li>
                                     <div>
@@ -1380,7 +1367,7 @@
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="footer-widget">
-                            <h5>News</h5>
+                            <h5>Notícias</h5>
                             <ul class="fnews">
                                 <li>
                                     <a href="./blog.html">Standard post</a>
