@@ -388,105 +388,23 @@
                                 <div class="primary-menu pull-right">
                                     <ul id="primary-menu" class="menu">
                                         <li class="menu-item menu-item-has-children">
-                                            <a href="./index.php">Home</a>
+                                            <a href="./index.php">Início</a>
                             
                                         </li>
                                                                               
                                         <li class="menu-item menu-item-has-children">
-                                            <a href="./about-our-company.html">Pages</a>
+                                            <a href="./about-our-company.html">Produtos</a>
                                             <ul class="sub-menu">
-                                                <li class="menu-level2">
-                                                    <a href="./about-our-company.html">Sobre</a>
-                                                    <ul class="sub-menu">
-                                                        <li><a href="./about-our-company.html">Sobre nós</a></li>
-                                                        <li><a href="./about-our-team.html">About our team</a></li>
-                                                        <li><a href="./about-me.html">About Me</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-level2">
-                                                    <a href="./contact1.html">Contact</a>
-                                                    <ul class="sub-menu">
-                                                        <li><a href="./contact1.html">Contact us 1</a></li>
-                                                        <li><a href="./contact2.html">Contact us 2</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-level2">
-                                                    <a href="./service-modern.html">Serviços</a>
-                                                    <ul class="sub-menu">
-                                                        <li><a href="./service-modern.html">Service Modern</a></li>
-                                                        <li><a href="./service-list.html">Service List</a></li>
-                                                        <li><a href="./service-basic.html">Services basic</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="./pricing.html">Pricing</a></li>
-                                                <li class="menu-level2">
-                                                    <a href="./gallery-grid.html">Gallery</a>
-                                                    <ul class="sub-menu">
-                                                        <li><a href="./gallery-grid.html">Gallery Grid</a></li>
-                                                        <li><a href="./gallery-masonry.html">Gallery Masonry</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-level2">
-                                                    <a href="./maintenance.html">Special Pages</a>
-                                                    <ul class="sub-menu">
-                                                        <li><a href="./maintenance.html">Maintenance</a></li>
-                                                        <li><a href="./comingsoon.html">Coming Soon</a></li>
-                                                        <li><a href="./404.html">Error page</a></li>
-                                                    </ul>
-                                                </li>
                                                 <li><a href="./faq.html">FAQ</a></li>
                                             </ul>
                                         </li>
-                                        <li class="menu-item menu-item-has-children mega-menu">
-                                            <a href="./portfolio-full-3col.html">Portfolio</a>
+                                        <li class="menu-item menu-item-has-children">
+                                            <a href="./about-our-company.html">Serviços</a>
                                             <ul class="sub-menu">
-                                                <li class="">
-                                                    <div class="mega-menu-content mega-menu-portfolio">
-                                                        <div class="container">
-                                                            <div class="row">
-                                                                <div class="col-md-3">
-                                                                    <h5>FullWidth</h5>
-                                                                    <ul>
-                                                                        <li><a href="./portfolio-full-3col.html">Fullwidth 4 Columns</a></li>
-                                                                        <li><a href="./portfolio-np-4col.html">Fullwidth 4 Columns (No spaces) </a></li>
-                                                                        <li><a href="./portfolio-full-4col.html">Fullwidth 3 Columns </a></li>
-                                                                        <li><a href="./portfolio-np-3col.html">Fullwidth 3 Columns (No spaces)</a></li>
-                                                                    </ul>
-                                                                </div>
-                                                                <div class="col-md-3">
-                                                                    <h5>Standard</h5>
-                                                                    <ul>
-                                                                        <li><a href="./portfolio-std-3col.html">Standard 3 Columns </a></li>
-                                                                        <li><a href="./portfolio-std-3col-np.html">Standard 3 Columns (No spaces) </a></li>
-                                                                        <li><a href="./portfolio-std-2col.html">Standard 2 Columns </a></li>
-                                                                        <li><a href="./portfolio-std-2col-np.html">Standard 2 Columns (No spaces) </a></li>
-                                                                    </ul>
-                                                                </div>
-                                                                <div class="col-md-3">
-                                                                    <h5>Masonry</h5>
-                                                                    <ul>
-                                                                        <li><a href="./portfolio-mason-4col.html">Masonry 4 Columns </a></li>
-                                                                        <li><a href="./portfolio-mason-4col-np.html">Masonry 4 Columns (No spaces) </a></li>
-                                                                        <li><a href="./portfolio-mason-3col.html">Masonry 3 Columns </a></li>
-                                                                        <li><a href="./portfolio-mason-3col-np.html">Masonry 3 Columns (No spaces) </a></li>
-                                                                    </ul>
-                                                                </div>
-                                                                <div class="col-md-3">
-                                                                    <h5>Single Portfolio</h5>
-                                                                    <ul>
-                                                                        <li><a href="./portfolio-single-video_gallery.html"> Video and Gallery </a></li>
-                                                                        <li><a href="./portfolio-single-image_gallery.html"> Image and Gallery </a></li>
-                                                                        <li><a href="./portfolio-single-image.html"> Image </a></li>
-                                                                        <li><a href="./portfolio-single-gallery.html"> Gallery </a></li>
-                                                                        <li><a href="./portfolio-single-video.html"> Video </a></li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </li>
+                                                <li><a href="./faq.html">FAQ</a></li>
                                             </ul>
                                         </li>
+                                        
                                         <li class="menu-item menu-item-has-children mega-menu">
                                             <a href="./shop.html">Shop</a>
                                             <ul class="sub-menu">
